@@ -1,0 +1,4 @@
+TID: [-1234] [2023-01-10 08:11:14,357] [5a106ddb-7196-47d9-8538-08fef9b1831c]  INFO {AUDIT_LOG} - Initiator=wso2.system.user Action=Get-User-Claim-Values Target=admin Data={"Claims":{},"Profile":"default"} Outcome=Success
+TID: [-1234] [2023-01-10 08:11:14,377] [5a106ddb-7196-47d9-8538-08fef9b1831c]  INFO {AUDIT_LOG} - Initiator=wso2.system.user Action=Get-User-Claim-Values Target=admin Data={"Claims":{},"Profile":"default"} Outcome=Success
+TID: [-1234] [2023-01-10 08:11:14,404] [5a106ddb-7196-47d9-8538-08fef9b1831c]  INFO {AUDIT_LOG} - 'admin@carbon.super [-1234]' logged in at [2023-01-10 08:11:14,381+0300]
+TID: [-1234] [2023-01-10 08:11:14,410] [5a106ddb-7196-47d9-8538-08fef9b1831c]  INFO {AUDIT_LOG} - Initiator=admin@carbon.super Action=Get-Roles-of-User Target=admin Data={"Filter":"*","Roles":["Internal/admin","Internal/everyone","admin"]} Outcome=Success
