@@ -1,0 +1,1473 @@
+TID: [] [] [2023-01-11 09:13:02,621] []  INFO {org.ops4j.pax.logging.spi.support.EventAdminConfigurationNotifier} - Sending Event Admin notification (configuration successful) to org/ops4j/pax/logging/Configuration
+TID: [] [] [2023-01-11 09:13:02,836] []  INFO {org.wso2.carbon.core.internal.CarbonCoreActivator} - Starting WSO2 Carbon...
+TID: [] [] [2023-01-11 09:13:02,838] []  INFO {org.wso2.carbon.core.internal.CarbonCoreActivator} - Operating System : Windows 10 10.0, amd64
+TID: [] [] [2023-01-11 09:13:02,839] []  INFO {org.wso2.carbon.core.internal.CarbonCoreActivator} - Java Home        : C:\Program Files\OpenJDK\jdk-11.0.17.8-hotspot
+TID: [] [] [2023-01-11 09:13:02,839] []  INFO {org.wso2.carbon.core.internal.CarbonCoreActivator} - Java Version     : 11.0.17
+TID: [] [] [2023-01-11 09:13:02,839] []  INFO {org.wso2.carbon.core.internal.CarbonCoreActivator} - Java VM          : OpenJDK 64-Bit Server VM 11.0.17+8-adhoc..jdk11u,OpenLogic
+TID: [] [] [2023-01-11 09:13:02,840] []  INFO {org.wso2.carbon.core.internal.CarbonCoreActivator} - Carbon Home      : C:\Users\AABOUE~1.C\DOCUME~1\WSO2\WSO2IS~1.0\bin\..
+TID: [] [] [2023-01-11 09:13:02,840] []  INFO {org.wso2.carbon.core.internal.CarbonCoreActivator} - Java Temp Dir    : C:\Users\AABOUE~1.C\DOCUME~1\WSO2\WSO2IS~1.0\bin\..\tmp
+TID: [] [] [2023-01-11 09:13:02,840] []  INFO {org.wso2.carbon.core.internal.CarbonCoreActivator} - User             : aabouelenein.c, en-US, Asia/Riyadh
+TID: [] [] [2023-01-11 09:13:03,213] []  INFO {org.wso2.carbon.event.output.adapter.kafka.internal.ds.KafkaEventAdapterServiceDS} - Successfully deployed the Kafka output event adaptor service
+TID: [] [] [2023-01-11 09:13:03,632] []  INFO {org.wso2.carbon.identity.hash.provider.pbkdf2.internal.PBKDF2HashServiceComponent} - PBKDF2 bundle activated successfully.
+TID: [] [] [2023-01-11 09:13:03,712] []  INFO {org.wso2.carbon.identity.oauth.uma.grant.internal.UMA2GrantServiceComponent} - Policy evaluator registered successfully: DefaultPolicyEvaluator
+TID: [] [] [2023-01-11 09:13:03,712] []  INFO {org.wso2.carbon.identity.oauth.uma.grant.internal.UMA2GrantServiceComponent} - UMA Grant component activated successfully.
+TID: [] [] [2023-01-11 09:13:04,417] []  INFO {org.wso2.carbon.mex.internal.Office365SupportMexComponent} - Office365Support MexServiceComponent bundle activated successfully..
+TID: [] [] [2023-01-11 09:13:04,432] []  INFO {org.wso2.carbon.mex2.internal.DynamicCRMCustomMexComponent} - DynamicCRMSupport MexServiceComponent bundle activated successfully.
+TID: [] [] [2023-01-11 09:13:06,279] []  INFO {org.wso2.carbon.consent.mgt.core.internal.ConsentManagerComponent} - ConsentManagerComponent is activated.
+TID: [] [] [2023-01-11 09:13:06,554] []  INFO {org.wso2.carbon.identity.organization.management.tenant.association.internal.TenantAssociationServiceComponent} - Organization management related TenantAssociationManagementListener registered successfully.
+TID: [] [] [2023-01-11 09:13:07,147] []  INFO {org.wso2.carbon.registry.core.jdbc.EmbeddedRegistryService} - Configured Registry in 73ms
+TID: [] [] [2023-01-11 09:13:07,221] []  INFO {org.wso2.carbon.registry.core.jdbc.EmbeddedRegistryService} - Connected to mount at configregistry in 47ms
+TID: [] [] [2023-01-11 09:13:07,222] []  INFO {org.wso2.carbon.registry.core.jdbc.EmbeddedRegistryService} - Connected to mount at govregistry in 48ms
+TID: [] [] [2023-01-11 09:13:07,370] []  INFO {org.wso2.carbon.registry.core.jdbc.EmbeddedRegistryService} - Connected to mount at configregistry in 2ms
+TID: [] [] [2023-01-11 09:13:07,372] []  INFO {org.wso2.carbon.registry.core.jdbc.EmbeddedRegistryService} - Connected to mount at govregistry in 3ms
+TID: [] [] [2023-01-11 09:13:07,389] []  INFO {org.wso2.carbon.registry.core.internal.RegistryCoreServiceComponent} - Registry Mode    : READ-WRITE
+TID: [] [] [2023-01-11 09:13:09,095] []  INFO {org.apache.jasper.servlet.TldScanner} - At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+TID: [] [] [2023-01-11 09:13:10,338] []  INFO {org.wso2.carbon.registry.indexing.solr.SolrClient} - Default Embedded Solr Server Initialized
+TID: [] [] [2023-01-11 09:13:10,727] []  INFO {org.wso2.carbon.user.core.internal.UserStoreMgtDSComponent} - Carbon UserStoreMgtDSComponent activated successfully.
+TID: [] [] [2023-01-11 09:13:10,798] []  INFO {org.wso2.carbon.attachment.mgt.server.internal.AttachmentServiceComponent} - Initialising Attachment Server
+TID: [] [] [2023-01-11 09:13:10,996] []  INFO {org.wso2.carbon.attachment.mgt.core.dao.impl.jpa.AbstractJPAVendorAdapter} - [Attachment-Mgt OpenJPA] DB Dictionary: postgres
+TID: [] [] [2023-01-11 09:13:10,997] []  INFO {org.wso2.carbon.attachment.mgt.core.dao.impl.jpa.AbstractJPAVendorAdapter} - [Attachment-Mgt OpenJPA] Generate DDL Enabled.
+TID: [] [] [2023-01-11 09:13:11,106] []  INFO {org.wso2.carbon.attachment.mgt.server.internal.AttachmentServiceComponent} - Registering AttachmentServerService
+TID: [] [] [2023-01-11 09:13:11,117] []  INFO {org.wso2.carbon.bpel.core.internal.BPELServiceComponent} - Initializing BPEL Engine........
+TID: [] [] [2023-01-11 09:13:11,149] []  INFO {org.apache.ode.il.EmbeddedGeronimoFactory} - Using embedded Geronimo transaction manager
+TID: [] [] [2023-01-11 09:13:11,174] []  INFO {org.apache.ode.il.dbutil.Database} - ODE using external DataSource "bpsds".
+TID: [] [] [2023-01-11 09:13:11,174] []  INFO {org.wso2.carbon.bpel.core.ode.integration.BPELServerImpl} - Using DAO Connection Factory class: org.apache.ode.dao.jpa.BPELDAOConnectionFactoryImpl
+TID: [] [] [2023-01-11 09:13:11,175] []  INFO {org.apache.ode.il.dbutil.Database} - Using DAO Connection Factory class org.apache.ode.dao.jpa.BPELDAOConnectionFactoryImpl.
+TID: [] [] [2023-01-11 09:13:11,263] []  INFO {org.apache.ode.store.jpa.DbConfStoreConnectionFactory} - ProcessStore initializing transaction manager using org.apache.ode.il.EmbeddedGeronimoFactory
+TID: [] [] [2023-01-11 09:13:11,264] []  INFO {org.apache.ode.il.EmbeddedGeronimoFactory} - Using embedded Geronimo transaction manager
+TID: [] [] [2023-01-11 09:13:11,282] []  INFO {org.apache.ode.scheduler.simple.JdbcDelegate} - Using database PostgreSQL major version 15
+TID: [] [] [2023-01-11 09:13:11,283] []  INFO {org.apache.ode.scheduler.simple.JdbcDelegate} - Using database dialect: UNKNOWN
+TID: [] [] [2023-01-11 09:13:11,301] []  INFO {org.wso2.carbon.bpel.core.ode.integration.BPELServerImpl} - This node is a manager node
+TID: [] [] [2023-01-11 09:13:11,311] []  INFO {org.wso2.carbon.bpel.core.ode.integration.BPELServerImpl} - Registering E4X Extension...
+TID: [] [] [2023-01-11 09:13:11,334] []  INFO {org.wso2.carbon.bpel.core.ode.integration.BPELServerImpl} - Registering B4P Extension...
+TID: [] [] [2023-01-11 09:13:11,342] []  INFO {org.wso2.carbon.bpel.core.ode.integration.BPELServerImpl} - Registering B4P Filter...
+TID: [] [] [2023-01-11 09:13:11,358] []  INFO {org.apache.ode.bpel.engine.BpelServerImpl} - BPEL Server Started.
+TID: [] [] [2023-01-11 09:13:11,359] []  INFO {org.wso2.carbon.bpel.core.ode.integration.BPELServerImpl} - Registering MBeans
+TID: [] [] [2023-01-11 09:13:11,400] []  INFO {org.wso2.carbon.humantask.core.internal.HumanTaskServiceComponent} - Initialising HumanTask Server
+TID: [] [] [2023-01-11 09:13:11,438] []  INFO {org.apache.ode.il.EmbeddedGeronimoFactory} - Using embedded Geronimo transaction manager
+TID: [] [] [2023-01-11 09:13:11,456] []  INFO {org.wso2.carbon.humantask.core.dao.jpa.AbstractJPAVendorAdapter} - [HT OpenJPA] DB Dictionary: postgres
+TID: [] [] [2023-01-11 09:13:11,457] []  INFO {org.wso2.carbon.humantask.core.dao.jpa.AbstractJPAVendorAdapter} - [HT OpenJPA] Generate DDL Enabled.
+TID: [] [] [2023-01-11 09:13:11,480] []  INFO {org.wso2.carbon.humantask.core.internal.HumanTaskServiceComponent} - Registering Axis2ConfigurationContextObserver
+TID: [] [] [2023-01-11 09:13:11,490] []  INFO {org.wso2.carbon.humantask.core.internal.HumanTaskServiceComponent} - Registering HT related MBeans
+TID: [] [] [2023-01-11 09:13:11,495] []  INFO {org.wso2.carbon.humantask.core.internal.HumanTaskServiceComponent} - MXBean for Human tasks registered successfully
+TID: [] [] [2023-01-11 09:13:12,423] []  INFO {org.wso2.carbon.identity.user.store.configuration.deployer.UserStoreConfigurationDeployer} - User Store Configuration Deployer initiated.
+TID: [] [] [2023-01-11 09:13:12,424] []  INFO {org.wso2.carbon.identity.user.store.configuration.deployer.UserStoreConfigurationDeployer} - User Store Configuration Deployer initiated.
+TID: [] [] [2023-01-11 09:13:12,429] []  INFO {org.wso2.carbon.bpel.deployer.BPELDeployer} - Initializing BPEL Deployer for tenant -1234.
+TID: [] [] [2023-01-11 09:13:12,439] []  INFO {org.wso2.carbon.humantask.deployer.HumanTaskDeployer} - Initializing HumanTask Deployer for tenant -1234.
+TID: [] [] [2023-01-11 09:13:12,448] []  INFO {org.apache.axis2.transport.mail.MailTransportSender} - MAILTO Sender started
+TID: [] [] [2023-01-11 09:13:13,344] []  INFO {org.wso2.carbon.core.deployment.DeploymentInterceptor} - Deploying Axis2 service: I18nEmailMgtConfigService {super-tenant}
+TID: [] [] [2023-01-11 09:13:14,297] []  INFO {org.wso2.carbon.core.deployment.DeploymentInterceptor} - Deploying Axis2 service: AccountCredentialMgtConfigService {super-tenant}
+TID: [] [] [2023-01-11 09:13:14,302] []  INFO {org.wso2.carbon.core.deployment.DeploymentInterceptor} - Deploying Axis2 service: UserIdentityManagementAdminService {super-tenant}
+TID: [] [] [2023-01-11 09:13:14,306] []  INFO {org.wso2.carbon.core.deployment.DeploymentInterceptor} - Deploying Axis2 service: UserInformationRecoveryService {super-tenant}
+TID: [] [] [2023-01-11 09:13:14,408] []  INFO {org.wso2.carbon.core.deployment.DeploymentInterceptor} - Deploying Axis2 service: SAMLQueryService {super-tenant}
+TID: [] [] [2023-01-11 09:13:14,941] []  INFO {org.wso2.carbon.core.deployment.DeploymentInterceptor} - Deploying Axis2 service: mex-ut {super-tenant}
+TID: [] [] [2023-01-11 09:13:14,947] []  INFO {org.wso2.carbon.core.deployment.DeploymentInterceptor} - Deploying Axis2 service: mex-ut2 {super-tenant}
+TID: [] [] [2023-01-11 09:13:15,724] []  INFO {org.wso2.carbon.core.init.CarbonServerManager} - Repository       : C:\Users\AABOUE~1.C\DOCUME~1\WSO2\WSO2IS~1.0\bin\../repository/deployment/server/
+TID: [] [] [2023-01-11 09:13:15,817] []  INFO {org.wso2.carbon.core.multitenancy.eager.TenantLoadingConfig} - Using tenant lazy loading policy...
+TID: [] [] [2023-01-11 09:13:15,839] []  INFO {org.wso2.carbon.core.internal.permission.update.PermissionUpdater} - Permission cache updated for tenant -1234
+TID: [] [] [2023-01-11 09:13:16,721] []  INFO {org.wso2.carbon.identity.entitlement.internal.SchemaBuilder} - XACML policy schema loaded successfully.
+TID: [] [] [2023-01-11 09:13:16,793] []  INFO {org.wso2.balana.ConfigurationStore} - Loading runtime configuration
+TID: [] [] [2023-01-11 09:13:17,454] []  INFO {org.wso2.carbon.identity.oauth.uma.xacml.service.internal.AppUMAServiceComponents} - XACML UMA Handler activated successfully.
+TID: [] [] [2023-01-11 09:13:17,617] []  INFO {org.wso2.carbon.user.core.internal.UserStoreMgtDSComponent} - Claim manager set for class org.wso2.carbon.user.core.common.DefaultRealm
+TID: [] [] [2023-01-11 09:13:17,623] []  INFO {org.wso2.carbon.user.core.internal.UserStoreMgtDSComponent} - Claim manager set for class org.wso2.carbon.user.core.jdbc.UniqueIDJDBCUserStoreManager
+TID: [] [] [2023-01-11 09:13:18,395] []  INFO {org.wso2.carbon.identity.authenticator.x509Certificate.internal.X509CertificateServiceComponent} - X509 Certificate Servlet activated successfully..
+TID: [] [] [2023-01-11 09:13:18,592] []  INFO {org.wso2.carbon.identity.local.auth.api.core.internal.AuthAPIServiceComponent} - Auth API Service Component  is activated.
+TID: [] [] [2023-01-11 09:13:18,774] []  INFO {org.wso2.carbon.identity.oauth.config.OAuthServerConfiguration} - The default OAuth token issuer will be used. No custom token generator is set.
+TID: [] [] [2023-01-11 09:13:18,775] []  INFO {org.wso2.carbon.identity.oauth.config.OAuthServerConfiguration} - An instance of org.wso2.carbon.identity.oauth2.token.OauthTokenIssuerImpl is created for Identity OAuth token generation.
+TID: [] [] [2023-01-11 09:13:18,790] []  INFO {org.opensaml.core.config.InitializationService} - Initializing OpenSAML using the Java Services API
+TID: [] [] [2023-01-11 09:13:19,843] []  INFO {org.wso2.carbon.identity.application.authentication.framework.store.SessionDataStore} - Thread pool size for temporary authentication context data delete task: 20
+TID: [] [] [2023-01-11 09:13:22,796] []  INFO {org.wso2.carbon.healthcheck.api.core.internal.HealthMonitorServiceComponent} - Carbon health monitoring service is activated..
+TID: [] [] [2023-01-11 09:13:23,388] []  INFO {org.wso2.carbon.event.publisher.core.EventPublisherDeployer} - Event Publisher deployment held back and in inactive state :EmailPublisher.xml, Stream validation exception : Stream id_gov_notify_stream:1.0.0 does not exist
+TID: [] [] [2023-01-11 09:13:23,397] []  INFO {org.wso2.carbon.event.publisher.core.EventPublisherDeployer} - Event Publisher deployment held back and in inactive state :IsAnalytics-Publisher-wso2event-AuthenticationData-1.1.0.xml, Stream validation exception : Stream org.wso2.is.analytics.stream.OverallAuthentication:1.1.0 does not exist
+TID: [] [] [2023-01-11 09:13:23,402] []  INFO {org.wso2.carbon.event.publisher.core.EventPublisherDeployer} - Event Publisher deployment held back and in inactive state :IsAnalytics-Publisher-wso2event-AuthenticationData.xml, Stream validation exception : Stream org.wso2.is.analytics.stream.OverallAuthentication:1.0.0 does not exist
+TID: [] [] [2023-01-11 09:13:23,409] []  INFO {org.wso2.carbon.event.publisher.core.EventPublisherDeployer} - Event Publisher deployment held back and in inactive state :IsAnalytics-Publisher-wso2event-OauthTokenIssueRefresh.xml, Stream validation exception : Stream org.wso2.is.analytics.stream.OauthTokenIssuance:1.0.0 does not exist
+TID: [] [] [2023-01-11 09:13:23,417] []  INFO {org.wso2.carbon.event.publisher.core.EventPublisherDeployer} - Event Publisher deployment held back and in inactive state :IsAnalytics-Publisher-wso2event-OauthTokenRevocation.xml, Stream validation exception : Stream org.wso2.is.analytics.stream.OauthTokenRevocation:1.0.0 does not exist
+TID: [] [] [2023-01-11 09:13:23,423] []  INFO {org.wso2.carbon.event.publisher.core.EventPublisherDeployer} - Event Publisher deployment held back and in inactive state :IsAnalytics-Publisher-wso2event-OauthTokenValidation.xml, Stream validation exception : Stream org.wso2.is.analytics.stream.OauthTokenValidation:1.0.0 does not exist
+TID: [] [] [2023-01-11 09:13:23,431] []  INFO {org.wso2.carbon.event.publisher.core.EventPublisherDeployer} - Event Publisher deployment held back and in inactive state :IsAnalytics-Publisher-wso2event-RoleData.xml, Stream validation exception : Stream org.wso2.is.analytics.stream.OverallRoleData:1.0.0 does not exist
+TID: [] [] [2023-01-11 09:13:23,438] []  INFO {org.wso2.carbon.event.publisher.core.EventPublisherDeployer} - Event Publisher deployment held back and in inactive state :IsAnalytics-Publisher-wso2event-SessionData.xml, Stream validation exception : Stream org.wso2.is.analytics.stream.OverallSession:1.0.1 does not exist
+TID: [] [] [2023-01-11 09:13:23,445] []  INFO {org.wso2.carbon.event.publisher.core.EventPublisherDeployer} - Event Publisher deployment held back and in inactive state :IsAnalytics-Publisher-wso2event-UserData.xml, Stream validation exception : Stream org.wso2.is.analytics.stream.OverallUserData:1.0.0 does not exist
+TID: [] [] [2023-01-11 09:13:23,452] []  INFO {org.wso2.carbon.event.publisher.core.EventPublisherDeployer} - Event Publisher deployment held back and in inactive state :SMSPublisher.xml, Stream validation exception : Stream id_gov_sms_notify_stream:1.0.0 does not exist
+TID: [] [] [2023-01-11 09:13:23,467] []  INFO {org.wso2.carbon.event.publisher.core.EventPublisherDeployer} - Event Publisher undeployed successfully : EmailPublisher.xml
+TID: [] [] [2023-01-11 09:13:23,475] []  INFO {org.wso2.carbon.event.stream.core.internal.EventJunction} - WSO2EventConsumer added to the junction. Stream:id_gov_notify_stream:1.0.0
+TID: [] [] [2023-01-11 09:13:23,481] []  INFO {org.wso2.carbon.event.publisher.core.EventPublisherDeployer} - Event Publisher configuration successfully deployed and in active state : EmailPublisher
+TID: [] [] [2023-01-11 09:13:23,483] []  INFO {org.wso2.carbon.event.stream.core.EventStreamDeployer} - Stream definition is deployed successfully  : id_gov_notify_stream:1.0.0
+TID: [] [] [2023-01-11 09:13:23,488] []  INFO {org.wso2.carbon.event.publisher.core.EventPublisherDeployer} - Event Publisher undeployed successfully : SMSPublisher.xml
+TID: [] [] [2023-01-11 09:13:23,491] []  INFO {org.wso2.carbon.event.stream.core.internal.EventJunction} - WSO2EventConsumer added to the junction. Stream:id_gov_sms_notify_stream:1.0.0
+TID: [] [] [2023-01-11 09:13:23,494] []  INFO {org.wso2.carbon.event.publisher.core.EventPublisherDeployer} - Event Publisher configuration successfully deployed and in active state : SMSPublisher
+TID: [] [] [2023-01-11 09:13:23,495] []  INFO {org.wso2.carbon.event.stream.core.EventStreamDeployer} - Stream definition is deployed successfully  : id_gov_sms_notify_stream:1.0.0
+TID: [] [] [2023-01-11 09:13:23,504] []  INFO {org.wso2.carbon.event.publisher.core.EventPublisherDeployer} - Event Publisher undeployed successfully : IsAnalytics-Publisher-wso2event-OauthTokenIssueRefresh.xml
+TID: [] [] [2023-01-11 09:13:23,508] []  INFO {org.wso2.carbon.event.stream.core.internal.EventJunction} - WSO2EventConsumer added to the junction. Stream:org.wso2.is.analytics.stream.OauthTokenIssuance:1.0.0
+TID: [] [] [2023-01-11 09:13:23,511] []  INFO {org.wso2.carbon.event.publisher.core.EventPublisherDeployer} - Event Publisher configuration successfully deployed and in active state : IsAnalytics-Publisher-wso2event-OauthTokenIssueRefresh
+TID: [] [] [2023-01-11 09:13:23,513] []  INFO {org.wso2.carbon.event.stream.core.EventStreamDeployer} - Stream definition is deployed successfully  : org.wso2.is.analytics.stream.OauthTokenIssuance:1.0.0
+TID: [] [] [2023-01-11 09:13:23,520] []  INFO {org.wso2.carbon.event.publisher.core.EventPublisherDeployer} - Event Publisher undeployed successfully : IsAnalytics-Publisher-wso2event-OauthTokenRevocation.xml
+TID: [] [] [2023-01-11 09:13:23,523] []  INFO {org.wso2.carbon.event.stream.core.internal.EventJunction} - WSO2EventConsumer added to the junction. Stream:org.wso2.is.analytics.stream.OauthTokenRevocation:1.0.0
+TID: [] [] [2023-01-11 09:13:23,524] []  INFO {org.wso2.carbon.event.publisher.core.EventPublisherDeployer} - Event Publisher configuration successfully deployed and in active state : IsAnalytics-Publisher-wso2event-OauthTokenRevocation
+TID: [] [] [2023-01-11 09:13:23,524] []  INFO {org.wso2.carbon.event.stream.core.EventStreamDeployer} - Stream definition is deployed successfully  : org.wso2.is.analytics.stream.OauthTokenRevocation:1.0.0
+TID: [] [] [2023-01-11 09:13:23,532] []  INFO {org.wso2.carbon.event.publisher.core.EventPublisherDeployer} - Event Publisher undeployed successfully : IsAnalytics-Publisher-wso2event-OauthTokenValidation.xml
+TID: [] [] [2023-01-11 09:13:23,536] []  INFO {org.wso2.carbon.event.stream.core.internal.EventJunction} - WSO2EventConsumer added to the junction. Stream:org.wso2.is.analytics.stream.OauthTokenValidation:1.0.0
+TID: [] [] [2023-01-11 09:13:23,537] []  INFO {org.wso2.carbon.event.publisher.core.EventPublisherDeployer} - Event Publisher configuration successfully deployed and in active state : IsAnalytics-Publisher-wso2event-OauthTokenValidation
+TID: [] [] [2023-01-11 09:13:23,537] []  INFO {org.wso2.carbon.event.stream.core.EventStreamDeployer} - Stream definition is deployed successfully  : org.wso2.is.analytics.stream.OauthTokenValidation:1.0.0
+TID: [] [] [2023-01-11 09:13:23,543] []  INFO {org.wso2.carbon.event.publisher.core.EventPublisherDeployer} - Event Publisher undeployed successfully : IsAnalytics-Publisher-wso2event-AuthenticationData.xml
+TID: [] [] [2023-01-11 09:13:23,548] []  INFO {org.wso2.carbon.event.stream.core.internal.EventJunction} - WSO2EventConsumer added to the junction. Stream:org.wso2.is.analytics.stream.OverallAuthentication:1.0.0
+TID: [] [] [2023-01-11 09:13:23,551] []  INFO {org.wso2.carbon.event.publisher.core.EventPublisherDeployer} - Event Publisher configuration successfully deployed and in active state : IsAnalytics-Publisher-wso2event-AuthenticationData
+TID: [] [] [2023-01-11 09:13:23,552] []  INFO {org.wso2.carbon.event.stream.core.EventStreamDeployer} - Stream definition is deployed successfully  : org.wso2.is.analytics.stream.OverallAuthentication:1.0.0
+TID: [] [] [2023-01-11 09:13:23,557] []  INFO {org.wso2.carbon.event.publisher.core.EventPublisherDeployer} - Event Publisher undeployed successfully : IsAnalytics-Publisher-wso2event-AuthenticationData-1.1.0.xml
+TID: [] [] [2023-01-11 09:13:23,560] []  INFO {org.wso2.carbon.event.stream.core.internal.EventJunction} - WSO2EventConsumer added to the junction. Stream:org.wso2.is.analytics.stream.OverallAuthentication:1.1.0
+TID: [] [] [2023-01-11 09:13:23,561] []  INFO {org.wso2.carbon.event.publisher.core.EventPublisherDeployer} - Event Publisher configuration successfully deployed and in active state : IsAnalytics-Publisher-wso2event-AuthenticationData-1.1.0
+TID: [] [] [2023-01-11 09:13:23,563] []  INFO {org.wso2.carbon.event.stream.core.EventStreamDeployer} - Stream definition is deployed successfully  : org.wso2.is.analytics.stream.OverallAuthentication:1.1.0
+TID: [] [] [2023-01-11 09:13:23,569] []  INFO {org.wso2.carbon.event.publisher.core.EventPublisherDeployer} - Event Publisher undeployed successfully : IsAnalytics-Publisher-wso2event-RoleData.xml
+TID: [] [] [2023-01-11 09:13:23,573] []  INFO {org.wso2.carbon.event.stream.core.internal.EventJunction} - WSO2EventConsumer added to the junction. Stream:org.wso2.is.analytics.stream.OverallRoleData:1.0.0
+TID: [] [] [2023-01-11 09:13:23,574] []  INFO {org.wso2.carbon.event.publisher.core.EventPublisherDeployer} - Event Publisher configuration successfully deployed and in active state : IsAnalytics-Publisher-wso2event-RoleData
+TID: [] [] [2023-01-11 09:13:23,575] []  INFO {org.wso2.carbon.event.stream.core.EventStreamDeployer} - Stream definition is deployed successfully  : org.wso2.is.analytics.stream.OverallRoleData:1.0.0
+TID: [] [] [2023-01-11 09:13:23,580] []  INFO {org.wso2.carbon.event.stream.core.EventStreamDeployer} - Stream definition is deployed successfully  : org.wso2.is.analytics.stream.OverallSession:1.0.0
+TID: [] [] [2023-01-11 09:13:23,588] []  INFO {org.wso2.carbon.event.publisher.core.EventPublisherDeployer} - Event Publisher undeployed successfully : IsAnalytics-Publisher-wso2event-SessionData.xml
+TID: [] [] [2023-01-11 09:13:23,591] []  INFO {org.wso2.carbon.event.stream.core.internal.EventJunction} - WSO2EventConsumer added to the junction. Stream:org.wso2.is.analytics.stream.OverallSession:1.0.1
+TID: [] [] [2023-01-11 09:13:23,592] []  INFO {org.wso2.carbon.event.publisher.core.EventPublisherDeployer} - Event Publisher configuration successfully deployed and in active state : IsAnalytics-Publisher-wso2event-SessionData
+TID: [] [] [2023-01-11 09:13:23,593] []  INFO {org.wso2.carbon.event.stream.core.EventStreamDeployer} - Stream definition is deployed successfully  : org.wso2.is.analytics.stream.OverallSession:1.0.1
+TID: [] [] [2023-01-11 09:13:23,599] []  INFO {org.wso2.carbon.event.publisher.core.EventPublisherDeployer} - Event Publisher undeployed successfully : IsAnalytics-Publisher-wso2event-UserData.xml
+TID: [] [] [2023-01-11 09:13:23,603] []  INFO {org.wso2.carbon.event.stream.core.internal.EventJunction} - WSO2EventConsumer added to the junction. Stream:org.wso2.is.analytics.stream.OverallUserData:1.0.0
+TID: [] [] [2023-01-11 09:13:23,603] []  INFO {org.wso2.carbon.event.publisher.core.EventPublisherDeployer} - Event Publisher configuration successfully deployed and in active state : IsAnalytics-Publisher-wso2event-UserData
+TID: [] [] [2023-01-11 09:13:23,604] []  INFO {org.wso2.carbon.event.stream.core.EventStreamDeployer} - Stream definition is deployed successfully  : org.wso2.is.analytics.stream.OverallUserData:1.0.0
+TID: [] [] [2023-01-11 09:13:25,223] []  INFO {org.apache.jasper.servlet.TldScanner} - At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+TID: [] [] [2023-01-11 09:13:30,032] []  INFO {org.wso2.carbon.webapp.mgt.TomcatGenericWebappsDeployer} - Deployed webapp: StandardEngine[Catalina].StandardHost[localhost].StandardContext[/accountrecoveryendpoint].File[C:\Users\AABOUE~1.C\DOCUME~1\WSO2\WSO2IS~1.0\bin\..\repository\deployment\server\webapps\accountrecoveryendpoint]
+TID: [] [] [2023-01-11 09:13:34,537] []  INFO {org.hibernate.validator.internal.util.Version} - HV000001: Hibernate Validator 6.2.0.Final
+TID: [] [] [2023-01-11 09:13:36,380] []  INFO {org.apache.cxf.endpoint.ServerImpl} - Setting the server's publish address to be /server/v1
+TID: [] [] [2023-01-11 09:13:36,813] []  INFO {org.apache.cxf.endpoint.ServerImpl} - Setting the server's publish address to be /users/v1
+TID: [] [] [2023-01-11 09:13:36,873] []  INFO {org.apache.cxf.endpoint.ServerImpl} - Setting the server's publish address to be /users/v2
+TID: [] [] [2023-01-11 09:13:36,983] []  INFO {org.apache.cxf.endpoint.ServerImpl} - Setting the server's publish address to be /identity/config-mgt/v1.0
+TID: [] [] [2023-01-11 09:13:37,092] []  INFO {org.apache.cxf.endpoint.ServerImpl} - Setting the server's publish address to be /identity/entitlement/decision
+TID: [] [] [2023-01-11 09:13:37,106] []  INFO {org.apache.cxf.endpoint.ServerImpl} - Setting the server's publish address to be /identity/oauth2/uma/permission/v1.0
+TID: [] [] [2023-01-11 09:13:37,138] []  INFO {org.apache.cxf.endpoint.ServerImpl} - Setting the server's publish address to be /identity/oauth2/uma/resourceregistration/v1.0
+TID: [] [] [2023-01-11 09:13:37,238] []  INFO {org.apache.cxf.endpoint.ServerImpl} - Setting the server's publish address to be /identity/recovery/v0.9
+TID: [] [] [2023-01-11 09:13:37,321] []  INFO {org.apache.cxf.endpoint.ServerImpl} - Setting the server's publish address to be /identity/user/v1.0
+TID: [] [] [2023-01-11 09:13:37,359] []  INFO {org.apache.cxf.endpoint.ServerImpl} - Setting the server's publish address to be /users/v2/me/webauthn
+TID: [] [] [2023-01-11 09:13:37,396] []  INFO {org.apache.cxf.endpoint.ServerImpl} - Setting the server's publish address to be /identity/oauth2/dcr/v1.1
+TID: [] [] [2023-01-11 09:13:37,446] []  INFO {org.apache.cxf.endpoint.ServerImpl} - Setting the server's publish address to be /identity/oauth2/v1.0
+TID: [] [] [2023-01-11 09:13:37,536] []  INFO {org.apache.cxf.endpoint.ServerImpl} - Setting the server's publish address to be /identity/consent-mgt/v1.0
+TID: [] [] [2023-01-11 09:13:37,578] []  INFO {org.apache.cxf.endpoint.ServerImpl} - Setting the server's publish address to be /identity/auth/v1.1
+TID: [] [] [2023-01-11 09:13:37,650] []  INFO {org.wso2.carbon.webapp.mgt.TomcatGenericWebappsDeployer} - Deployed webapp: StandardEngine[Catalina].StandardHost[localhost].StandardContext[/api].File[C:\Users\AABOUE~1.C\DOCUME~1\WSO2\WSO2IS~1.0\bin\..\repository\deployment\server\webapps\api]
+TID: [] [] [2023-01-11 09:13:38,728] []  INFO {org.apache.cxf.endpoint.ServerImpl} - Setting the server's publish address to be /
+TID: [] [] [2023-01-11 09:13:38,760] []  INFO {org.wso2.carbon.webapp.mgt.TomcatGenericWebappsDeployer} - Deployed webapp: StandardEngine[Catalina].StandardHost[localhost].StandardContext[/api/health-check/v1.0].File[C:\Users\AABOUE~1.C\DOCUME~1\WSO2\WSO2IS~1.0\bin\..\repository\deployment\server\webapps\api#health-check#v1.0]
+TID: [] [] [2023-01-11 09:13:39,710] []  INFO {org.apache.jasper.servlet.TldScanner} - At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+TID: [] [] [2023-01-11 09:13:39,736] []  INFO {org.wso2.carbon.identity.application.authentication.endpoint.util.TenantDataManager} - EndpointConfig.properties file loaded from ./repository/conf/identity/EndpointConfig.properties
+TID: [] [] [2023-01-11 09:13:39,738] []  INFO {org.wso2.carbon.identity.application.authentication.endpoint.util.MutualSSLManager} - EndpointConfig.properties file loaded from ./repository/conf/identity/EndpointConfig.properties
+TID: [] [] [2023-01-11 09:13:39,776] []  INFO {org.wso2.carbon.identity.application.authentication.endpoint.util.EndpointConfigManager} - EndpointConfig.properties file loaded from ./repository/conf/identity/EndpointConfig.properties
+TID: [] [] [2023-01-11 09:13:47,626] []  INFO {org.wso2.carbon.webapp.mgt.TomcatGenericWebappsDeployer} - Deployed webapp: StandardEngine[Catalina].StandardHost[localhost].StandardContext[/authenticationendpoint].File[C:\Users\AABOUE~1.C\DOCUME~1\WSO2\WSO2IS~1.0\bin\..\repository\deployment\server\webapps\authenticationendpoint]
+TID: [] [] [2023-01-11 09:13:48,565] []  INFO {org.apache.jasper.servlet.TldScanner} - At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+TID: [] [] [2023-01-11 09:13:48,930] []  INFO {org.wso2.carbon.webapp.mgt.TomcatGenericWebappsDeployer} - Deployed webapp: StandardEngine[Catalina].StandardHost[localhost].StandardContext[/console].File[C:\Users\AABOUE~1.C\DOCUME~1\WSO2\WSO2IS~1.0\bin\..\repository\deployment\server\webapps\console]
+TID: [] [] [2023-01-11 09:13:49,731] []  INFO {org.apache.jasper.servlet.TldScanner} - At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+TID: [] [] [2023-01-11 09:13:49,737] []  INFO {org.wso2.carbon.webapp.mgt.TomcatGenericWebappsDeployer} - Deployed webapp: StandardEngine[Catalina].StandardHost[localhost].StandardContext[/mex].File[C:\Users\AABOUE~1.C\DOCUME~1\WSO2\WSO2IS~1.0\bin\..\repository\deployment\server\webapps\mex]
+TID: [] [] [2023-01-11 09:13:50,592] []  INFO {org.apache.jasper.servlet.TldScanner} - At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+TID: [] [] [2023-01-11 09:13:51,388] []  INFO {org.apache.cxf.endpoint.ServerImpl} - Setting the server's publish address to be /
+TID: [] [] [2023-01-11 09:13:51,404] []  INFO {org.wso2.carbon.webapp.mgt.TomcatGenericWebappsDeployer} - Deployed webapp: StandardEngine[Catalina].StandardHost[localhost].StandardContext[/mexut].File[C:\Users\AABOUE~1.C\DOCUME~1\WSO2\WSO2IS~1.0\bin\..\repository\deployment\server\webapps\mexut]
+TID: [] [] [2023-01-11 09:13:52,277] []  INFO {org.apache.jasper.servlet.TldScanner} - At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+TID: [] [] [2023-01-11 09:13:52,618] []  INFO {org.wso2.carbon.webapp.mgt.TomcatGenericWebappsDeployer} - Deployed webapp: StandardEngine[Catalina].StandardHost[localhost].StandardContext[/myaccount].File[C:\Users\AABOUE~1.C\DOCUME~1\WSO2\WSO2IS~1.0\bin\..\repository\deployment\server\webapps\myaccount]
+TID: [] [] [2023-01-11 09:13:53,670] []  INFO {org.apache.jasper.servlet.TldScanner} - At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+TID: [] [] [2023-01-11 09:13:54,437] []  INFO {org.apache.cxf.endpoint.ServerImpl} - Setting the server's publish address to be /
+TID: [] [] [2023-01-11 09:13:54,493] []  INFO {org.wso2.carbon.webapp.mgt.TomcatGenericWebappsDeployer} - Deployed webapp: StandardEngine[Catalina].StandardHost[localhost].StandardContext[/oauth2].File[C:\Users\AABOUE~1.C\DOCUME~1\WSO2\WSO2IS~1.0\bin\..\repository\deployment\server\webapps\oauth2]
+TID: [] [] [2023-01-11 09:13:55,840] []  INFO {org.apache.cxf.endpoint.ServerImpl} - Setting the server's publish address to be /Users
+TID: [] [] [2023-01-11 09:13:55,883] []  INFO {org.apache.cxf.endpoint.ServerImpl} - Setting the server's publish address to be /Groups
+TID: [] [] [2023-01-11 09:13:55,888] []  INFO {org.apache.cxf.endpoint.ServerImpl} - Setting the server's publish address to be /Me
+TID: [] [] [2023-01-11 09:13:55,895] []  INFO {org.apache.cxf.endpoint.ServerImpl} - Setting the server's publish address to be /ServiceProviderConfig
+TID: [] [] [2023-01-11 09:13:55,899] []  INFO {org.apache.cxf.endpoint.ServerImpl} - Setting the server's publish address to be /ResourceTypes
+TID: [] [] [2023-01-11 09:13:55,904] []  INFO {org.apache.cxf.endpoint.ServerImpl} - Setting the server's publish address to be /Bulk
+TID: [] [] [2023-01-11 09:13:55,909] []  INFO {org.apache.cxf.endpoint.ServerImpl} - Setting the server's publish address to be /Schemas
+TID: [] [] [2023-01-11 09:13:55,913] []  INFO {org.apache.cxf.endpoint.ServerImpl} - Setting the server's publish address to be /Roles
+TID: [] [] [2023-01-11 09:13:55,930] []  INFO {org.wso2.carbon.webapp.mgt.TomcatGenericWebappsDeployer} - Deployed webapp: StandardEngine[Catalina].StandardHost[localhost].StandardContext[/scim2].File[C:\Users\AABOUE~1.C\DOCUME~1\WSO2\WSO2IS~1.0\bin\..\repository\deployment\server\webapps\scim2]
+TID: [] [] [2023-01-11 09:13:56,848] []  INFO {org.apache.jasper.servlet.TldScanner} - At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+TID: [] [] [2023-01-11 09:13:57,267] []  INFO {org.apache.cxf.endpoint.ServerImpl} - Setting the server's publish address to be /Users
+TID: [] [] [2023-01-11 09:13:57,284] []  INFO {org.apache.cxf.endpoint.ServerImpl} - Setting the server's publish address to be /Groups
+TID: [] [] [2023-01-11 09:13:57,290] []  INFO {org.apache.cxf.endpoint.ServerImpl} - Setting the server's publish address to be /Bulk
+TID: [] [] [2023-01-11 09:13:57,304] []  INFO {org.wso2.carbon.webapp.mgt.TomcatGenericWebappsDeployer} - Deployed webapp: StandardEngine[Catalina].StandardHost[localhost].StandardContext[/wso2].File[C:\Users\AABOUE~1.C\DOCUME~1\WSO2\WSO2IS~1.0\bin\..\repository\deployment\server\webapps\wso2]
+TID: [] [] [2023-01-11 09:13:58,501] []  INFO {org.apache.jasper.servlet.TldScanner} - At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+TID: [] [] [2023-01-11 09:13:58,524] []  INFO {org.wso2.carbon.webapp.mgt.TomcatGenericWebappsDeployer} - Deployed webapp: StandardEngine[Catalina].StandardHost[localhost].StandardContext[/x509certificateauthenticationendpoint].File[C:\Users\AABOUE~1.C\DOCUME~1\WSO2\WSO2IS~1.0\bin\..\repository\deployment\server\webapps\x509certificateauthenticationendpoint]
+TID: [] [] [2023-01-11 09:13:58,527] []  INFO {org.wso2.carbon.humantask.core.HumanTaskSchedulerInitializer} - Starting HumanTasks Scheduler
+TID: [] [] [2023-01-11 09:13:58,542] []  INFO {openjpa.Runtime} - Starting OpenJPA 2.2.0-wso2v1
+TID: [] [] [2023-01-11 09:13:58,633] []  INFO {openjpa.jdbc.JDBC} - Using dictionary class "org.apache.openjpa.jdbc.sql.PostgresDictionary".
+TID: [] [] [2023-01-11 09:13:59,214] []  INFO {org.wso2.carbon.core.transports.http.HttpTransportListener} - HTTP port        : 9763
+TID: [] [] [2023-01-11 09:13:59,215] []  INFO {org.wso2.carbon.core.transports.http.HttpsTransportListener} - HTTPS port       : 9443
+TID: [] [] [2023-01-11 09:13:59,352] []  INFO {org.wso2.carbon.bpel.core.ode.integration.BPELSchedulerInitializer} - Starting BPS Scheduler
+TID: [] [] [2023-01-11 09:13:59,355] []  INFO {openjpa.Runtime} - Starting OpenJPA 2.2.0-wso2v1
+TID: [] [] [2023-01-11 09:13:59,356] []  INFO {openjpa.jdbc.JDBC} - Using dictionary class "org.apache.openjpa.jdbc.sql.PostgresDictionary" (PostgreSQL 15.1 (Debian 15.1-1.pgdg110+1) ,PostgreSQL JDBC Driver 42.5.1).
+TID: [] [] [2023-01-11 09:13:59,429] []  INFO {org.wso2.carbon.core.internal.StartupFinalizerServiceComponent} - Server           :  WSO2 Identity Server-6.0.0
+TID: [] [] [2023-01-11 09:13:59,430] []  INFO {org.wso2.carbon.core.internal.StartupFinalizerServiceComponent} - WSO2 Carbon started in 65 sec
+TID: [] [] [2023-01-11 09:13:59,976] []  INFO {org.apache.jasper.servlet.TldScanner} - At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+TID: [] [] [2023-01-11 09:14:00,016] []  INFO {org.wso2.carbon.ui.internal.CarbonUIServiceComponent} - Mgt Console URL  : https://localhost:9443/carbon/
+TID: [] [] [2023-01-11 09:14:00,163] []  INFO {org.wso2.identity.apps.common.internal.AppsCommonServiceComponent} - My Account URL : https://localhost:9443/myaccount
+TID: [] [] [2023-01-11 09:14:00,164] []  INFO {org.wso2.identity.apps.common.internal.AppsCommonServiceComponent} - Console URL : https://localhost:9443/console
+TID: [] [] [2023-01-11 09:14:00,164] []  INFO {org.wso2.identity.apps.common.internal.AppsCommonServiceComponent} - Identity apps common service component activated successfully.
+TID: [] [] [2023-01-11 09:14:00,219] []  INFO {org.wso2.callhome.CallHomeExecutor} - 
+............................................................................
+The latest update level is 'wso2is-6.0.0.43'. 
+This consists of 59 updates
+applied on top of 'wso2is-6.0.0.0'[WARNING] 
+ The update level
+'wso2is-6.0.0.43' consists of 15 critical security updates applied on top of
+'wso2is-6.0.0.0'. 
+WSO2 strongly recommends to use 'wso2is-6.0.0.43'
+distribution in production as soon as possible.
+............................................................................
+TID: [-1234] [] [2023-01-11 09:14:17,369] [3ee237c8-449d-4eb4-a008-7d89233b1dd3]  WARN {org.wso2.carbon.core.services.util.CarbonAuthenticationUtil} - Login failed. Unauthorized login attempt 'admin[-1234]' at [2023-01-11 09:14:17,369+0300]
+TID: [-1234] [] [2023-01-11 09:14:28,770] [72926130-7d15-47a4-90b7-b89fdb8bd5c2]  INFO {org.wso2.carbon.core.services.util.CarbonAuthenticationUtil} - 'admin@carbon.super [-1234]' logged in at [2023-01-11 09:14:28,770+0300]
+TID: [] [] [2023-01-11 10:00:30,999] [] ERROR {org.wso2.carbon.humantask.core.scheduler.SimpleScheduler} - Database error upgrading jobs. <openjpa-2.2.0-wso2v1-r128166:129108 fatal general error> org.apache.openjpa.persistence.PersistenceException: [HumanTaskServer-1] Timeout: Pool empty. Unable to fetch a connection in 30 seconds, none available[size:100; busy:100; idle:0; lastwait:30000].
+	at org.apache.openjpa.jdbc.sql.DBDictionary.narrow(DBDictionary.java:4918)
+	at org.apache.openjpa.jdbc.sql.DBDictionary.newStoreException(DBDictionary.java:4878)
+	at org.apache.openjpa.jdbc.sql.SQLExceptions.getStore(SQLExceptions.java:136)
+	at org.apache.openjpa.jdbc.sql.SQLExceptions.getStore(SQLExceptions.java:110)
+	at org.apache.openjpa.jdbc.sql.SQLExceptions.getStore(SQLExceptions.java:62)
+	at org.apache.openjpa.jdbc.kernel.JDBCStoreManager.connect(JDBCStoreManager.java:949)
+	at org.apache.openjpa.jdbc.kernel.JDBCStoreManager.retainConnection(JDBCStoreManager.java:226)
+	at org.apache.openjpa.kernel.DelegatingStoreManager.retainConnection(DelegatingStoreManager.java:164)
+	at org.apache.openjpa.kernel.BrokerImpl.retainConnection(BrokerImpl.java:3986)
+	at org.apache.openjpa.kernel.BrokerImpl.beginStoreManagerTransaction(BrokerImpl.java:1430)
+	at org.apache.openjpa.kernel.BrokerImpl.beginStore(BrokerImpl.java:1415)
+	at org.apache.openjpa.jdbc.kernel.JDBCStoreQuery.executeBulkOperation(JDBCStoreQuery.java:566)
+	at org.apache.openjpa.jdbc.kernel.JDBCStoreQuery.executeUpdate(JDBCStoreQuery.java:498)
+	at org.apache.openjpa.kernel.ExpressionStoreQuery$DataStoreExecutor.executeUpdate(ExpressionStoreQuery.java:806)
+	at org.apache.openjpa.kernel.QueryImpl.update(QueryImpl.java:1056)
+	at org.apache.openjpa.kernel.QueryImpl.execute(QueryImpl.java:867)
+	at org.apache.openjpa.kernel.QueryImpl.updateAll(QueryImpl.java:904)
+	at org.apache.openjpa.kernel.DelegatingQuery.updateAll(DelegatingQuery.java:598)
+	at org.apache.openjpa.persistence.QueryImpl.executeUpdate(QueryImpl.java:377)
+	at org.wso2.carbon.humantask.core.dao.jpa.openjpa.HumanTaskDAOConnectionImpl.updateAssignToNode(HumanTaskDAOConnectionImpl.java:277)
+	at org.wso2.carbon.humantask.core.scheduler.SimpleScheduler$3.call(SimpleScheduler.java:485)
+	at org.wso2.carbon.humantask.core.scheduler.SimpleScheduler$3.call(SimpleScheduler.java:480)
+	at org.wso2.carbon.humantask.core.scheduler.SimpleScheduler.execTransaction(SimpleScheduler.java:879)
+	at org.wso2.carbon.humantask.core.scheduler.SimpleScheduler.execTransaction(SimpleScheduler.java:828)
+	at org.wso2.carbon.humantask.core.scheduler.SimpleScheduler.doUpgrade(SimpleScheduler.java:480)
+	at org.wso2.carbon.humantask.core.scheduler.SimpleScheduler$UpgradeJobsTask.run(SimpleScheduler.java:450)
+	at org.wso2.carbon.humantask.core.scheduler.SimpleScheduler$1.call(SimpleScheduler.java:149)
+	at org.wso2.carbon.humantask.core.scheduler.SimpleScheduler$1.call(SimpleScheduler.java:146)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+Caused by: org.apache.tomcat.jdbc.pool.PoolExhaustedException: [HumanTaskServer-1] Timeout: Pool empty. Unable to fetch a connection in 30 seconds, none available[size:100; busy:100; idle:0; lastwait:30000].
+	at org.apache.tomcat.jdbc.pool.ConnectionPool.borrowConnection(ConnectionPool.java:738)
+	at org.apache.tomcat.jdbc.pool.ConnectionPool.getConnection(ConnectionPool.java:198)
+	at org.apache.tomcat.jdbc.pool.DataSourceProxy.getConnection(DataSourceProxy.java:136)
+	at org.apache.openjpa.lib.jdbc.DelegatingDataSource.getConnection(DelegatingDataSource.java:110)
+	at org.apache.openjpa.lib.jdbc.DecoratingDataSource.getConnection(DecoratingDataSource.java:87)
+	at org.apache.openjpa.jdbc.kernel.JDBCStoreManager.connectInternal(JDBCStoreManager.java:960)
+	at org.apache.openjpa.jdbc.kernel.JDBCStoreManager.connect(JDBCStoreManager.java:945)
+	... 26 more
+
+TID: [] [] [2023-01-11 10:00:52,587] [] ERROR {org.wso2.carbon.humantask.core.scheduler.SimpleScheduler} - Error loading immediate jobs from database. <openjpa-2.2.0-wso2v1-r128166:129108 fatal general error> org.apache.openjpa.persistence.PersistenceException: [HumanTaskServer-2] Timeout: Pool empty. Unable to fetch a connection in 30 seconds, none available[size:100; busy:100; idle:0; lastwait:30000].
+FailedObject: SELECT DISTINCT t FROM org.wso2.carbon.humantask.core.dao.jpa.openjpa.model.HumanTaskJob t WHERE t.nodeId = ?1 AND t.time < ?2 order by t.time [java.lang.String]
+	at org.apache.openjpa.jdbc.sql.DBDictionary.narrow(DBDictionary.java:4918)
+	at org.apache.openjpa.jdbc.sql.DBDictionary.newStoreException(DBDictionary.java:4878)
+	at org.apache.openjpa.jdbc.sql.SQLExceptions.getStore(SQLExceptions.java:136)
+	at org.apache.openjpa.jdbc.sql.SQLExceptions.getStore(SQLExceptions.java:110)
+	at org.apache.openjpa.jdbc.sql.SQLExceptions.getStore(SQLExceptions.java:62)
+	at org.apache.openjpa.jdbc.kernel.JDBCStoreManager.connect(JDBCStoreManager.java:949)
+	at org.apache.openjpa.jdbc.kernel.JDBCStoreManager.getConnection(JDBCStoreManager.java:240)
+	at org.apache.openjpa.jdbc.sql.SelectImpl.execute(SelectImpl.java:413)
+	at org.apache.openjpa.jdbc.sql.SelectImpl.execute(SelectImpl.java:382)
+	at org.apache.openjpa.jdbc.kernel.SelectResultObjectProvider.open(SelectResultObjectProvider.java:94)
+	at org.apache.openjpa.lib.rop.EagerResultList.<init>(EagerResultList.java:34)
+	at org.apache.openjpa.kernel.QueryImpl.toResult(QueryImpl.java:1251)
+	at org.apache.openjpa.kernel.QueryImpl.execute(QueryImpl.java:1007)
+	at org.apache.openjpa.kernel.QueryImpl.execute(QueryImpl.java:863)
+	at org.apache.openjpa.kernel.QueryImpl.execute(QueryImpl.java:794)
+	at org.apache.openjpa.kernel.DelegatingQuery.execute(DelegatingQuery.java:542)
+	at org.apache.openjpa.persistence.QueryImpl.execute(QueryImpl.java:286)
+	at org.apache.openjpa.persistence.QueryImpl.getResultList(QueryImpl.java:302)
+	at org.wso2.carbon.humantask.core.dao.jpa.openjpa.HumanTaskDAOConnectionImpl.dequeueImmediate(HumanTaskDAOConnectionImpl.java:248)
+	at org.wso2.carbon.humantask.core.scheduler.SimpleScheduler$2.call(SimpleScheduler.java:344)
+	at org.wso2.carbon.humantask.core.scheduler.SimpleScheduler$2.call(SimpleScheduler.java:342)
+	at org.wso2.carbon.humantask.core.scheduler.SimpleScheduler.execTransaction(SimpleScheduler.java:879)
+	at org.wso2.carbon.humantask.core.scheduler.SimpleScheduler.execTransaction(SimpleScheduler.java:828)
+	at org.wso2.carbon.humantask.core.scheduler.SimpleScheduler.doLoadImmediate(SimpleScheduler.java:342)
+	at org.wso2.carbon.humantask.core.scheduler.SimpleScheduler$LoadImmediateTask.run(SimpleScheduler.java:297)
+	at org.wso2.carbon.humantask.core.scheduler.SimpleScheduler$1.call(SimpleScheduler.java:149)
+	at org.wso2.carbon.humantask.core.scheduler.SimpleScheduler$1.call(SimpleScheduler.java:146)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+Caused by: org.apache.tomcat.jdbc.pool.PoolExhaustedException: [HumanTaskServer-2] Timeout: Pool empty. Unable to fetch a connection in 30 seconds, none available[size:100; busy:100; idle:0; lastwait:30000].
+	at org.apache.tomcat.jdbc.pool.ConnectionPool.borrowConnection(ConnectionPool.java:738)
+	at org.apache.tomcat.jdbc.pool.ConnectionPool.getConnection(ConnectionPool.java:198)
+	at org.apache.tomcat.jdbc.pool.DataSourceProxy.getConnection(DataSourceProxy.java:136)
+	at org.apache.openjpa.lib.jdbc.DelegatingDataSource.getConnection(DelegatingDataSource.java:110)
+	at org.apache.openjpa.lib.jdbc.DecoratingDataSource.getConnection(DecoratingDataSource.java:87)
+	at org.apache.openjpa.jdbc.kernel.JDBCStoreManager.connectInternal(JDBCStoreManager.java:960)
+	at org.apache.openjpa.jdbc.kernel.JDBCStoreManager.connect(JDBCStoreManager.java:945)
+	... 25 more
+
+TID: [] [] [2023-01-11 10:01:02,059] [] ERROR {org.wso2.carbon.humantask.core.scheduler.SimpleScheduler} - Database error upgrading jobs. <openjpa-2.2.0-wso2v1-r128166:129108 fatal general error> org.apache.openjpa.persistence.PersistenceException: [HumanTaskServer-3] Timeout: Pool empty. Unable to fetch a connection in 30 seconds, none available[size:100; busy:100; idle:0; lastwait:30000].
+	at org.apache.openjpa.jdbc.sql.DBDictionary.narrow(DBDictionary.java:4918)
+	at org.apache.openjpa.jdbc.sql.DBDictionary.newStoreException(DBDictionary.java:4878)
+	at org.apache.openjpa.jdbc.sql.SQLExceptions.getStore(SQLExceptions.java:136)
+	at org.apache.openjpa.jdbc.sql.SQLExceptions.getStore(SQLExceptions.java:110)
+	at org.apache.openjpa.jdbc.sql.SQLExceptions.getStore(SQLExceptions.java:62)
+	at org.apache.openjpa.jdbc.kernel.JDBCStoreManager.connect(JDBCStoreManager.java:949)
+	at org.apache.openjpa.jdbc.kernel.JDBCStoreManager.retainConnection(JDBCStoreManager.java:226)
+	at org.apache.openjpa.kernel.DelegatingStoreManager.retainConnection(DelegatingStoreManager.java:164)
+	at org.apache.openjpa.kernel.BrokerImpl.retainConnection(BrokerImpl.java:3986)
+	at org.apache.openjpa.kernel.BrokerImpl.beginStoreManagerTransaction(BrokerImpl.java:1430)
+	at org.apache.openjpa.kernel.BrokerImpl.beginStore(BrokerImpl.java:1415)
+	at org.apache.openjpa.jdbc.kernel.JDBCStoreQuery.executeBulkOperation(JDBCStoreQuery.java:566)
+	at org.apache.openjpa.jdbc.kernel.JDBCStoreQuery.executeUpdate(JDBCStoreQuery.java:498)
+	at org.apache.openjpa.kernel.ExpressionStoreQuery$DataStoreExecutor.executeUpdate(ExpressionStoreQuery.java:806)
+	at org.apache.openjpa.kernel.QueryImpl.update(QueryImpl.java:1056)
+	at org.apache.openjpa.kernel.QueryImpl.execute(QueryImpl.java:867)
+	at org.apache.openjpa.kernel.QueryImpl.updateAll(QueryImpl.java:904)
+	at org.apache.openjpa.kernel.DelegatingQuery.updateAll(DelegatingQuery.java:598)
+	at org.apache.openjpa.persistence.QueryImpl.executeUpdate(QueryImpl.java:377)
+	at org.wso2.carbon.humantask.core.dao.jpa.openjpa.HumanTaskDAOConnectionImpl.updateAssignToNode(HumanTaskDAOConnectionImpl.java:277)
+	at org.wso2.carbon.humantask.core.scheduler.SimpleScheduler$3.call(SimpleScheduler.java:485)
+	at org.wso2.carbon.humantask.core.scheduler.SimpleScheduler$3.call(SimpleScheduler.java:480)
+	at org.wso2.carbon.humantask.core.scheduler.SimpleScheduler.execTransaction(SimpleScheduler.java:879)
+	at org.wso2.carbon.humantask.core.scheduler.SimpleScheduler.execTransaction(SimpleScheduler.java:828)
+	at org.wso2.carbon.humantask.core.scheduler.SimpleScheduler.doUpgrade(SimpleScheduler.java:480)
+	at org.wso2.carbon.humantask.core.scheduler.SimpleScheduler$UpgradeJobsTask.run(SimpleScheduler.java:450)
+	at org.wso2.carbon.humantask.core.scheduler.SimpleScheduler$1.call(SimpleScheduler.java:149)
+	at org.wso2.carbon.humantask.core.scheduler.SimpleScheduler$1.call(SimpleScheduler.java:146)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+Caused by: org.apache.tomcat.jdbc.pool.PoolExhaustedException: [HumanTaskServer-3] Timeout: Pool empty. Unable to fetch a connection in 30 seconds, none available[size:100; busy:100; idle:0; lastwait:30000].
+	at org.apache.tomcat.jdbc.pool.ConnectionPool.borrowConnection(ConnectionPool.java:738)
+	at org.apache.tomcat.jdbc.pool.ConnectionPool.getConnection(ConnectionPool.java:198)
+	at org.apache.tomcat.jdbc.pool.DataSourceProxy.getConnection(DataSourceProxy.java:136)
+	at org.apache.openjpa.lib.jdbc.DelegatingDataSource.getConnection(DelegatingDataSource.java:110)
+	at org.apache.openjpa.lib.jdbc.DecoratingDataSource.getConnection(DecoratingDataSource.java:87)
+	at org.apache.openjpa.jdbc.kernel.JDBCStoreManager.connectInternal(JDBCStoreManager.java:960)
+	at org.apache.openjpa.jdbc.kernel.JDBCStoreManager.connect(JDBCStoreManager.java:945)
+	... 26 more
+
+TID: [] [] [2023-01-11 10:01:23,633] [] ERROR {org.wso2.carbon.humantask.core.scheduler.SimpleScheduler} - Error loading immediate jobs from database. <openjpa-2.2.0-wso2v1-r128166:129108 fatal general error> org.apache.openjpa.persistence.PersistenceException: [HumanTaskServer-4] Timeout: Pool empty. Unable to fetch a connection in 30 seconds, none available[size:100; busy:100; idle:0; lastwait:30000].
+FailedObject: SELECT DISTINCT t FROM org.wso2.carbon.humantask.core.dao.jpa.openjpa.model.HumanTaskJob t WHERE t.nodeId = ?1 AND t.time < ?2 order by t.time [java.lang.String]
+	at org.apache.openjpa.jdbc.sql.DBDictionary.narrow(DBDictionary.java:4918)
+	at org.apache.openjpa.jdbc.sql.DBDictionary.newStoreException(DBDictionary.java:4878)
+	at org.apache.openjpa.jdbc.sql.SQLExceptions.getStore(SQLExceptions.java:136)
+	at org.apache.openjpa.jdbc.sql.SQLExceptions.getStore(SQLExceptions.java:110)
+	at org.apache.openjpa.jdbc.sql.SQLExceptions.getStore(SQLExceptions.java:62)
+	at org.apache.openjpa.jdbc.kernel.JDBCStoreManager.connect(JDBCStoreManager.java:949)
+	at org.apache.openjpa.jdbc.kernel.JDBCStoreManager.getConnection(JDBCStoreManager.java:240)
+	at org.apache.openjpa.jdbc.sql.SelectImpl.execute(SelectImpl.java:413)
+	at org.apache.openjpa.jdbc.sql.SelectImpl.execute(SelectImpl.java:382)
+	at org.apache.openjpa.jdbc.kernel.SelectResultObjectProvider.open(SelectResultObjectProvider.java:94)
+	at org.apache.openjpa.lib.rop.EagerResultList.<init>(EagerResultList.java:34)
+	at org.apache.openjpa.kernel.QueryImpl.toResult(QueryImpl.java:1251)
+	at org.apache.openjpa.kernel.QueryImpl.execute(QueryImpl.java:1007)
+	at org.apache.openjpa.kernel.QueryImpl.execute(QueryImpl.java:863)
+	at org.apache.openjpa.kernel.QueryImpl.execute(QueryImpl.java:794)
+	at org.apache.openjpa.kernel.DelegatingQuery.execute(DelegatingQuery.java:542)
+	at org.apache.openjpa.persistence.QueryImpl.execute(QueryImpl.java:286)
+	at org.apache.openjpa.persistence.QueryImpl.getResultList(QueryImpl.java:302)
+	at org.wso2.carbon.humantask.core.dao.jpa.openjpa.HumanTaskDAOConnectionImpl.dequeueImmediate(HumanTaskDAOConnectionImpl.java:248)
+	at org.wso2.carbon.humantask.core.scheduler.SimpleScheduler$2.call(SimpleScheduler.java:344)
+	at org.wso2.carbon.humantask.core.scheduler.SimpleScheduler$2.call(SimpleScheduler.java:342)
+	at org.wso2.carbon.humantask.core.scheduler.SimpleScheduler.execTransaction(SimpleScheduler.java:879)
+	at org.wso2.carbon.humantask.core.scheduler.SimpleScheduler.execTransaction(SimpleScheduler.java:828)
+	at org.wso2.carbon.humantask.core.scheduler.SimpleScheduler.doLoadImmediate(SimpleScheduler.java:342)
+	at org.wso2.carbon.humantask.core.scheduler.SimpleScheduler$LoadImmediateTask.run(SimpleScheduler.java:297)
+	at org.wso2.carbon.humantask.core.scheduler.SimpleScheduler$1.call(SimpleScheduler.java:149)
+	at org.wso2.carbon.humantask.core.scheduler.SimpleScheduler$1.call(SimpleScheduler.java:146)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+Caused by: org.apache.tomcat.jdbc.pool.PoolExhaustedException: [HumanTaskServer-4] Timeout: Pool empty. Unable to fetch a connection in 30 seconds, none available[size:100; busy:100; idle:0; lastwait:30000].
+	at org.apache.tomcat.jdbc.pool.ConnectionPool.borrowConnection(ConnectionPool.java:738)
+	at org.apache.tomcat.jdbc.pool.ConnectionPool.getConnection(ConnectionPool.java:198)
+	at org.apache.tomcat.jdbc.pool.DataSourceProxy.getConnection(DataSourceProxy.java:136)
+	at org.apache.openjpa.lib.jdbc.DelegatingDataSource.getConnection(DelegatingDataSource.java:110)
+	at org.apache.openjpa.lib.jdbc.DecoratingDataSource.getConnection(DecoratingDataSource.java:87)
+	at org.apache.openjpa.jdbc.kernel.JDBCStoreManager.connectInternal(JDBCStoreManager.java:960)
+	at org.apache.openjpa.jdbc.kernel.JDBCStoreManager.connect(JDBCStoreManager.java:945)
+	... 25 more
+
+TID: [] [] [2023-01-11 10:01:28,859] [] ERROR {org.apache.ode.scheduler.simple.SimpleScheduler} - Error loading immediate jobs from database. <openjpa-2.2.0-wso2v1-r128166:129108 fatal general error> org.apache.openjpa.persistence.PersistenceException: [BPELServer-16] Timeout: Pool empty. Unable to fetch a connection in 30 seconds, none available[size:100; busy:100; idle:0; lastwait:30000].
+	at org.apache.openjpa.jdbc.sql.DBDictionary.narrow(DBDictionary.java:4918)
+	at org.apache.openjpa.jdbc.sql.DBDictionary.newStoreException(DBDictionary.java:4878)
+	at org.apache.openjpa.jdbc.sql.SQLExceptions.getStore(SQLExceptions.java:136)
+	at org.apache.openjpa.jdbc.sql.SQLExceptions.getStore(SQLExceptions.java:110)
+	at org.apache.openjpa.jdbc.sql.SQLExceptions.getStore(SQLExceptions.java:62)
+	at org.apache.openjpa.jdbc.kernel.JDBCStoreManager.connect(JDBCStoreManager.java:949)
+	at org.apache.openjpa.jdbc.kernel.JDBCStoreManager.retainConnection(JDBCStoreManager.java:226)
+	at org.apache.openjpa.kernel.DelegatingStoreManager.retainConnection(DelegatingStoreManager.java:164)
+	at org.apache.openjpa.kernel.BrokerImpl.retainConnection(BrokerImpl.java:3986)
+	at org.apache.openjpa.kernel.BrokerImpl.beginStoreManagerTransaction(BrokerImpl.java:1430)
+	at org.apache.openjpa.kernel.BrokerImpl.beginStore(BrokerImpl.java:1415)
+	at org.apache.openjpa.kernel.DelegatingBroker.beginStore(DelegatingBroker.java:1069)
+	at org.apache.openjpa.persistence.EntityManagerImpl.beginStore(EntityManagerImpl.java:685)
+	at org.apache.ode.dao.jpa.BPELDAOConnectionFactoryImpl.getExistingJDBCConnection(BPELDAOConnectionFactoryImpl.java:77)
+	at org.apache.ode.scheduler.simple.JdbcDelegate.getConnection(JdbcDelegate.java:546)
+	at org.apache.ode.scheduler.simple.JdbcDelegate.dequeueImmediate(JdbcDelegate.java:411)
+	at org.apache.ode.scheduler.simple.SimpleScheduler$13.call(SimpleScheduler.java:1097)
+	at org.apache.ode.scheduler.simple.SimpleScheduler$13.call(SimpleScheduler.java:1095)
+	at org.apache.ode.scheduler.simple.SimpleScheduler.execTransaction(SimpleScheduler.java:319)
+	at org.apache.ode.scheduler.simple.SimpleScheduler.execTransaction(SimpleScheduler.java:274)
+	at org.apache.ode.scheduler.simple.SimpleScheduler.doLoadImmediate(SimpleScheduler.java:1095)
+	at org.apache.ode.scheduler.simple.SimpleScheduler$LoadImmediateTask.run(SimpleScheduler.java:1382)
+	at org.apache.ode.scheduler.simple.SimpleScheduler$9.call(SimpleScheduler.java:864)
+	at org.apache.ode.scheduler.simple.SimpleScheduler$9.call(SimpleScheduler.java:861)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+Caused by: org.apache.tomcat.jdbc.pool.PoolExhaustedException: [BPELServer-16] Timeout: Pool empty. Unable to fetch a connection in 30 seconds, none available[size:100; busy:100; idle:0; lastwait:30000].
+	at org.apache.tomcat.jdbc.pool.ConnectionPool.borrowConnection(ConnectionPool.java:738)
+	at org.apache.tomcat.jdbc.pool.ConnectionPool.getConnection(ConnectionPool.java:198)
+	at org.apache.tomcat.jdbc.pool.DataSourceProxy.getConnection(DataSourceProxy.java:136)
+	at org.apache.openjpa.lib.jdbc.DelegatingDataSource.getConnection(DelegatingDataSource.java:110)
+	at org.apache.openjpa.lib.jdbc.DecoratingDataSource.getConnection(DecoratingDataSource.java:87)
+	at org.apache.openjpa.jdbc.kernel.JDBCStoreManager.connectInternal(JDBCStoreManager.java:960)
+	at org.apache.openjpa.jdbc.kernel.JDBCStoreManager.connect(JDBCStoreManager.java:945)
+	... 22 more
+
+TID: [] [] [2023-01-11 10:01:33,095] [] ERROR {org.wso2.carbon.humantask.core.scheduler.SimpleScheduler} - Database error upgrading jobs. <openjpa-2.2.0-wso2v1-r128166:129108 fatal general error> org.apache.openjpa.persistence.PersistenceException: [HumanTaskServer-5] Timeout: Pool empty. Unable to fetch a connection in 30 seconds, none available[size:100; busy:100; idle:0; lastwait:30000].
+	at org.apache.openjpa.jdbc.sql.DBDictionary.narrow(DBDictionary.java:4918)
+	at org.apache.openjpa.jdbc.sql.DBDictionary.newStoreException(DBDictionary.java:4878)
+	at org.apache.openjpa.jdbc.sql.SQLExceptions.getStore(SQLExceptions.java:136)
+	at org.apache.openjpa.jdbc.sql.SQLExceptions.getStore(SQLExceptions.java:110)
+	at org.apache.openjpa.jdbc.sql.SQLExceptions.getStore(SQLExceptions.java:62)
+	at org.apache.openjpa.jdbc.kernel.JDBCStoreManager.connect(JDBCStoreManager.java:949)
+	at org.apache.openjpa.jdbc.kernel.JDBCStoreManager.retainConnection(JDBCStoreManager.java:226)
+	at org.apache.openjpa.kernel.DelegatingStoreManager.retainConnection(DelegatingStoreManager.java:164)
+	at org.apache.openjpa.kernel.BrokerImpl.retainConnection(BrokerImpl.java:3986)
+	at org.apache.openjpa.kernel.BrokerImpl.beginStoreManagerTransaction(BrokerImpl.java:1430)
+	at org.apache.openjpa.kernel.BrokerImpl.beginStore(BrokerImpl.java:1415)
+	at org.apache.openjpa.jdbc.kernel.JDBCStoreQuery.executeBulkOperation(JDBCStoreQuery.java:566)
+	at org.apache.openjpa.jdbc.kernel.JDBCStoreQuery.executeUpdate(JDBCStoreQuery.java:498)
+	at org.apache.openjpa.kernel.ExpressionStoreQuery$DataStoreExecutor.executeUpdate(ExpressionStoreQuery.java:806)
+	at org.apache.openjpa.kernel.QueryImpl.update(QueryImpl.java:1056)
+	at org.apache.openjpa.kernel.QueryImpl.execute(QueryImpl.java:867)
+	at org.apache.openjpa.kernel.QueryImpl.updateAll(QueryImpl.java:904)
+	at org.apache.openjpa.kernel.DelegatingQuery.updateAll(DelegatingQuery.java:598)
+	at org.apache.openjpa.persistence.QueryImpl.executeUpdate(QueryImpl.java:377)
+	at org.wso2.carbon.humantask.core.dao.jpa.openjpa.HumanTaskDAOConnectionImpl.updateAssignToNode(HumanTaskDAOConnectionImpl.java:277)
+	at org.wso2.carbon.humantask.core.scheduler.SimpleScheduler$3.call(SimpleScheduler.java:485)
+	at org.wso2.carbon.humantask.core.scheduler.SimpleScheduler$3.call(SimpleScheduler.java:480)
+	at org.wso2.carbon.humantask.core.scheduler.SimpleScheduler.execTransaction(SimpleScheduler.java:879)
+	at org.wso2.carbon.humantask.core.scheduler.SimpleScheduler.execTransaction(SimpleScheduler.java:828)
+	at org.wso2.carbon.humantask.core.scheduler.SimpleScheduler.doUpgrade(SimpleScheduler.java:480)
+	at org.wso2.carbon.humantask.core.scheduler.SimpleScheduler$UpgradeJobsTask.run(SimpleScheduler.java:450)
+	at org.wso2.carbon.humantask.core.scheduler.SimpleScheduler$1.call(SimpleScheduler.java:149)
+	at org.wso2.carbon.humantask.core.scheduler.SimpleScheduler$1.call(SimpleScheduler.java:146)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+Caused by: org.apache.tomcat.jdbc.pool.PoolExhaustedException: [HumanTaskServer-5] Timeout: Pool empty. Unable to fetch a connection in 30 seconds, none available[size:100; busy:100; idle:0; lastwait:30000].
+	at org.apache.tomcat.jdbc.pool.ConnectionPool.borrowConnection(ConnectionPool.java:738)
+	at org.apache.tomcat.jdbc.pool.ConnectionPool.getConnection(ConnectionPool.java:198)
+	at org.apache.tomcat.jdbc.pool.DataSourceProxy.getConnection(DataSourceProxy.java:136)
+	at org.apache.openjpa.lib.jdbc.DelegatingDataSource.getConnection(DelegatingDataSource.java:110)
+	at org.apache.openjpa.lib.jdbc.DecoratingDataSource.getConnection(DecoratingDataSource.java:87)
+	at org.apache.openjpa.jdbc.kernel.JDBCStoreManager.connectInternal(JDBCStoreManager.java:960)
+	at org.apache.openjpa.jdbc.kernel.JDBCStoreManager.connect(JDBCStoreManager.java:945)
+	... 26 more
+
+TID: [] [] [2023-01-11 10:01:54,692] [] ERROR {org.wso2.carbon.humantask.core.scheduler.SimpleScheduler} - Error loading immediate jobs from database. <openjpa-2.2.0-wso2v1-r128166:129108 fatal general error> org.apache.openjpa.persistence.PersistenceException: [HumanTaskServer-1] Timeout: Pool empty. Unable to fetch a connection in 30 seconds, none available[size:100; busy:100; idle:0; lastwait:30000].
+FailedObject: SELECT DISTINCT t FROM org.wso2.carbon.humantask.core.dao.jpa.openjpa.model.HumanTaskJob t WHERE t.nodeId = ?1 AND t.time < ?2 order by t.time [java.lang.String]
+	at org.apache.openjpa.jdbc.sql.DBDictionary.narrow(DBDictionary.java:4918)
+	at org.apache.openjpa.jdbc.sql.DBDictionary.newStoreException(DBDictionary.java:4878)
+	at org.apache.openjpa.jdbc.sql.SQLExceptions.getStore(SQLExceptions.java:136)
+	at org.apache.openjpa.jdbc.sql.SQLExceptions.getStore(SQLExceptions.java:110)
+	at org.apache.openjpa.jdbc.sql.SQLExceptions.getStore(SQLExceptions.java:62)
+	at org.apache.openjpa.jdbc.kernel.JDBCStoreManager.connect(JDBCStoreManager.java:949)
+	at org.apache.openjpa.jdbc.kernel.JDBCStoreManager.getConnection(JDBCStoreManager.java:240)
+	at org.apache.openjpa.jdbc.sql.SelectImpl.execute(SelectImpl.java:413)
+	at org.apache.openjpa.jdbc.sql.SelectImpl.execute(SelectImpl.java:382)
+	at org.apache.openjpa.jdbc.kernel.SelectResultObjectProvider.open(SelectResultObjectProvider.java:94)
+	at org.apache.openjpa.lib.rop.EagerResultList.<init>(EagerResultList.java:34)
+	at org.apache.openjpa.kernel.QueryImpl.toResult(QueryImpl.java:1251)
+	at org.apache.openjpa.kernel.QueryImpl.execute(QueryImpl.java:1007)
+	at org.apache.openjpa.kernel.QueryImpl.execute(QueryImpl.java:863)
+	at org.apache.openjpa.kernel.QueryImpl.execute(QueryImpl.java:794)
+	at org.apache.openjpa.kernel.DelegatingQuery.execute(DelegatingQuery.java:542)
+	at org.apache.openjpa.persistence.QueryImpl.execute(QueryImpl.java:286)
+	at org.apache.openjpa.persistence.QueryImpl.getResultList(QueryImpl.java:302)
+	at org.wso2.carbon.humantask.core.dao.jpa.openjpa.HumanTaskDAOConnectionImpl.dequeueImmediate(HumanTaskDAOConnectionImpl.java:248)
+	at org.wso2.carbon.humantask.core.scheduler.SimpleScheduler$2.call(SimpleScheduler.java:344)
+	at org.wso2.carbon.humantask.core.scheduler.SimpleScheduler$2.call(SimpleScheduler.java:342)
+	at org.wso2.carbon.humantask.core.scheduler.SimpleScheduler.execTransaction(SimpleScheduler.java:879)
+	at org.wso2.carbon.humantask.core.scheduler.SimpleScheduler.execTransaction(SimpleScheduler.java:828)
+	at org.wso2.carbon.humantask.core.scheduler.SimpleScheduler.doLoadImmediate(SimpleScheduler.java:342)
+	at org.wso2.carbon.humantask.core.scheduler.SimpleScheduler$LoadImmediateTask.run(SimpleScheduler.java:297)
+	at org.wso2.carbon.humantask.core.scheduler.SimpleScheduler$1.call(SimpleScheduler.java:149)
+	at org.wso2.carbon.humantask.core.scheduler.SimpleScheduler$1.call(SimpleScheduler.java:146)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+Caused by: org.apache.tomcat.jdbc.pool.PoolExhaustedException: [HumanTaskServer-1] Timeout: Pool empty. Unable to fetch a connection in 30 seconds, none available[size:100; busy:100; idle:0; lastwait:30000].
+	at org.apache.tomcat.jdbc.pool.ConnectionPool.borrowConnection(ConnectionPool.java:738)
+	at org.apache.tomcat.jdbc.pool.ConnectionPool.getConnection(ConnectionPool.java:198)
+	at org.apache.tomcat.jdbc.pool.DataSourceProxy.getConnection(DataSourceProxy.java:136)
+	at org.apache.openjpa.lib.jdbc.DelegatingDataSource.getConnection(DelegatingDataSource.java:110)
+	at org.apache.openjpa.lib.jdbc.DecoratingDataSource.getConnection(DecoratingDataSource.java:87)
+	at org.apache.openjpa.jdbc.kernel.JDBCStoreManager.connectInternal(JDBCStoreManager.java:960)
+	at org.apache.openjpa.jdbc.kernel.JDBCStoreManager.connect(JDBCStoreManager.java:945)
+	... 25 more
+
+TID: [] [] [2023-01-11 10:02:04,124] [] ERROR {org.wso2.carbon.humantask.core.scheduler.SimpleScheduler} - Database error upgrading jobs. <openjpa-2.2.0-wso2v1-r128166:129108 fatal general error> org.apache.openjpa.persistence.PersistenceException: [HumanTaskServer-2] Timeout: Pool empty. Unable to fetch a connection in 30 seconds, none available[size:100; busy:100; idle:0; lastwait:30000].
+	at org.apache.openjpa.jdbc.sql.DBDictionary.narrow(DBDictionary.java:4918)
+	at org.apache.openjpa.jdbc.sql.DBDictionary.newStoreException(DBDictionary.java:4878)
+	at org.apache.openjpa.jdbc.sql.SQLExceptions.getStore(SQLExceptions.java:136)
+	at org.apache.openjpa.jdbc.sql.SQLExceptions.getStore(SQLExceptions.java:110)
+	at org.apache.openjpa.jdbc.sql.SQLExceptions.getStore(SQLExceptions.java:62)
+	at org.apache.openjpa.jdbc.kernel.JDBCStoreManager.connect(JDBCStoreManager.java:949)
+	at org.apache.openjpa.jdbc.kernel.JDBCStoreManager.retainConnection(JDBCStoreManager.java:226)
+	at org.apache.openjpa.kernel.DelegatingStoreManager.retainConnection(DelegatingStoreManager.java:164)
+	at org.apache.openjpa.kernel.BrokerImpl.retainConnection(BrokerImpl.java:3986)
+	at org.apache.openjpa.kernel.BrokerImpl.beginStoreManagerTransaction(BrokerImpl.java:1430)
+	at org.apache.openjpa.kernel.BrokerImpl.beginStore(BrokerImpl.java:1415)
+	at org.apache.openjpa.jdbc.kernel.JDBCStoreQuery.executeBulkOperation(JDBCStoreQuery.java:566)
+	at org.apache.openjpa.jdbc.kernel.JDBCStoreQuery.executeUpdate(JDBCStoreQuery.java:498)
+	at org.apache.openjpa.kernel.ExpressionStoreQuery$DataStoreExecutor.executeUpdate(ExpressionStoreQuery.java:806)
+	at org.apache.openjpa.kernel.QueryImpl.update(QueryImpl.java:1056)
+	at org.apache.openjpa.kernel.QueryImpl.execute(QueryImpl.java:867)
+	at org.apache.openjpa.kernel.QueryImpl.updateAll(QueryImpl.java:904)
+	at org.apache.openjpa.kernel.DelegatingQuery.updateAll(DelegatingQuery.java:598)
+	at org.apache.openjpa.persistence.QueryImpl.executeUpdate(QueryImpl.java:377)
+	at org.wso2.carbon.humantask.core.dao.jpa.openjpa.HumanTaskDAOConnectionImpl.updateAssignToNode(HumanTaskDAOConnectionImpl.java:277)
+	at org.wso2.carbon.humantask.core.scheduler.SimpleScheduler$3.call(SimpleScheduler.java:485)
+	at org.wso2.carbon.humantask.core.scheduler.SimpleScheduler$3.call(SimpleScheduler.java:480)
+	at org.wso2.carbon.humantask.core.scheduler.SimpleScheduler.execTransaction(SimpleScheduler.java:879)
+	at org.wso2.carbon.humantask.core.scheduler.SimpleScheduler.execTransaction(SimpleScheduler.java:828)
+	at org.wso2.carbon.humantask.core.scheduler.SimpleScheduler.doUpgrade(SimpleScheduler.java:480)
+	at org.wso2.carbon.humantask.core.scheduler.SimpleScheduler$UpgradeJobsTask.run(SimpleScheduler.java:450)
+	at org.wso2.carbon.humantask.core.scheduler.SimpleScheduler$1.call(SimpleScheduler.java:149)
+	at org.wso2.carbon.humantask.core.scheduler.SimpleScheduler$1.call(SimpleScheduler.java:146)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+Caused by: org.apache.tomcat.jdbc.pool.PoolExhaustedException: [HumanTaskServer-2] Timeout: Pool empty. Unable to fetch a connection in 30 seconds, none available[size:100; busy:100; idle:0; lastwait:30000].
+	at org.apache.tomcat.jdbc.pool.ConnectionPool.borrowConnection(ConnectionPool.java:738)
+	at org.apache.tomcat.jdbc.pool.ConnectionPool.getConnection(ConnectionPool.java:198)
+	at org.apache.tomcat.jdbc.pool.DataSourceProxy.getConnection(DataSourceProxy.java:136)
+	at org.apache.openjpa.lib.jdbc.DelegatingDataSource.getConnection(DelegatingDataSource.java:110)
+	at org.apache.openjpa.lib.jdbc.DecoratingDataSource.getConnection(DecoratingDataSource.java:87)
+	at org.apache.openjpa.jdbc.kernel.JDBCStoreManager.connectInternal(JDBCStoreManager.java:960)
+	at org.apache.openjpa.jdbc.kernel.JDBCStoreManager.connect(JDBCStoreManager.java:945)
+	... 26 more
+
+TID: [] [] [2023-01-11 10:02:25,723] [] ERROR {org.wso2.carbon.humantask.core.scheduler.SimpleScheduler} - Error loading immediate jobs from database. <openjpa-2.2.0-wso2v1-r128166:129108 fatal general error> org.apache.openjpa.persistence.PersistenceException: [HumanTaskServer-3] Timeout: Pool empty. Unable to fetch a connection in 30 seconds, none available[size:100; busy:100; idle:0; lastwait:30000].
+FailedObject: SELECT DISTINCT t FROM org.wso2.carbon.humantask.core.dao.jpa.openjpa.model.HumanTaskJob t WHERE t.nodeId = ?1 AND t.time < ?2 order by t.time [java.lang.String]
+	at org.apache.openjpa.jdbc.sql.DBDictionary.narrow(DBDictionary.java:4918)
+	at org.apache.openjpa.jdbc.sql.DBDictionary.newStoreException(DBDictionary.java:4878)
+	at org.apache.openjpa.jdbc.sql.SQLExceptions.getStore(SQLExceptions.java:136)
+	at org.apache.openjpa.jdbc.sql.SQLExceptions.getStore(SQLExceptions.java:110)
+	at org.apache.openjpa.jdbc.sql.SQLExceptions.getStore(SQLExceptions.java:62)
+	at org.apache.openjpa.jdbc.kernel.JDBCStoreManager.connect(JDBCStoreManager.java:949)
+	at org.apache.openjpa.jdbc.kernel.JDBCStoreManager.getConnection(JDBCStoreManager.java:240)
+	at org.apache.openjpa.jdbc.sql.SelectImpl.execute(SelectImpl.java:413)
+	at org.apache.openjpa.jdbc.sql.SelectImpl.execute(SelectImpl.java:382)
+	at org.apache.openjpa.jdbc.kernel.SelectResultObjectProvider.open(SelectResultObjectProvider.java:94)
+	at org.apache.openjpa.lib.rop.EagerResultList.<init>(EagerResultList.java:34)
+	at org.apache.openjpa.kernel.QueryImpl.toResult(QueryImpl.java:1251)
+	at org.apache.openjpa.kernel.QueryImpl.execute(QueryImpl.java:1007)
+	at org.apache.openjpa.kernel.QueryImpl.execute(QueryImpl.java:863)
+	at org.apache.openjpa.kernel.QueryImpl.execute(QueryImpl.java:794)
+	at org.apache.openjpa.kernel.DelegatingQuery.execute(DelegatingQuery.java:542)
+	at org.apache.openjpa.persistence.QueryImpl.execute(QueryImpl.java:286)
+	at org.apache.openjpa.persistence.QueryImpl.getResultList(QueryImpl.java:302)
+	at org.wso2.carbon.humantask.core.dao.jpa.openjpa.HumanTaskDAOConnectionImpl.dequeueImmediate(HumanTaskDAOConnectionImpl.java:248)
+	at org.wso2.carbon.humantask.core.scheduler.SimpleScheduler$2.call(SimpleScheduler.java:344)
+	at org.wso2.carbon.humantask.core.scheduler.SimpleScheduler$2.call(SimpleScheduler.java:342)
+	at org.wso2.carbon.humantask.core.scheduler.SimpleScheduler.execTransaction(SimpleScheduler.java:879)
+	at org.wso2.carbon.humantask.core.scheduler.SimpleScheduler.execTransaction(SimpleScheduler.java:828)
+	at org.wso2.carbon.humantask.core.scheduler.SimpleScheduler.doLoadImmediate(SimpleScheduler.java:342)
+	at org.wso2.carbon.humantask.core.scheduler.SimpleScheduler$LoadImmediateTask.run(SimpleScheduler.java:297)
+	at org.wso2.carbon.humantask.core.scheduler.SimpleScheduler$1.call(SimpleScheduler.java:149)
+	at org.wso2.carbon.humantask.core.scheduler.SimpleScheduler$1.call(SimpleScheduler.java:146)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+Caused by: org.apache.tomcat.jdbc.pool.PoolExhaustedException: [HumanTaskServer-3] Timeout: Pool empty. Unable to fetch a connection in 30 seconds, none available[size:100; busy:100; idle:0; lastwait:30000].
+	at org.apache.tomcat.jdbc.pool.ConnectionPool.borrowConnection(ConnectionPool.java:738)
+	at org.apache.tomcat.jdbc.pool.ConnectionPool.getConnection(ConnectionPool.java:198)
+	at org.apache.tomcat.jdbc.pool.DataSourceProxy.getConnection(DataSourceProxy.java:136)
+	at org.apache.openjpa.lib.jdbc.DelegatingDataSource.getConnection(DelegatingDataSource.java:110)
+	at org.apache.openjpa.lib.jdbc.DecoratingDataSource.getConnection(DecoratingDataSource.java:87)
+	at org.apache.openjpa.jdbc.kernel.JDBCStoreManager.connectInternal(JDBCStoreManager.java:960)
+	at org.apache.openjpa.jdbc.kernel.JDBCStoreManager.connect(JDBCStoreManager.java:945)
+	... 25 more
+
+TID: [] [] [2023-01-11 10:02:35,153] [] ERROR {org.wso2.carbon.humantask.core.scheduler.SimpleScheduler} - Database error upgrading jobs. <openjpa-2.2.0-wso2v1-r128166:129108 fatal general error> org.apache.openjpa.persistence.PersistenceException: [HumanTaskServer-4] Timeout: Pool empty. Unable to fetch a connection in 30 seconds, none available[size:100; busy:100; idle:0; lastwait:30000].
+	at org.apache.openjpa.jdbc.sql.DBDictionary.narrow(DBDictionary.java:4918)
+	at org.apache.openjpa.jdbc.sql.DBDictionary.newStoreException(DBDictionary.java:4878)
+	at org.apache.openjpa.jdbc.sql.SQLExceptions.getStore(SQLExceptions.java:136)
+	at org.apache.openjpa.jdbc.sql.SQLExceptions.getStore(SQLExceptions.java:110)
+	at org.apache.openjpa.jdbc.sql.SQLExceptions.getStore(SQLExceptions.java:62)
+	at org.apache.openjpa.jdbc.kernel.JDBCStoreManager.connect(JDBCStoreManager.java:949)
+	at org.apache.openjpa.jdbc.kernel.JDBCStoreManager.retainConnection(JDBCStoreManager.java:226)
+	at org.apache.openjpa.kernel.DelegatingStoreManager.retainConnection(DelegatingStoreManager.java:164)
+	at org.apache.openjpa.kernel.BrokerImpl.retainConnection(BrokerImpl.java:3986)
+	at org.apache.openjpa.kernel.BrokerImpl.beginStoreManagerTransaction(BrokerImpl.java:1430)
+	at org.apache.openjpa.kernel.BrokerImpl.beginStore(BrokerImpl.java:1415)
+	at org.apache.openjpa.jdbc.kernel.JDBCStoreQuery.executeBulkOperation(JDBCStoreQuery.java:566)
+	at org.apache.openjpa.jdbc.kernel.JDBCStoreQuery.executeUpdate(JDBCStoreQuery.java:498)
+	at org.apache.openjpa.kernel.ExpressionStoreQuery$DataStoreExecutor.executeUpdate(ExpressionStoreQuery.java:806)
+	at org.apache.openjpa.kernel.QueryImpl.update(QueryImpl.java:1056)
+	at org.apache.openjpa.kernel.QueryImpl.execute(QueryImpl.java:867)
+	at org.apache.openjpa.kernel.QueryImpl.updateAll(QueryImpl.java:904)
+	at org.apache.openjpa.kernel.DelegatingQuery.updateAll(DelegatingQuery.java:598)
+	at org.apache.openjpa.persistence.QueryImpl.executeUpdate(QueryImpl.java:377)
+	at org.wso2.carbon.humantask.core.dao.jpa.openjpa.HumanTaskDAOConnectionImpl.updateAssignToNode(HumanTaskDAOConnectionImpl.java:277)
+	at org.wso2.carbon.humantask.core.scheduler.SimpleScheduler$3.call(SimpleScheduler.java:485)
+	at org.wso2.carbon.humantask.core.scheduler.SimpleScheduler$3.call(SimpleScheduler.java:480)
+	at org.wso2.carbon.humantask.core.scheduler.SimpleScheduler.execTransaction(SimpleScheduler.java:879)
+	at org.wso2.carbon.humantask.core.scheduler.SimpleScheduler.execTransaction(SimpleScheduler.java:828)
+	at org.wso2.carbon.humantask.core.scheduler.SimpleScheduler.doUpgrade(SimpleScheduler.java:480)
+	at org.wso2.carbon.humantask.core.scheduler.SimpleScheduler$UpgradeJobsTask.run(SimpleScheduler.java:450)
+	at org.wso2.carbon.humantask.core.scheduler.SimpleScheduler$1.call(SimpleScheduler.java:149)
+	at org.wso2.carbon.humantask.core.scheduler.SimpleScheduler$1.call(SimpleScheduler.java:146)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+Caused by: org.apache.tomcat.jdbc.pool.PoolExhaustedException: [HumanTaskServer-4] Timeout: Pool empty. Unable to fetch a connection in 30 seconds, none available[size:100; busy:100; idle:0; lastwait:30000].
+	at org.apache.tomcat.jdbc.pool.ConnectionPool.borrowConnection(ConnectionPool.java:738)
+	at org.apache.tomcat.jdbc.pool.ConnectionPool.getConnection(ConnectionPool.java:198)
+	at org.apache.tomcat.jdbc.pool.DataSourceProxy.getConnection(DataSourceProxy.java:136)
+	at org.apache.openjpa.lib.jdbc.DelegatingDataSource.getConnection(DelegatingDataSource.java:110)
+	at org.apache.openjpa.lib.jdbc.DecoratingDataSource.getConnection(DecoratingDataSource.java:87)
+	at org.apache.openjpa.jdbc.kernel.JDBCStoreManager.connectInternal(JDBCStoreManager.java:960)
+	at org.apache.openjpa.jdbc.kernel.JDBCStoreManager.connect(JDBCStoreManager.java:945)
+	... 26 more
+
+TID: [] [] [2023-01-11 10:02:56,744] [] ERROR {org.wso2.carbon.humantask.core.scheduler.SimpleScheduler} - Error loading immediate jobs from database. <openjpa-2.2.0-wso2v1-r128166:129108 fatal general error> org.apache.openjpa.persistence.PersistenceException: [HumanTaskServer-5] Timeout: Pool empty. Unable to fetch a connection in 30 seconds, none available[size:100; busy:100; idle:0; lastwait:30000].
+FailedObject: SELECT DISTINCT t FROM org.wso2.carbon.humantask.core.dao.jpa.openjpa.model.HumanTaskJob t WHERE t.nodeId = ?1 AND t.time < ?2 order by t.time [java.lang.String]
+	at org.apache.openjpa.jdbc.sql.DBDictionary.narrow(DBDictionary.java:4918)
+	at org.apache.openjpa.jdbc.sql.DBDictionary.newStoreException(DBDictionary.java:4878)
+	at org.apache.openjpa.jdbc.sql.SQLExceptions.getStore(SQLExceptions.java:136)
+	at org.apache.openjpa.jdbc.sql.SQLExceptions.getStore(SQLExceptions.java:110)
+	at org.apache.openjpa.jdbc.sql.SQLExceptions.getStore(SQLExceptions.java:62)
+	at org.apache.openjpa.jdbc.kernel.JDBCStoreManager.connect(JDBCStoreManager.java:949)
+	at org.apache.openjpa.jdbc.kernel.JDBCStoreManager.getConnection(JDBCStoreManager.java:240)
+	at org.apache.openjpa.jdbc.sql.SelectImpl.execute(SelectImpl.java:413)
+	at org.apache.openjpa.jdbc.sql.SelectImpl.execute(SelectImpl.java:382)
+	at org.apache.openjpa.jdbc.kernel.SelectResultObjectProvider.open(SelectResultObjectProvider.java:94)
+	at org.apache.openjpa.lib.rop.EagerResultList.<init>(EagerResultList.java:34)
+	at org.apache.openjpa.kernel.QueryImpl.toResult(QueryImpl.java:1251)
+	at org.apache.openjpa.kernel.QueryImpl.execute(QueryImpl.java:1007)
+	at org.apache.openjpa.kernel.QueryImpl.execute(QueryImpl.java:863)
+	at org.apache.openjpa.kernel.QueryImpl.execute(QueryImpl.java:794)
+	at org.apache.openjpa.kernel.DelegatingQuery.execute(DelegatingQuery.java:542)
+	at org.apache.openjpa.persistence.QueryImpl.execute(QueryImpl.java:286)
+	at org.apache.openjpa.persistence.QueryImpl.getResultList(QueryImpl.java:302)
+	at org.wso2.carbon.humantask.core.dao.jpa.openjpa.HumanTaskDAOConnectionImpl.dequeueImmediate(HumanTaskDAOConnectionImpl.java:248)
+	at org.wso2.carbon.humantask.core.scheduler.SimpleScheduler$2.call(SimpleScheduler.java:344)
+	at org.wso2.carbon.humantask.core.scheduler.SimpleScheduler$2.call(SimpleScheduler.java:342)
+	at org.wso2.carbon.humantask.core.scheduler.SimpleScheduler.execTransaction(SimpleScheduler.java:879)
+	at org.wso2.carbon.humantask.core.scheduler.SimpleScheduler.execTransaction(SimpleScheduler.java:828)
+	at org.wso2.carbon.humantask.core.scheduler.SimpleScheduler.doLoadImmediate(SimpleScheduler.java:342)
+	at org.wso2.carbon.humantask.core.scheduler.SimpleScheduler$LoadImmediateTask.run(SimpleScheduler.java:297)
+	at org.wso2.carbon.humantask.core.scheduler.SimpleScheduler$1.call(SimpleScheduler.java:149)
+	at org.wso2.carbon.humantask.core.scheduler.SimpleScheduler$1.call(SimpleScheduler.java:146)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+Caused by: org.apache.tomcat.jdbc.pool.PoolExhaustedException: [HumanTaskServer-5] Timeout: Pool empty. Unable to fetch a connection in 30 seconds, none available[size:100; busy:100; idle:0; lastwait:30000].
+	at org.apache.tomcat.jdbc.pool.ConnectionPool.borrowConnection(ConnectionPool.java:738)
+	at org.apache.tomcat.jdbc.pool.ConnectionPool.getConnection(ConnectionPool.java:198)
+	at org.apache.tomcat.jdbc.pool.DataSourceProxy.getConnection(DataSourceProxy.java:136)
+	at org.apache.openjpa.lib.jdbc.DelegatingDataSource.getConnection(DelegatingDataSource.java:110)
+	at org.apache.openjpa.lib.jdbc.DecoratingDataSource.getConnection(DecoratingDataSource.java:87)
+	at org.apache.openjpa.jdbc.kernel.JDBCStoreManager.connectInternal(JDBCStoreManager.java:960)
+	at org.apache.openjpa.jdbc.kernel.JDBCStoreManager.connect(JDBCStoreManager.java:945)
+	... 25 more
+
+TID: [] [] [2023-01-11 10:03:06,184] [] ERROR {org.wso2.carbon.humantask.core.scheduler.SimpleScheduler} - Database error upgrading jobs. <openjpa-2.2.0-wso2v1-r128166:129108 fatal general error> org.apache.openjpa.persistence.PersistenceException: [HumanTaskServer-1] Timeout: Pool empty. Unable to fetch a connection in 30 seconds, none available[size:100; busy:100; idle:0; lastwait:30000].
+	at org.apache.openjpa.jdbc.sql.DBDictionary.narrow(DBDictionary.java:4918)
+	at org.apache.openjpa.jdbc.sql.DBDictionary.newStoreException(DBDictionary.java:4878)
+	at org.apache.openjpa.jdbc.sql.SQLExceptions.getStore(SQLExceptions.java:136)
+	at org.apache.openjpa.jdbc.sql.SQLExceptions.getStore(SQLExceptions.java:110)
+	at org.apache.openjpa.jdbc.sql.SQLExceptions.getStore(SQLExceptions.java:62)
+	at org.apache.openjpa.jdbc.kernel.JDBCStoreManager.connect(JDBCStoreManager.java:949)
+	at org.apache.openjpa.jdbc.kernel.JDBCStoreManager.retainConnection(JDBCStoreManager.java:226)
+	at org.apache.openjpa.kernel.DelegatingStoreManager.retainConnection(DelegatingStoreManager.java:164)
+	at org.apache.openjpa.kernel.BrokerImpl.retainConnection(BrokerImpl.java:3986)
+	at org.apache.openjpa.kernel.BrokerImpl.beginStoreManagerTransaction(BrokerImpl.java:1430)
+	at org.apache.openjpa.kernel.BrokerImpl.beginStore(BrokerImpl.java:1415)
+	at org.apache.openjpa.jdbc.kernel.JDBCStoreQuery.executeBulkOperation(JDBCStoreQuery.java:566)
+	at org.apache.openjpa.jdbc.kernel.JDBCStoreQuery.executeUpdate(JDBCStoreQuery.java:498)
+	at org.apache.openjpa.kernel.ExpressionStoreQuery$DataStoreExecutor.executeUpdate(ExpressionStoreQuery.java:806)
+	at org.apache.openjpa.kernel.QueryImpl.update(QueryImpl.java:1056)
+	at org.apache.openjpa.kernel.QueryImpl.execute(QueryImpl.java:867)
+	at org.apache.openjpa.kernel.QueryImpl.updateAll(QueryImpl.java:904)
+	at org.apache.openjpa.kernel.DelegatingQuery.updateAll(DelegatingQuery.java:598)
+	at org.apache.openjpa.persistence.QueryImpl.executeUpdate(QueryImpl.java:377)
+	at org.wso2.carbon.humantask.core.dao.jpa.openjpa.HumanTaskDAOConnectionImpl.updateAssignToNode(HumanTaskDAOConnectionImpl.java:277)
+	at org.wso2.carbon.humantask.core.scheduler.SimpleScheduler$3.call(SimpleScheduler.java:485)
+	at org.wso2.carbon.humantask.core.scheduler.SimpleScheduler$3.call(SimpleScheduler.java:480)
+	at org.wso2.carbon.humantask.core.scheduler.SimpleScheduler.execTransaction(SimpleScheduler.java:879)
+	at org.wso2.carbon.humantask.core.scheduler.SimpleScheduler.execTransaction(SimpleScheduler.java:828)
+	at org.wso2.carbon.humantask.core.scheduler.SimpleScheduler.doUpgrade(SimpleScheduler.java:480)
+	at org.wso2.carbon.humantask.core.scheduler.SimpleScheduler$UpgradeJobsTask.run(SimpleScheduler.java:450)
+	at org.wso2.carbon.humantask.core.scheduler.SimpleScheduler$1.call(SimpleScheduler.java:149)
+	at org.wso2.carbon.humantask.core.scheduler.SimpleScheduler$1.call(SimpleScheduler.java:146)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+Caused by: org.apache.tomcat.jdbc.pool.PoolExhaustedException: [HumanTaskServer-1] Timeout: Pool empty. Unable to fetch a connection in 30 seconds, none available[size:100; busy:100; idle:0; lastwait:30000].
+	at org.apache.tomcat.jdbc.pool.ConnectionPool.borrowConnection(ConnectionPool.java:738)
+	at org.apache.tomcat.jdbc.pool.ConnectionPool.getConnection(ConnectionPool.java:198)
+	at org.apache.tomcat.jdbc.pool.DataSourceProxy.getConnection(DataSourceProxy.java:136)
+	at org.apache.openjpa.lib.jdbc.DelegatingDataSource.getConnection(DelegatingDataSource.java:110)
+	at org.apache.openjpa.lib.jdbc.DecoratingDataSource.getConnection(DecoratingDataSource.java:87)
+	at org.apache.openjpa.jdbc.kernel.JDBCStoreManager.connectInternal(JDBCStoreManager.java:960)
+	at org.apache.openjpa.jdbc.kernel.JDBCStoreManager.connect(JDBCStoreManager.java:945)
+	... 26 more
+
+TID: [] [] [2023-01-11 10:03:27,789] [] ERROR {org.wso2.carbon.humantask.core.scheduler.SimpleScheduler} - Error loading immediate jobs from database. <openjpa-2.2.0-wso2v1-r128166:129108 fatal general error> org.apache.openjpa.persistence.PersistenceException: [HumanTaskServer-2] Timeout: Pool empty. Unable to fetch a connection in 30 seconds, none available[size:100; busy:100; idle:0; lastwait:30000].
+FailedObject: SELECT DISTINCT t FROM org.wso2.carbon.humantask.core.dao.jpa.openjpa.model.HumanTaskJob t WHERE t.nodeId = ?1 AND t.time < ?2 order by t.time [java.lang.String]
+	at org.apache.openjpa.jdbc.sql.DBDictionary.narrow(DBDictionary.java:4918)
+	at org.apache.openjpa.jdbc.sql.DBDictionary.newStoreException(DBDictionary.java:4878)
+	at org.apache.openjpa.jdbc.sql.SQLExceptions.getStore(SQLExceptions.java:136)
+	at org.apache.openjpa.jdbc.sql.SQLExceptions.getStore(SQLExceptions.java:110)
+	at org.apache.openjpa.jdbc.sql.SQLExceptions.getStore(SQLExceptions.java:62)
+	at org.apache.openjpa.jdbc.kernel.JDBCStoreManager.connect(JDBCStoreManager.java:949)
+	at org.apache.openjpa.jdbc.kernel.JDBCStoreManager.getConnection(JDBCStoreManager.java:240)
+	at org.apache.openjpa.jdbc.sql.SelectImpl.execute(SelectImpl.java:413)
+	at org.apache.openjpa.jdbc.sql.SelectImpl.execute(SelectImpl.java:382)
+	at org.apache.openjpa.jdbc.kernel.SelectResultObjectProvider.open(SelectResultObjectProvider.java:94)
+	at org.apache.openjpa.lib.rop.EagerResultList.<init>(EagerResultList.java:34)
+	at org.apache.openjpa.kernel.QueryImpl.toResult(QueryImpl.java:1251)
+	at org.apache.openjpa.kernel.QueryImpl.execute(QueryImpl.java:1007)
+	at org.apache.openjpa.kernel.QueryImpl.execute(QueryImpl.java:863)
+	at org.apache.openjpa.kernel.QueryImpl.execute(QueryImpl.java:794)
+	at org.apache.openjpa.kernel.DelegatingQuery.execute(DelegatingQuery.java:542)
+	at org.apache.openjpa.persistence.QueryImpl.execute(QueryImpl.java:286)
+	at org.apache.openjpa.persistence.QueryImpl.getResultList(QueryImpl.java:302)
+	at org.wso2.carbon.humantask.core.dao.jpa.openjpa.HumanTaskDAOConnectionImpl.dequeueImmediate(HumanTaskDAOConnectionImpl.java:248)
+	at org.wso2.carbon.humantask.core.scheduler.SimpleScheduler$2.call(SimpleScheduler.java:344)
+	at org.wso2.carbon.humantask.core.scheduler.SimpleScheduler$2.call(SimpleScheduler.java:342)
+	at org.wso2.carbon.humantask.core.scheduler.SimpleScheduler.execTransaction(SimpleScheduler.java:879)
+	at org.wso2.carbon.humantask.core.scheduler.SimpleScheduler.execTransaction(SimpleScheduler.java:828)
+	at org.wso2.carbon.humantask.core.scheduler.SimpleScheduler.doLoadImmediate(SimpleScheduler.java:342)
+	at org.wso2.carbon.humantask.core.scheduler.SimpleScheduler$LoadImmediateTask.run(SimpleScheduler.java:297)
+	at org.wso2.carbon.humantask.core.scheduler.SimpleScheduler$1.call(SimpleScheduler.java:149)
+	at org.wso2.carbon.humantask.core.scheduler.SimpleScheduler$1.call(SimpleScheduler.java:146)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+Caused by: org.apache.tomcat.jdbc.pool.PoolExhaustedException: [HumanTaskServer-2] Timeout: Pool empty. Unable to fetch a connection in 30 seconds, none available[size:100; busy:100; idle:0; lastwait:30000].
+	at org.apache.tomcat.jdbc.pool.ConnectionPool.borrowConnection(ConnectionPool.java:738)
+	at org.apache.tomcat.jdbc.pool.ConnectionPool.getConnection(ConnectionPool.java:198)
+	at org.apache.tomcat.jdbc.pool.DataSourceProxy.getConnection(DataSourceProxy.java:136)
+	at org.apache.openjpa.lib.jdbc.DelegatingDataSource.getConnection(DelegatingDataSource.java:110)
+	at org.apache.openjpa.lib.jdbc.DecoratingDataSource.getConnection(DecoratingDataSource.java:87)
+	at org.apache.openjpa.jdbc.kernel.JDBCStoreManager.connectInternal(JDBCStoreManager.java:960)
+	at org.apache.openjpa.jdbc.kernel.JDBCStoreManager.connect(JDBCStoreManager.java:945)
+	... 25 more
+
+TID: [] [] [2023-01-11 10:03:32,913] [] ERROR {org.apache.ode.scheduler.simple.SimpleScheduler} - Error loading immediate jobs from database. <openjpa-2.2.0-wso2v1-r128166:129108 fatal general error> org.apache.openjpa.persistence.PersistenceException: [BPELServer-16] Timeout: Pool empty. Unable to fetch a connection in 30 seconds, none available[size:100; busy:100; idle:0; lastwait:30000].
+	at org.apache.openjpa.jdbc.sql.DBDictionary.narrow(DBDictionary.java:4918)
+	at org.apache.openjpa.jdbc.sql.DBDictionary.newStoreException(DBDictionary.java:4878)
+	at org.apache.openjpa.jdbc.sql.SQLExceptions.getStore(SQLExceptions.java:136)
+	at org.apache.openjpa.jdbc.sql.SQLExceptions.getStore(SQLExceptions.java:110)
+	at org.apache.openjpa.jdbc.sql.SQLExceptions.getStore(SQLExceptions.java:62)
+	at org.apache.openjpa.jdbc.kernel.JDBCStoreManager.connect(JDBCStoreManager.java:949)
+	at org.apache.openjpa.jdbc.kernel.JDBCStoreManager.retainConnection(JDBCStoreManager.java:226)
+	at org.apache.openjpa.kernel.DelegatingStoreManager.retainConnection(DelegatingStoreManager.java:164)
+	at org.apache.openjpa.kernel.BrokerImpl.retainConnection(BrokerImpl.java:3986)
+	at org.apache.openjpa.kernel.BrokerImpl.beginStoreManagerTransaction(BrokerImpl.java:1430)
+	at org.apache.openjpa.kernel.BrokerImpl.beginStore(BrokerImpl.java:1415)
+	at org.apache.openjpa.kernel.DelegatingBroker.beginStore(DelegatingBroker.java:1069)
+	at org.apache.openjpa.persistence.EntityManagerImpl.beginStore(EntityManagerImpl.java:685)
+	at org.apache.ode.dao.jpa.BPELDAOConnectionFactoryImpl.getExistingJDBCConnection(BPELDAOConnectionFactoryImpl.java:77)
+	at org.apache.ode.scheduler.simple.JdbcDelegate.getConnection(JdbcDelegate.java:546)
+	at org.apache.ode.scheduler.simple.JdbcDelegate.dequeueImmediate(JdbcDelegate.java:411)
+	at org.apache.ode.scheduler.simple.SimpleScheduler$13.call(SimpleScheduler.java:1097)
+	at org.apache.ode.scheduler.simple.SimpleScheduler$13.call(SimpleScheduler.java:1095)
+	at org.apache.ode.scheduler.simple.SimpleScheduler.execTransaction(SimpleScheduler.java:319)
+	at org.apache.ode.scheduler.simple.SimpleScheduler.execTransaction(SimpleScheduler.java:274)
+	at org.apache.ode.scheduler.simple.SimpleScheduler.doLoadImmediate(SimpleScheduler.java:1095)
+	at org.apache.ode.scheduler.simple.SimpleScheduler$LoadImmediateTask.run(SimpleScheduler.java:1382)
+	at org.apache.ode.scheduler.simple.SimpleScheduler$9.call(SimpleScheduler.java:864)
+	at org.apache.ode.scheduler.simple.SimpleScheduler$9.call(SimpleScheduler.java:861)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+Caused by: org.apache.tomcat.jdbc.pool.PoolExhaustedException: [BPELServer-16] Timeout: Pool empty. Unable to fetch a connection in 30 seconds, none available[size:100; busy:100; idle:0; lastwait:30000].
+	at org.apache.tomcat.jdbc.pool.ConnectionPool.borrowConnection(ConnectionPool.java:738)
+	at org.apache.tomcat.jdbc.pool.ConnectionPool.getConnection(ConnectionPool.java:198)
+	at org.apache.tomcat.jdbc.pool.DataSourceProxy.getConnection(DataSourceProxy.java:136)
+	at org.apache.openjpa.lib.jdbc.DelegatingDataSource.getConnection(DelegatingDataSource.java:110)
+	at org.apache.openjpa.lib.jdbc.DecoratingDataSource.getConnection(DecoratingDataSource.java:87)
+	at org.apache.openjpa.jdbc.kernel.JDBCStoreManager.connectInternal(JDBCStoreManager.java:960)
+	at org.apache.openjpa.jdbc.kernel.JDBCStoreManager.connect(JDBCStoreManager.java:945)
+	... 22 more
+
+TID: [] [] [2023-01-11 10:03:37,206] [] ERROR {org.wso2.carbon.humantask.core.scheduler.SimpleScheduler} - Database error upgrading jobs. <openjpa-2.2.0-wso2v1-r128166:129108 fatal general error> org.apache.openjpa.persistence.PersistenceException: [HumanTaskServer-3] Timeout: Pool empty. Unable to fetch a connection in 30 seconds, none available[size:100; busy:100; idle:0; lastwait:30000].
+	at org.apache.openjpa.jdbc.sql.DBDictionary.narrow(DBDictionary.java:4918)
+	at org.apache.openjpa.jdbc.sql.DBDictionary.newStoreException(DBDictionary.java:4878)
+	at org.apache.openjpa.jdbc.sql.SQLExceptions.getStore(SQLExceptions.java:136)
+	at org.apache.openjpa.jdbc.sql.SQLExceptions.getStore(SQLExceptions.java:110)
+	at org.apache.openjpa.jdbc.sql.SQLExceptions.getStore(SQLExceptions.java:62)
+	at org.apache.openjpa.jdbc.kernel.JDBCStoreManager.connect(JDBCStoreManager.java:949)
+	at org.apache.openjpa.jdbc.kernel.JDBCStoreManager.retainConnection(JDBCStoreManager.java:226)
+	at org.apache.openjpa.kernel.DelegatingStoreManager.retainConnection(DelegatingStoreManager.java:164)
+	at org.apache.openjpa.kernel.BrokerImpl.retainConnection(BrokerImpl.java:3986)
+	at org.apache.openjpa.kernel.BrokerImpl.beginStoreManagerTransaction(BrokerImpl.java:1430)
+	at org.apache.openjpa.kernel.BrokerImpl.beginStore(BrokerImpl.java:1415)
+	at org.apache.openjpa.jdbc.kernel.JDBCStoreQuery.executeBulkOperation(JDBCStoreQuery.java:566)
+	at org.apache.openjpa.jdbc.kernel.JDBCStoreQuery.executeUpdate(JDBCStoreQuery.java:498)
+	at org.apache.openjpa.kernel.ExpressionStoreQuery$DataStoreExecutor.executeUpdate(ExpressionStoreQuery.java:806)
+	at org.apache.openjpa.kernel.QueryImpl.update(QueryImpl.java:1056)
+	at org.apache.openjpa.kernel.QueryImpl.execute(QueryImpl.java:867)
+	at org.apache.openjpa.kernel.QueryImpl.updateAll(QueryImpl.java:904)
+	at org.apache.openjpa.kernel.DelegatingQuery.updateAll(DelegatingQuery.java:598)
+	at org.apache.openjpa.persistence.QueryImpl.executeUpdate(QueryImpl.java:377)
+	at org.wso2.carbon.humantask.core.dao.jpa.openjpa.HumanTaskDAOConnectionImpl.updateAssignToNode(HumanTaskDAOConnectionImpl.java:277)
+	at org.wso2.carbon.humantask.core.scheduler.SimpleScheduler$3.call(SimpleScheduler.java:485)
+	at org.wso2.carbon.humantask.core.scheduler.SimpleScheduler$3.call(SimpleScheduler.java:480)
+	at org.wso2.carbon.humantask.core.scheduler.SimpleScheduler.execTransaction(SimpleScheduler.java:879)
+	at org.wso2.carbon.humantask.core.scheduler.SimpleScheduler.execTransaction(SimpleScheduler.java:828)
+	at org.wso2.carbon.humantask.core.scheduler.SimpleScheduler.doUpgrade(SimpleScheduler.java:480)
+	at org.wso2.carbon.humantask.core.scheduler.SimpleScheduler$UpgradeJobsTask.run(SimpleScheduler.java:450)
+	at org.wso2.carbon.humantask.core.scheduler.SimpleScheduler$1.call(SimpleScheduler.java:149)
+	at org.wso2.carbon.humantask.core.scheduler.SimpleScheduler$1.call(SimpleScheduler.java:146)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+Caused by: org.apache.tomcat.jdbc.pool.PoolExhaustedException: [HumanTaskServer-3] Timeout: Pool empty. Unable to fetch a connection in 30 seconds, none available[size:100; busy:100; idle:0; lastwait:30000].
+	at org.apache.tomcat.jdbc.pool.ConnectionPool.borrowConnection(ConnectionPool.java:738)
+	at org.apache.tomcat.jdbc.pool.ConnectionPool.getConnection(ConnectionPool.java:198)
+	at org.apache.tomcat.jdbc.pool.DataSourceProxy.getConnection(DataSourceProxy.java:136)
+	at org.apache.openjpa.lib.jdbc.DelegatingDataSource.getConnection(DelegatingDataSource.java:110)
+	at org.apache.openjpa.lib.jdbc.DecoratingDataSource.getConnection(DecoratingDataSource.java:87)
+	at org.apache.openjpa.jdbc.kernel.JDBCStoreManager.connectInternal(JDBCStoreManager.java:960)
+	at org.apache.openjpa.jdbc.kernel.JDBCStoreManager.connect(JDBCStoreManager.java:945)
+	... 26 more
+
+TID: [] [] [2023-01-11 10:03:58,818] [] ERROR {org.wso2.carbon.humantask.core.scheduler.SimpleScheduler} - Error loading immediate jobs from database. <openjpa-2.2.0-wso2v1-r128166:129108 fatal general error> org.apache.openjpa.persistence.PersistenceException: [HumanTaskServer-4] Timeout: Pool empty. Unable to fetch a connection in 30 seconds, none available[size:100; busy:100; idle:0; lastwait:30000].
+FailedObject: SELECT DISTINCT t FROM org.wso2.carbon.humantask.core.dao.jpa.openjpa.model.HumanTaskJob t WHERE t.nodeId = ?1 AND t.time < ?2 order by t.time [java.lang.String]
+	at org.apache.openjpa.jdbc.sql.DBDictionary.narrow(DBDictionary.java:4918)
+	at org.apache.openjpa.jdbc.sql.DBDictionary.newStoreException(DBDictionary.java:4878)
+	at org.apache.openjpa.jdbc.sql.SQLExceptions.getStore(SQLExceptions.java:136)
+	at org.apache.openjpa.jdbc.sql.SQLExceptions.getStore(SQLExceptions.java:110)
+	at org.apache.openjpa.jdbc.sql.SQLExceptions.getStore(SQLExceptions.java:62)
+	at org.apache.openjpa.jdbc.kernel.JDBCStoreManager.connect(JDBCStoreManager.java:949)
+	at org.apache.openjpa.jdbc.kernel.JDBCStoreManager.getConnection(JDBCStoreManager.java:240)
+	at org.apache.openjpa.jdbc.sql.SelectImpl.execute(SelectImpl.java:413)
+	at org.apache.openjpa.jdbc.sql.SelectImpl.execute(SelectImpl.java:382)
+	at org.apache.openjpa.jdbc.kernel.SelectResultObjectProvider.open(SelectResultObjectProvider.java:94)
+	at org.apache.openjpa.lib.rop.EagerResultList.<init>(EagerResultList.java:34)
+	at org.apache.openjpa.kernel.QueryImpl.toResult(QueryImpl.java:1251)
+	at org.apache.openjpa.kernel.QueryImpl.execute(QueryImpl.java:1007)
+	at org.apache.openjpa.kernel.QueryImpl.execute(QueryImpl.java:863)
+	at org.apache.openjpa.kernel.QueryImpl.execute(QueryImpl.java:794)
+	at org.apache.openjpa.kernel.DelegatingQuery.execute(DelegatingQuery.java:542)
+	at org.apache.openjpa.persistence.QueryImpl.execute(QueryImpl.java:286)
+	at org.apache.openjpa.persistence.QueryImpl.getResultList(QueryImpl.java:302)
+	at org.wso2.carbon.humantask.core.dao.jpa.openjpa.HumanTaskDAOConnectionImpl.dequeueImmediate(HumanTaskDAOConnectionImpl.java:248)
+	at org.wso2.carbon.humantask.core.scheduler.SimpleScheduler$2.call(SimpleScheduler.java:344)
+	at org.wso2.carbon.humantask.core.scheduler.SimpleScheduler$2.call(SimpleScheduler.java:342)
+	at org.wso2.carbon.humantask.core.scheduler.SimpleScheduler.execTransaction(SimpleScheduler.java:879)
+	at org.wso2.carbon.humantask.core.scheduler.SimpleScheduler.execTransaction(SimpleScheduler.java:828)
+	at org.wso2.carbon.humantask.core.scheduler.SimpleScheduler.doLoadImmediate(SimpleScheduler.java:342)
+	at org.wso2.carbon.humantask.core.scheduler.SimpleScheduler$LoadImmediateTask.run(SimpleScheduler.java:297)
+	at org.wso2.carbon.humantask.core.scheduler.SimpleScheduler$1.call(SimpleScheduler.java:149)
+	at org.wso2.carbon.humantask.core.scheduler.SimpleScheduler$1.call(SimpleScheduler.java:146)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+Caused by: org.apache.tomcat.jdbc.pool.PoolExhaustedException: [HumanTaskServer-4] Timeout: Pool empty. Unable to fetch a connection in 30 seconds, none available[size:100; busy:100; idle:0; lastwait:30000].
+	at org.apache.tomcat.jdbc.pool.ConnectionPool.borrowConnection(ConnectionPool.java:738)
+	at org.apache.tomcat.jdbc.pool.ConnectionPool.getConnection(ConnectionPool.java:198)
+	at org.apache.tomcat.jdbc.pool.DataSourceProxy.getConnection(DataSourceProxy.java:136)
+	at org.apache.openjpa.lib.jdbc.DelegatingDataSource.getConnection(DelegatingDataSource.java:110)
+	at org.apache.openjpa.lib.jdbc.DecoratingDataSource.getConnection(DecoratingDataSource.java:87)
+	at org.apache.openjpa.jdbc.kernel.JDBCStoreManager.connectInternal(JDBCStoreManager.java:960)
+	at org.apache.openjpa.jdbc.kernel.JDBCStoreManager.connect(JDBCStoreManager.java:945)
+	... 25 more
+
+TID: [] [] [2023-01-11 10:04:08,243] [] ERROR {org.wso2.carbon.humantask.core.scheduler.SimpleScheduler} - Database error upgrading jobs. <openjpa-2.2.0-wso2v1-r128166:129108 fatal general error> org.apache.openjpa.persistence.PersistenceException: [HumanTaskServer-5] Timeout: Pool empty. Unable to fetch a connection in 30 seconds, none available[size:100; busy:100; idle:0; lastwait:30000].
+	at org.apache.openjpa.jdbc.sql.DBDictionary.narrow(DBDictionary.java:4918)
+	at org.apache.openjpa.jdbc.sql.DBDictionary.newStoreException(DBDictionary.java:4878)
+	at org.apache.openjpa.jdbc.sql.SQLExceptions.getStore(SQLExceptions.java:136)
+	at org.apache.openjpa.jdbc.sql.SQLExceptions.getStore(SQLExceptions.java:110)
+	at org.apache.openjpa.jdbc.sql.SQLExceptions.getStore(SQLExceptions.java:62)
+	at org.apache.openjpa.jdbc.kernel.JDBCStoreManager.connect(JDBCStoreManager.java:949)
+	at org.apache.openjpa.jdbc.kernel.JDBCStoreManager.retainConnection(JDBCStoreManager.java:226)
+	at org.apache.openjpa.kernel.DelegatingStoreManager.retainConnection(DelegatingStoreManager.java:164)
+	at org.apache.openjpa.kernel.BrokerImpl.retainConnection(BrokerImpl.java:3986)
+	at org.apache.openjpa.kernel.BrokerImpl.beginStoreManagerTransaction(BrokerImpl.java:1430)
+	at org.apache.openjpa.kernel.BrokerImpl.beginStore(BrokerImpl.java:1415)
+	at org.apache.openjpa.jdbc.kernel.JDBCStoreQuery.executeBulkOperation(JDBCStoreQuery.java:566)
+	at org.apache.openjpa.jdbc.kernel.JDBCStoreQuery.executeUpdate(JDBCStoreQuery.java:498)
+	at org.apache.openjpa.kernel.ExpressionStoreQuery$DataStoreExecutor.executeUpdate(ExpressionStoreQuery.java:806)
+	at org.apache.openjpa.kernel.QueryImpl.update(QueryImpl.java:1056)
+	at org.apache.openjpa.kernel.QueryImpl.execute(QueryImpl.java:867)
+	at org.apache.openjpa.kernel.QueryImpl.updateAll(QueryImpl.java:904)
+	at org.apache.openjpa.kernel.DelegatingQuery.updateAll(DelegatingQuery.java:598)
+	at org.apache.openjpa.persistence.QueryImpl.executeUpdate(QueryImpl.java:377)
+	at org.wso2.carbon.humantask.core.dao.jpa.openjpa.HumanTaskDAOConnectionImpl.updateAssignToNode(HumanTaskDAOConnectionImpl.java:277)
+	at org.wso2.carbon.humantask.core.scheduler.SimpleScheduler$3.call(SimpleScheduler.java:485)
+	at org.wso2.carbon.humantask.core.scheduler.SimpleScheduler$3.call(SimpleScheduler.java:480)
+	at org.wso2.carbon.humantask.core.scheduler.SimpleScheduler.execTransaction(SimpleScheduler.java:879)
+	at org.wso2.carbon.humantask.core.scheduler.SimpleScheduler.execTransaction(SimpleScheduler.java:828)
+	at org.wso2.carbon.humantask.core.scheduler.SimpleScheduler.doUpgrade(SimpleScheduler.java:480)
+	at org.wso2.carbon.humantask.core.scheduler.SimpleScheduler$UpgradeJobsTask.run(SimpleScheduler.java:450)
+	at org.wso2.carbon.humantask.core.scheduler.SimpleScheduler$1.call(SimpleScheduler.java:149)
+	at org.wso2.carbon.humantask.core.scheduler.SimpleScheduler$1.call(SimpleScheduler.java:146)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+Caused by: org.apache.tomcat.jdbc.pool.PoolExhaustedException: [HumanTaskServer-5] Timeout: Pool empty. Unable to fetch a connection in 30 seconds, none available[size:100; busy:100; idle:0; lastwait:30000].
+	at org.apache.tomcat.jdbc.pool.ConnectionPool.borrowConnection(ConnectionPool.java:738)
+	at org.apache.tomcat.jdbc.pool.ConnectionPool.getConnection(ConnectionPool.java:198)
+	at org.apache.tomcat.jdbc.pool.DataSourceProxy.getConnection(DataSourceProxy.java:136)
+	at org.apache.openjpa.lib.jdbc.DelegatingDataSource.getConnection(DelegatingDataSource.java:110)
+	at org.apache.openjpa.lib.jdbc.DecoratingDataSource.getConnection(DecoratingDataSource.java:87)
+	at org.apache.openjpa.jdbc.kernel.JDBCStoreManager.connectInternal(JDBCStoreManager.java:960)
+	at org.apache.openjpa.jdbc.kernel.JDBCStoreManager.connect(JDBCStoreManager.java:945)
+	... 26 more
+
+TID: [] [] [2023-01-11 10:04:29,850] [] ERROR {org.wso2.carbon.humantask.core.scheduler.SimpleScheduler} - Error loading immediate jobs from database. <openjpa-2.2.0-wso2v1-r128166:129108 fatal general error> org.apache.openjpa.persistence.PersistenceException: [HumanTaskServer-1] Timeout: Pool empty. Unable to fetch a connection in 30 seconds, none available[size:100; busy:100; idle:0; lastwait:30000].
+FailedObject: SELECT DISTINCT t FROM org.wso2.carbon.humantask.core.dao.jpa.openjpa.model.HumanTaskJob t WHERE t.nodeId = ?1 AND t.time < ?2 order by t.time [java.lang.String]
+	at org.apache.openjpa.jdbc.sql.DBDictionary.narrow(DBDictionary.java:4918)
+	at org.apache.openjpa.jdbc.sql.DBDictionary.newStoreException(DBDictionary.java:4878)
+	at org.apache.openjpa.jdbc.sql.SQLExceptions.getStore(SQLExceptions.java:136)
+	at org.apache.openjpa.jdbc.sql.SQLExceptions.getStore(SQLExceptions.java:110)
+	at org.apache.openjpa.jdbc.sql.SQLExceptions.getStore(SQLExceptions.java:62)
+	at org.apache.openjpa.jdbc.kernel.JDBCStoreManager.connect(JDBCStoreManager.java:949)
+	at org.apache.openjpa.jdbc.kernel.JDBCStoreManager.getConnection(JDBCStoreManager.java:240)
+	at org.apache.openjpa.jdbc.sql.SelectImpl.execute(SelectImpl.java:413)
+	at org.apache.openjpa.jdbc.sql.SelectImpl.execute(SelectImpl.java:382)
+	at org.apache.openjpa.jdbc.kernel.SelectResultObjectProvider.open(SelectResultObjectProvider.java:94)
+	at org.apache.openjpa.lib.rop.EagerResultList.<init>(EagerResultList.java:34)
+	at org.apache.openjpa.kernel.QueryImpl.toResult(QueryImpl.java:1251)
+	at org.apache.openjpa.kernel.QueryImpl.execute(QueryImpl.java:1007)
+	at org.apache.openjpa.kernel.QueryImpl.execute(QueryImpl.java:863)
+	at org.apache.openjpa.kernel.QueryImpl.execute(QueryImpl.java:794)
+	at org.apache.openjpa.kernel.DelegatingQuery.execute(DelegatingQuery.java:542)
+	at org.apache.openjpa.persistence.QueryImpl.execute(QueryImpl.java:286)
+	at org.apache.openjpa.persistence.QueryImpl.getResultList(QueryImpl.java:302)
+	at org.wso2.carbon.humantask.core.dao.jpa.openjpa.HumanTaskDAOConnectionImpl.dequeueImmediate(HumanTaskDAOConnectionImpl.java:248)
+	at org.wso2.carbon.humantask.core.scheduler.SimpleScheduler$2.call(SimpleScheduler.java:344)
+	at org.wso2.carbon.humantask.core.scheduler.SimpleScheduler$2.call(SimpleScheduler.java:342)
+	at org.wso2.carbon.humantask.core.scheduler.SimpleScheduler.execTransaction(SimpleScheduler.java:879)
+	at org.wso2.carbon.humantask.core.scheduler.SimpleScheduler.execTransaction(SimpleScheduler.java:828)
+	at org.wso2.carbon.humantask.core.scheduler.SimpleScheduler.doLoadImmediate(SimpleScheduler.java:342)
+	at org.wso2.carbon.humantask.core.scheduler.SimpleScheduler$LoadImmediateTask.run(SimpleScheduler.java:297)
+	at org.wso2.carbon.humantask.core.scheduler.SimpleScheduler$1.call(SimpleScheduler.java:149)
+	at org.wso2.carbon.humantask.core.scheduler.SimpleScheduler$1.call(SimpleScheduler.java:146)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+Caused by: org.apache.tomcat.jdbc.pool.PoolExhaustedException: [HumanTaskServer-1] Timeout: Pool empty. Unable to fetch a connection in 30 seconds, none available[size:100; busy:100; idle:0; lastwait:30000].
+	at org.apache.tomcat.jdbc.pool.ConnectionPool.borrowConnection(ConnectionPool.java:738)
+	at org.apache.tomcat.jdbc.pool.ConnectionPool.getConnection(ConnectionPool.java:198)
+	at org.apache.tomcat.jdbc.pool.DataSourceProxy.getConnection(DataSourceProxy.java:136)
+	at org.apache.openjpa.lib.jdbc.DelegatingDataSource.getConnection(DelegatingDataSource.java:110)
+	at org.apache.openjpa.lib.jdbc.DecoratingDataSource.getConnection(DecoratingDataSource.java:87)
+	at org.apache.openjpa.jdbc.kernel.JDBCStoreManager.connectInternal(JDBCStoreManager.java:960)
+	at org.apache.openjpa.jdbc.kernel.JDBCStoreManager.connect(JDBCStoreManager.java:945)
+	... 25 more
+
+TID: [] [] [2023-01-11 10:04:39,271] [] ERROR {org.wso2.carbon.humantask.core.scheduler.SimpleScheduler} - Database error upgrading jobs. <openjpa-2.2.0-wso2v1-r128166:129108 fatal general error> org.apache.openjpa.persistence.PersistenceException: [HumanTaskServer-2] Timeout: Pool empty. Unable to fetch a connection in 30 seconds, none available[size:100; busy:100; idle:0; lastwait:30000].
+	at org.apache.openjpa.jdbc.sql.DBDictionary.narrow(DBDictionary.java:4918)
+	at org.apache.openjpa.jdbc.sql.DBDictionary.newStoreException(DBDictionary.java:4878)
+	at org.apache.openjpa.jdbc.sql.SQLExceptions.getStore(SQLExceptions.java:136)
+	at org.apache.openjpa.jdbc.sql.SQLExceptions.getStore(SQLExceptions.java:110)
+	at org.apache.openjpa.jdbc.sql.SQLExceptions.getStore(SQLExceptions.java:62)
+	at org.apache.openjpa.jdbc.kernel.JDBCStoreManager.connect(JDBCStoreManager.java:949)
+	at org.apache.openjpa.jdbc.kernel.JDBCStoreManager.retainConnection(JDBCStoreManager.java:226)
+	at org.apache.openjpa.kernel.DelegatingStoreManager.retainConnection(DelegatingStoreManager.java:164)
+	at org.apache.openjpa.kernel.BrokerImpl.retainConnection(BrokerImpl.java:3986)
+	at org.apache.openjpa.kernel.BrokerImpl.beginStoreManagerTransaction(BrokerImpl.java:1430)
+	at org.apache.openjpa.kernel.BrokerImpl.beginStore(BrokerImpl.java:1415)
+	at org.apache.openjpa.jdbc.kernel.JDBCStoreQuery.executeBulkOperation(JDBCStoreQuery.java:566)
+	at org.apache.openjpa.jdbc.kernel.JDBCStoreQuery.executeUpdate(JDBCStoreQuery.java:498)
+	at org.apache.openjpa.kernel.ExpressionStoreQuery$DataStoreExecutor.executeUpdate(ExpressionStoreQuery.java:806)
+	at org.apache.openjpa.kernel.QueryImpl.update(QueryImpl.java:1056)
+	at org.apache.openjpa.kernel.QueryImpl.execute(QueryImpl.java:867)
+	at org.apache.openjpa.kernel.QueryImpl.updateAll(QueryImpl.java:904)
+	at org.apache.openjpa.kernel.DelegatingQuery.updateAll(DelegatingQuery.java:598)
+	at org.apache.openjpa.persistence.QueryImpl.executeUpdate(QueryImpl.java:377)
+	at org.wso2.carbon.humantask.core.dao.jpa.openjpa.HumanTaskDAOConnectionImpl.updateAssignToNode(HumanTaskDAOConnectionImpl.java:277)
+	at org.wso2.carbon.humantask.core.scheduler.SimpleScheduler$3.call(SimpleScheduler.java:485)
+	at org.wso2.carbon.humantask.core.scheduler.SimpleScheduler$3.call(SimpleScheduler.java:480)
+	at org.wso2.carbon.humantask.core.scheduler.SimpleScheduler.execTransaction(SimpleScheduler.java:879)
+	at org.wso2.carbon.humantask.core.scheduler.SimpleScheduler.execTransaction(SimpleScheduler.java:828)
+	at org.wso2.carbon.humantask.core.scheduler.SimpleScheduler.doUpgrade(SimpleScheduler.java:480)
+	at org.wso2.carbon.humantask.core.scheduler.SimpleScheduler$UpgradeJobsTask.run(SimpleScheduler.java:450)
+	at org.wso2.carbon.humantask.core.scheduler.SimpleScheduler$1.call(SimpleScheduler.java:149)
+	at org.wso2.carbon.humantask.core.scheduler.SimpleScheduler$1.call(SimpleScheduler.java:146)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+Caused by: org.apache.tomcat.jdbc.pool.PoolExhaustedException: [HumanTaskServer-2] Timeout: Pool empty. Unable to fetch a connection in 30 seconds, none available[size:100; busy:100; idle:0; lastwait:30000].
+	at org.apache.tomcat.jdbc.pool.ConnectionPool.borrowConnection(ConnectionPool.java:738)
+	at org.apache.tomcat.jdbc.pool.ConnectionPool.getConnection(ConnectionPool.java:198)
+	at org.apache.tomcat.jdbc.pool.DataSourceProxy.getConnection(DataSourceProxy.java:136)
+	at org.apache.openjpa.lib.jdbc.DelegatingDataSource.getConnection(DelegatingDataSource.java:110)
+	at org.apache.openjpa.lib.jdbc.DecoratingDataSource.getConnection(DecoratingDataSource.java:87)
+	at org.apache.openjpa.jdbc.kernel.JDBCStoreManager.connectInternal(JDBCStoreManager.java:960)
+	at org.apache.openjpa.jdbc.kernel.JDBCStoreManager.connect(JDBCStoreManager.java:945)
+	... 26 more
+
+TID: [] [] [2023-01-11 10:05:00,900] [] ERROR {org.wso2.carbon.humantask.core.scheduler.SimpleScheduler} - Error loading immediate jobs from database. <openjpa-2.2.0-wso2v1-r128166:129108 fatal general error> org.apache.openjpa.persistence.PersistenceException: [HumanTaskServer-3] Timeout: Pool empty. Unable to fetch a connection in 30 seconds, none available[size:100; busy:100; idle:0; lastwait:30000].
+FailedObject: SELECT DISTINCT t FROM org.wso2.carbon.humantask.core.dao.jpa.openjpa.model.HumanTaskJob t WHERE t.nodeId = ?1 AND t.time < ?2 order by t.time [java.lang.String]
+	at org.apache.openjpa.jdbc.sql.DBDictionary.narrow(DBDictionary.java:4918)
+	at org.apache.openjpa.jdbc.sql.DBDictionary.newStoreException(DBDictionary.java:4878)
+	at org.apache.openjpa.jdbc.sql.SQLExceptions.getStore(SQLExceptions.java:136)
+	at org.apache.openjpa.jdbc.sql.SQLExceptions.getStore(SQLExceptions.java:110)
+	at org.apache.openjpa.jdbc.sql.SQLExceptions.getStore(SQLExceptions.java:62)
+	at org.apache.openjpa.jdbc.kernel.JDBCStoreManager.connect(JDBCStoreManager.java:949)
+	at org.apache.openjpa.jdbc.kernel.JDBCStoreManager.getConnection(JDBCStoreManager.java:240)
+	at org.apache.openjpa.jdbc.sql.SelectImpl.execute(SelectImpl.java:413)
+	at org.apache.openjpa.jdbc.sql.SelectImpl.execute(SelectImpl.java:382)
+	at org.apache.openjpa.jdbc.kernel.SelectResultObjectProvider.open(SelectResultObjectProvider.java:94)
+	at org.apache.openjpa.lib.rop.EagerResultList.<init>(EagerResultList.java:34)
+	at org.apache.openjpa.kernel.QueryImpl.toResult(QueryImpl.java:1251)
+	at org.apache.openjpa.kernel.QueryImpl.execute(QueryImpl.java:1007)
+	at org.apache.openjpa.kernel.QueryImpl.execute(QueryImpl.java:863)
+	at org.apache.openjpa.kernel.QueryImpl.execute(QueryImpl.java:794)
+	at org.apache.openjpa.kernel.DelegatingQuery.execute(DelegatingQuery.java:542)
+	at org.apache.openjpa.persistence.QueryImpl.execute(QueryImpl.java:286)
+	at org.apache.openjpa.persistence.QueryImpl.getResultList(QueryImpl.java:302)
+	at org.wso2.carbon.humantask.core.dao.jpa.openjpa.HumanTaskDAOConnectionImpl.dequeueImmediate(HumanTaskDAOConnectionImpl.java:248)
+	at org.wso2.carbon.humantask.core.scheduler.SimpleScheduler$2.call(SimpleScheduler.java:344)
+	at org.wso2.carbon.humantask.core.scheduler.SimpleScheduler$2.call(SimpleScheduler.java:342)
+	at org.wso2.carbon.humantask.core.scheduler.SimpleScheduler.execTransaction(SimpleScheduler.java:879)
+	at org.wso2.carbon.humantask.core.scheduler.SimpleScheduler.execTransaction(SimpleScheduler.java:828)
+	at org.wso2.carbon.humantask.core.scheduler.SimpleScheduler.doLoadImmediate(SimpleScheduler.java:342)
+	at org.wso2.carbon.humantask.core.scheduler.SimpleScheduler$LoadImmediateTask.run(SimpleScheduler.java:297)
+	at org.wso2.carbon.humantask.core.scheduler.SimpleScheduler$1.call(SimpleScheduler.java:149)
+	at org.wso2.carbon.humantask.core.scheduler.SimpleScheduler$1.call(SimpleScheduler.java:146)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+Caused by: org.apache.tomcat.jdbc.pool.PoolExhaustedException: [HumanTaskServer-3] Timeout: Pool empty. Unable to fetch a connection in 30 seconds, none available[size:100; busy:100; idle:0; lastwait:30000].
+	at org.apache.tomcat.jdbc.pool.ConnectionPool.borrowConnection(ConnectionPool.java:738)
+	at org.apache.tomcat.jdbc.pool.ConnectionPool.getConnection(ConnectionPool.java:198)
+	at org.apache.tomcat.jdbc.pool.DataSourceProxy.getConnection(DataSourceProxy.java:136)
+	at org.apache.openjpa.lib.jdbc.DelegatingDataSource.getConnection(DelegatingDataSource.java:110)
+	at org.apache.openjpa.lib.jdbc.DecoratingDataSource.getConnection(DecoratingDataSource.java:87)
+	at org.apache.openjpa.jdbc.kernel.JDBCStoreManager.connectInternal(JDBCStoreManager.java:960)
+	at org.apache.openjpa.jdbc.kernel.JDBCStoreManager.connect(JDBCStoreManager.java:945)
+	... 25 more
+
+TID: [] [] [2023-01-11 10:05:10,290] [] ERROR {org.wso2.carbon.humantask.core.scheduler.SimpleScheduler} - Database error upgrading jobs. <openjpa-2.2.0-wso2v1-r128166:129108 fatal general error> org.apache.openjpa.persistence.PersistenceException: [HumanTaskServer-4] Timeout: Pool empty. Unable to fetch a connection in 30 seconds, none available[size:100; busy:100; idle:0; lastwait:30000].
+	at org.apache.openjpa.jdbc.sql.DBDictionary.narrow(DBDictionary.java:4918)
+	at org.apache.openjpa.jdbc.sql.DBDictionary.newStoreException(DBDictionary.java:4878)
+	at org.apache.openjpa.jdbc.sql.SQLExceptions.getStore(SQLExceptions.java:136)
+	at org.apache.openjpa.jdbc.sql.SQLExceptions.getStore(SQLExceptions.java:110)
+	at org.apache.openjpa.jdbc.sql.SQLExceptions.getStore(SQLExceptions.java:62)
+	at org.apache.openjpa.jdbc.kernel.JDBCStoreManager.connect(JDBCStoreManager.java:949)
+	at org.apache.openjpa.jdbc.kernel.JDBCStoreManager.retainConnection(JDBCStoreManager.java:226)
+	at org.apache.openjpa.kernel.DelegatingStoreManager.retainConnection(DelegatingStoreManager.java:164)
+	at org.apache.openjpa.kernel.BrokerImpl.retainConnection(BrokerImpl.java:3986)
+	at org.apache.openjpa.kernel.BrokerImpl.beginStoreManagerTransaction(BrokerImpl.java:1430)
+	at org.apache.openjpa.kernel.BrokerImpl.beginStore(BrokerImpl.java:1415)
+	at org.apache.openjpa.jdbc.kernel.JDBCStoreQuery.executeBulkOperation(JDBCStoreQuery.java:566)
+	at org.apache.openjpa.jdbc.kernel.JDBCStoreQuery.executeUpdate(JDBCStoreQuery.java:498)
+	at org.apache.openjpa.kernel.ExpressionStoreQuery$DataStoreExecutor.executeUpdate(ExpressionStoreQuery.java:806)
+	at org.apache.openjpa.kernel.QueryImpl.update(QueryImpl.java:1056)
+	at org.apache.openjpa.kernel.QueryImpl.execute(QueryImpl.java:867)
+	at org.apache.openjpa.kernel.QueryImpl.updateAll(QueryImpl.java:904)
+	at org.apache.openjpa.kernel.DelegatingQuery.updateAll(DelegatingQuery.java:598)
+	at org.apache.openjpa.persistence.QueryImpl.executeUpdate(QueryImpl.java:377)
+	at org.wso2.carbon.humantask.core.dao.jpa.openjpa.HumanTaskDAOConnectionImpl.updateAssignToNode(HumanTaskDAOConnectionImpl.java:277)
+	at org.wso2.carbon.humantask.core.scheduler.SimpleScheduler$3.call(SimpleScheduler.java:485)
+	at org.wso2.carbon.humantask.core.scheduler.SimpleScheduler$3.call(SimpleScheduler.java:480)
+	at org.wso2.carbon.humantask.core.scheduler.SimpleScheduler.execTransaction(SimpleScheduler.java:879)
+	at org.wso2.carbon.humantask.core.scheduler.SimpleScheduler.execTransaction(SimpleScheduler.java:828)
+	at org.wso2.carbon.humantask.core.scheduler.SimpleScheduler.doUpgrade(SimpleScheduler.java:480)
+	at org.wso2.carbon.humantask.core.scheduler.SimpleScheduler$UpgradeJobsTask.run(SimpleScheduler.java:450)
+	at org.wso2.carbon.humantask.core.scheduler.SimpleScheduler$1.call(SimpleScheduler.java:149)
+	at org.wso2.carbon.humantask.core.scheduler.SimpleScheduler$1.call(SimpleScheduler.java:146)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+Caused by: org.apache.tomcat.jdbc.pool.PoolExhaustedException: [HumanTaskServer-4] Timeout: Pool empty. Unable to fetch a connection in 30 seconds, none available[size:100; busy:100; idle:0; lastwait:30000].
+	at org.apache.tomcat.jdbc.pool.ConnectionPool.borrowConnection(ConnectionPool.java:738)
+	at org.apache.tomcat.jdbc.pool.ConnectionPool.getConnection(ConnectionPool.java:198)
+	at org.apache.tomcat.jdbc.pool.DataSourceProxy.getConnection(DataSourceProxy.java:136)
+	at org.apache.openjpa.lib.jdbc.DelegatingDataSource.getConnection(DelegatingDataSource.java:110)
+	at org.apache.openjpa.lib.jdbc.DecoratingDataSource.getConnection(DecoratingDataSource.java:87)
+	at org.apache.openjpa.jdbc.kernel.JDBCStoreManager.connectInternal(JDBCStoreManager.java:960)
+	at org.apache.openjpa.jdbc.kernel.JDBCStoreManager.connect(JDBCStoreManager.java:945)
+	... 26 more
+
+TID: [] [] [2023-01-11 10:05:31,956] [] ERROR {org.wso2.carbon.humantask.core.scheduler.SimpleScheduler} - Error loading immediate jobs from database. <openjpa-2.2.0-wso2v1-r128166:129108 fatal general error> org.apache.openjpa.persistence.PersistenceException: [HumanTaskServer-5] Timeout: Pool empty. Unable to fetch a connection in 30 seconds, none available[size:100; busy:100; idle:0; lastwait:30000].
+FailedObject: SELECT DISTINCT t FROM org.wso2.carbon.humantask.core.dao.jpa.openjpa.model.HumanTaskJob t WHERE t.nodeId = ?1 AND t.time < ?2 order by t.time [java.lang.String]
+	at org.apache.openjpa.jdbc.sql.DBDictionary.narrow(DBDictionary.java:4918)
+	at org.apache.openjpa.jdbc.sql.DBDictionary.newStoreException(DBDictionary.java:4878)
+	at org.apache.openjpa.jdbc.sql.SQLExceptions.getStore(SQLExceptions.java:136)
+	at org.apache.openjpa.jdbc.sql.SQLExceptions.getStore(SQLExceptions.java:110)
+	at org.apache.openjpa.jdbc.sql.SQLExceptions.getStore(SQLExceptions.java:62)
+	at org.apache.openjpa.jdbc.kernel.JDBCStoreManager.connect(JDBCStoreManager.java:949)
+	at org.apache.openjpa.jdbc.kernel.JDBCStoreManager.getConnection(JDBCStoreManager.java:240)
+	at org.apache.openjpa.jdbc.sql.SelectImpl.execute(SelectImpl.java:413)
+	at org.apache.openjpa.jdbc.sql.SelectImpl.execute(SelectImpl.java:382)
+	at org.apache.openjpa.jdbc.kernel.SelectResultObjectProvider.open(SelectResultObjectProvider.java:94)
+	at org.apache.openjpa.lib.rop.EagerResultList.<init>(EagerResultList.java:34)
+	at org.apache.openjpa.kernel.QueryImpl.toResult(QueryImpl.java:1251)
+	at org.apache.openjpa.kernel.QueryImpl.execute(QueryImpl.java:1007)
+	at org.apache.openjpa.kernel.QueryImpl.execute(QueryImpl.java:863)
+	at org.apache.openjpa.kernel.QueryImpl.execute(QueryImpl.java:794)
+	at org.apache.openjpa.kernel.DelegatingQuery.execute(DelegatingQuery.java:542)
+	at org.apache.openjpa.persistence.QueryImpl.execute(QueryImpl.java:286)
+	at org.apache.openjpa.persistence.QueryImpl.getResultList(QueryImpl.java:302)
+	at org.wso2.carbon.humantask.core.dao.jpa.openjpa.HumanTaskDAOConnectionImpl.dequeueImmediate(HumanTaskDAOConnectionImpl.java:248)
+	at org.wso2.carbon.humantask.core.scheduler.SimpleScheduler$2.call(SimpleScheduler.java:344)
+	at org.wso2.carbon.humantask.core.scheduler.SimpleScheduler$2.call(SimpleScheduler.java:342)
+	at org.wso2.carbon.humantask.core.scheduler.SimpleScheduler.execTransaction(SimpleScheduler.java:879)
+	at org.wso2.carbon.humantask.core.scheduler.SimpleScheduler.execTransaction(SimpleScheduler.java:828)
+	at org.wso2.carbon.humantask.core.scheduler.SimpleScheduler.doLoadImmediate(SimpleScheduler.java:342)
+	at org.wso2.carbon.humantask.core.scheduler.SimpleScheduler$LoadImmediateTask.run(SimpleScheduler.java:297)
+	at org.wso2.carbon.humantask.core.scheduler.SimpleScheduler$1.call(SimpleScheduler.java:149)
+	at org.wso2.carbon.humantask.core.scheduler.SimpleScheduler$1.call(SimpleScheduler.java:146)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+Caused by: org.apache.tomcat.jdbc.pool.PoolExhaustedException: [HumanTaskServer-5] Timeout: Pool empty. Unable to fetch a connection in 30 seconds, none available[size:100; busy:100; idle:0; lastwait:30000].
+	at org.apache.tomcat.jdbc.pool.ConnectionPool.borrowConnection(ConnectionPool.java:738)
+	at org.apache.tomcat.jdbc.pool.ConnectionPool.getConnection(ConnectionPool.java:198)
+	at org.apache.tomcat.jdbc.pool.DataSourceProxy.getConnection(DataSourceProxy.java:136)
+	at org.apache.openjpa.lib.jdbc.DelegatingDataSource.getConnection(DelegatingDataSource.java:110)
+	at org.apache.openjpa.lib.jdbc.DecoratingDataSource.getConnection(DecoratingDataSource.java:87)
+	at org.apache.openjpa.jdbc.kernel.JDBCStoreManager.connectInternal(JDBCStoreManager.java:960)
+	at org.apache.openjpa.jdbc.kernel.JDBCStoreManager.connect(JDBCStoreManager.java:945)
+	... 25 more
+
+TID: [] [] [2023-01-11 10:06:43,244] []  INFO {org.ops4j.pax.logging.spi.support.EventAdminConfigurationNotifier} - Sending Event Admin notification (configuration successful) to org/ops4j/pax/logging/Configuration
+TID: [] [] [2023-01-11 10:06:43,487] []  INFO {org.wso2.carbon.core.internal.CarbonCoreActivator} - Starting WSO2 Carbon...
+TID: [] [] [2023-01-11 10:06:43,492] []  INFO {org.wso2.carbon.core.internal.CarbonCoreActivator} - Operating System : Windows 10 10.0, amd64
+TID: [] [] [2023-01-11 10:06:43,493] []  INFO {org.wso2.carbon.core.internal.CarbonCoreActivator} - Java Home        : C:\Program Files\OpenJDK\jdk-11.0.17.8-hotspot
+TID: [] [] [2023-01-11 10:06:43,493] []  INFO {org.wso2.carbon.core.internal.CarbonCoreActivator} - Java Version     : 11.0.17
+TID: [] [] [2023-01-11 10:06:43,494] []  INFO {org.wso2.carbon.core.internal.CarbonCoreActivator} - Java VM          : OpenJDK 64-Bit Server VM 11.0.17+8-adhoc..jdk11u,OpenLogic
+TID: [] [] [2023-01-11 10:06:43,494] []  INFO {org.wso2.carbon.core.internal.CarbonCoreActivator} - Carbon Home      : C:\Users\AABOUE~1.C\DOCUME~1\WSO2\WSO2IS~1.0\bin\..
+TID: [] [] [2023-01-11 10:06:43,495] []  INFO {org.wso2.carbon.core.internal.CarbonCoreActivator} - Java Temp Dir    : C:\Users\AABOUE~1.C\DOCUME~1\WSO2\WSO2IS~1.0\bin\..\tmp
+TID: [] [] [2023-01-11 10:06:43,495] []  INFO {org.wso2.carbon.core.internal.CarbonCoreActivator} - User             : aabouelenein.c, en-US, Asia/Riyadh
+TID: [] [] [2023-01-11 10:06:43,847] []  INFO {org.wso2.carbon.event.output.adapter.kafka.internal.ds.KafkaEventAdapterServiceDS} - Successfully deployed the Kafka output event adaptor service
+TID: [] [] [2023-01-11 10:06:44,388] []  INFO {org.wso2.carbon.identity.hash.provider.pbkdf2.internal.PBKDF2HashServiceComponent} - PBKDF2 bundle activated successfully.
+TID: [] [] [2023-01-11 10:06:44,462] []  INFO {org.wso2.carbon.identity.oauth.uma.grant.internal.UMA2GrantServiceComponent} - Policy evaluator registered successfully: DefaultPolicyEvaluator
+TID: [] [] [2023-01-11 10:06:44,462] []  INFO {org.wso2.carbon.identity.oauth.uma.grant.internal.UMA2GrantServiceComponent} - UMA Grant component activated successfully.
+TID: [] [] [2023-01-11 10:06:45,297] []  INFO {org.wso2.carbon.mex.internal.Office365SupportMexComponent} - Office365Support MexServiceComponent bundle activated successfully..
+TID: [] [] [2023-01-11 10:06:45,323] []  INFO {org.wso2.carbon.mex2.internal.DynamicCRMCustomMexComponent} - DynamicCRMSupport MexServiceComponent bundle activated successfully.
+TID: [] [] [2023-01-11 10:06:47,134] [] ERROR {org.wso2.carbon.user.core.common.DefaultRealm} - nullType class java.lang.reflect.InvocationTargetException org.wso2.carbon.user.core.UserStoreException: nullType class java.lang.reflect.InvocationTargetException
+	at org.wso2.carbon.user.core.common.DefaultRealm.createObjectWithOptions(DefaultRealm.java:402)
+	at org.wso2.carbon.user.core.common.DefaultRealm.initializeObjects(DefaultRealm.java:231)
+	at org.wso2.carbon.user.core.common.DefaultRealm.init(DefaultRealm.java:136)
+	at org.wso2.carbon.user.core.common.DefaultRealmService.initializeRealm(DefaultRealmService.java:276)
+	at org.wso2.carbon.user.core.common.DefaultRealmService.<init>(DefaultRealmService.java:102)
+	at org.wso2.carbon.user.core.common.DefaultRealmService.<init>(DefaultRealmService.java:115)
+	at org.wso2.carbon.user.core.internal.Activator.startDeploy(Activator.java:80)
+	at org.wso2.carbon.user.core.internal.BundleCheckActivator.start(BundleCheckActivator.java:61)
+	at org.eclipse.osgi.internal.framework.BundleContextImpl$3.run(BundleContextImpl.java:842)
+	at org.eclipse.osgi.internal.framework.BundleContextImpl$3.run(BundleContextImpl.java:1)
+	at java.base/java.security.AccessController.doPrivileged(Native Method)
+	at org.eclipse.osgi.internal.framework.BundleContextImpl.startActivator(BundleContextImpl.java:834)
+	at org.eclipse.osgi.internal.framework.BundleContextImpl.start(BundleContextImpl.java:791)
+	at org.eclipse.osgi.internal.framework.EquinoxBundle.startWorker0(EquinoxBundle.java:1013)
+	at org.eclipse.osgi.internal.framework.EquinoxBundle$EquinoxModule.startWorker(EquinoxBundle.java:365)
+	at org.eclipse.osgi.container.Module.doStart(Module.java:598)
+	at org.eclipse.osgi.container.Module.start(Module.java:462)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel$1.run(ModuleContainer.java:1820)
+	at org.eclipse.osgi.internal.framework.EquinoxContainerAdaptor$2$1.execute(EquinoxContainerAdaptor.java:150)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1813)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1770)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.doContainerStartLevel(ModuleContainer.java:1735)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1661)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1)
+	at org.eclipse.osgi.framework.eventmgr.EventManager.dispatchEvent(EventManager.java:234)
+	at org.eclipse.osgi.framework.eventmgr.EventManager$EventThread.run(EventManager.java:345)
+Caused by: java.lang.reflect.InvocationTargetException
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)
+	at org.wso2.carbon.user.core.common.DefaultRealm.createObjectWithOptions(DefaultRealm.java:356)
+	... 25 more
+Caused by: org.wso2.carbon.user.core.UserStoreException: DB error occurred while persisting domain : PRIMARY & tenant id : -1234
+	at org.wso2.carbon.user.core.util.UserCoreUtil.persistDomain(UserCoreUtil.java:933)
+	at org.wso2.carbon.user.core.common.AbstractUserStoreManager.persistDomain(AbstractUserStoreManager.java:9426)
+	at org.wso2.carbon.user.core.jdbc.JDBCUserStoreManager.<init>(JDBCUserStoreManager.java:333)
+	at org.wso2.carbon.user.core.jdbc.JDBCUserStoreManager.<init>(JDBCUserStoreManager.java:275)
+	at org.wso2.carbon.user.core.jdbc.UniqueIDJDBCUserStoreManager.<init>(UniqueIDJDBCUserStoreManager.java:131)
+	... 30 more
+Caused by: org.postgresql.util.PSQLException: Connection to localhost:5432 refused. Check that the hostname and port are correct and that the postmaster is accepting TCP/IP connections.
+	at org.postgresql.core.v3.ConnectionFactoryImpl.openConnectionImpl(ConnectionFactoryImpl.java:319)
+	at org.postgresql.core.ConnectionFactory.openConnection(ConnectionFactory.java:49)
+	at org.postgresql.jdbc.PgConnection.<init>(PgConnection.java:247)
+	at org.postgresql.Driver.makeConnection(Driver.java:434)
+	at org.postgresql.Driver.connect(Driver.java:291)
+	at org.apache.tomcat.jdbc.pool.PooledConnection.connectUsingDriver(PooledConnection.java:347)
+	at org.apache.tomcat.jdbc.pool.PooledConnection.connect(PooledConnection.java:228)
+	at org.apache.tomcat.jdbc.pool.ConnectionPool.createConnection(ConnectionPool.java:769)
+	at org.apache.tomcat.jdbc.pool.ConnectionPool.borrowConnection(ConnectionPool.java:697)
+	at org.apache.tomcat.jdbc.pool.ConnectionPool.getConnection(ConnectionPool.java:198)
+	at org.apache.tomcat.jdbc.pool.DataSourceProxy.getConnection(DataSourceProxy.java:134)
+	at org.wso2.carbon.user.core.util.DatabaseUtil.getDBConnection(DatabaseUtil.java:1067)
+	at org.wso2.carbon.user.core.util.UserCoreUtil.persistDomain(UserCoreUtil.java:913)
+	... 34 more
+Caused by: java.net.ConnectException: Connection refused: connect
+	at java.base/java.net.PlainSocketImpl.waitForConnect(Native Method)
+	at java.base/java.net.PlainSocketImpl.socketConnect(PlainSocketImpl.java:107)
+	at java.base/java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:412)
+	at java.base/java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:255)
+	at java.base/java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:237)
+	at java.base/java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+	at java.base/java.net.Socket.connect(Socket.java:609)
+	at org.postgresql.core.PGStream.createSocket(PGStream.java:241)
+	at org.postgresql.core.PGStream.<init>(PGStream.java:98)
+	at org.postgresql.core.v3.ConnectionFactoryImpl.tryConnect(ConnectionFactoryImpl.java:109)
+	at org.postgresql.core.v3.ConnectionFactoryImpl.openConnectionImpl(ConnectionFactoryImpl.java:235)
+	... 46 more
+
+TID: [] [] [2023-01-11 10:06:47,147] [] ERROR {org.wso2.carbon.user.core.internal.Activator} - Cannot start User Manager Core bundle org.wso2.carbon.user.core.UserStoreException: Cannot initialize the realm.
+	at org.wso2.carbon.user.core.common.DefaultRealmService.initializeRealm(DefaultRealmService.java:286)
+	at org.wso2.carbon.user.core.common.DefaultRealmService.<init>(DefaultRealmService.java:102)
+	at org.wso2.carbon.user.core.common.DefaultRealmService.<init>(DefaultRealmService.java:115)
+	at org.wso2.carbon.user.core.internal.Activator.startDeploy(Activator.java:80)
+	at org.wso2.carbon.user.core.internal.BundleCheckActivator.start(BundleCheckActivator.java:61)
+	at org.eclipse.osgi.internal.framework.BundleContextImpl$3.run(BundleContextImpl.java:842)
+	at org.eclipse.osgi.internal.framework.BundleContextImpl$3.run(BundleContextImpl.java:1)
+	at java.base/java.security.AccessController.doPrivileged(Native Method)
+	at org.eclipse.osgi.internal.framework.BundleContextImpl.startActivator(BundleContextImpl.java:834)
+	at org.eclipse.osgi.internal.framework.BundleContextImpl.start(BundleContextImpl.java:791)
+	at org.eclipse.osgi.internal.framework.EquinoxBundle.startWorker0(EquinoxBundle.java:1013)
+	at org.eclipse.osgi.internal.framework.EquinoxBundle$EquinoxModule.startWorker(EquinoxBundle.java:365)
+	at org.eclipse.osgi.container.Module.doStart(Module.java:598)
+	at org.eclipse.osgi.container.Module.start(Module.java:462)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel$1.run(ModuleContainer.java:1820)
+	at org.eclipse.osgi.internal.framework.EquinoxContainerAdaptor$2$1.execute(EquinoxContainerAdaptor.java:150)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1813)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1770)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.doContainerStartLevel(ModuleContainer.java:1735)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1661)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1)
+	at org.eclipse.osgi.framework.eventmgr.EventManager.dispatchEvent(EventManager.java:234)
+	at org.eclipse.osgi.framework.eventmgr.EventManager$EventThread.run(EventManager.java:345)
+Caused by: org.wso2.carbon.user.core.UserStoreException: nullType class java.lang.reflect.InvocationTargetException
+	at org.wso2.carbon.user.core.common.DefaultRealm.initializeObjects(DefaultRealm.java:323)
+	at org.wso2.carbon.user.core.common.DefaultRealm.init(DefaultRealm.java:136)
+	at org.wso2.carbon.user.core.common.DefaultRealmService.initializeRealm(DefaultRealmService.java:276)
+	... 22 more
+Caused by: org.wso2.carbon.user.core.UserStoreException: nullType class java.lang.reflect.InvocationTargetException
+	at org.wso2.carbon.user.core.common.DefaultRealm.createObjectWithOptions(DefaultRealm.java:402)
+	at org.wso2.carbon.user.core.common.DefaultRealm.initializeObjects(DefaultRealm.java:231)
+	... 24 more
+Caused by: java.lang.reflect.InvocationTargetException
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)
+	at org.wso2.carbon.user.core.common.DefaultRealm.createObjectWithOptions(DefaultRealm.java:356)
+	... 25 more
+Caused by: org.wso2.carbon.user.core.UserStoreException: DB error occurred while persisting domain : PRIMARY & tenant id : -1234
+	at org.wso2.carbon.user.core.util.UserCoreUtil.persistDomain(UserCoreUtil.java:933)
+	at org.wso2.carbon.user.core.common.AbstractUserStoreManager.persistDomain(AbstractUserStoreManager.java:9426)
+	at org.wso2.carbon.user.core.jdbc.JDBCUserStoreManager.<init>(JDBCUserStoreManager.java:333)
+	at org.wso2.carbon.user.core.jdbc.JDBCUserStoreManager.<init>(JDBCUserStoreManager.java:275)
+	at org.wso2.carbon.user.core.jdbc.UniqueIDJDBCUserStoreManager.<init>(UniqueIDJDBCUserStoreManager.java:131)
+	... 30 more
+Caused by: org.postgresql.util.PSQLException: Connection to localhost:5432 refused. Check that the hostname and port are correct and that the postmaster is accepting TCP/IP connections.
+	at org.postgresql.core.v3.ConnectionFactoryImpl.openConnectionImpl(ConnectionFactoryImpl.java:319)
+	at org.postgresql.core.ConnectionFactory.openConnection(ConnectionFactory.java:49)
+	at org.postgresql.jdbc.PgConnection.<init>(PgConnection.java:247)
+	at org.postgresql.Driver.makeConnection(Driver.java:434)
+	at org.postgresql.Driver.connect(Driver.java:291)
+	at org.apache.tomcat.jdbc.pool.PooledConnection.connectUsingDriver(PooledConnection.java:347)
+	at org.apache.tomcat.jdbc.pool.PooledConnection.connect(PooledConnection.java:228)
+	at org.apache.tomcat.jdbc.pool.ConnectionPool.createConnection(ConnectionPool.java:769)
+	at org.apache.tomcat.jdbc.pool.ConnectionPool.borrowConnection(ConnectionPool.java:697)
+	at org.apache.tomcat.jdbc.pool.ConnectionPool.getConnection(ConnectionPool.java:198)
+	at org.apache.tomcat.jdbc.pool.DataSourceProxy.getConnection(DataSourceProxy.java:134)
+	at org.wso2.carbon.user.core.util.DatabaseUtil.getDBConnection(DatabaseUtil.java:1067)
+	at org.wso2.carbon.user.core.util.UserCoreUtil.persistDomain(UserCoreUtil.java:913)
+	... 34 more
+Caused by: java.net.ConnectException: Connection refused: connect
+	at java.base/java.net.PlainSocketImpl.waitForConnect(Native Method)
+	at java.base/java.net.PlainSocketImpl.socketConnect(PlainSocketImpl.java:107)
+	at java.base/java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:412)
+	at java.base/java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:255)
+	at java.base/java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:237)
+	at java.base/java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+	at java.base/java.net.Socket.connect(Socket.java:609)
+	at org.postgresql.core.PGStream.createSocket(PGStream.java:241)
+	at org.postgresql.core.PGStream.<init>(PGStream.java:98)
+	at org.postgresql.core.v3.ConnectionFactoryImpl.tryConnect(ConnectionFactoryImpl.java:109)
+	at org.postgresql.core.v3.ConnectionFactoryImpl.openConnectionImpl(ConnectionFactoryImpl.java:235)
+	... 46 more
+
+TID: [] [] [2023-01-11 10:06:49,590] []  INFO {org.apache.jasper.servlet.TldScanner} - At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+TID: [] [] [2023-01-11 11:47:31,437] []  INFO {org.ops4j.pax.logging.spi.support.EventAdminConfigurationNotifier} - Sending Event Admin notification (configuration successful) to org/ops4j/pax/logging/Configuration
+TID: [] [] [2023-01-11 11:47:31,647] []  INFO {org.wso2.carbon.core.internal.CarbonCoreActivator} - Starting WSO2 Carbon...
+TID: [] [] [2023-01-11 11:47:31,663] []  INFO {org.wso2.carbon.core.internal.CarbonCoreActivator} - Operating System : Windows 10 10.0, amd64
+TID: [] [] [2023-01-11 11:47:31,663] []  INFO {org.wso2.carbon.core.internal.CarbonCoreActivator} - Java Home        : C:\Program Files\OpenJDK\jdk-11.0.17.8-hotspot
+TID: [] [] [2023-01-11 11:47:31,663] []  INFO {org.wso2.carbon.core.internal.CarbonCoreActivator} - Java Version     : 11.0.17
+TID: [] [] [2023-01-11 11:47:31,663] []  INFO {org.wso2.carbon.core.internal.CarbonCoreActivator} - Java VM          : OpenJDK 64-Bit Server VM 11.0.17+8-adhoc..jdk11u,OpenLogic
+TID: [] [] [2023-01-11 11:47:31,663] []  INFO {org.wso2.carbon.core.internal.CarbonCoreActivator} - Carbon Home      : C:\Users\AABOUE~1.C\DOCUME~1\WSO2\WSO2IS~1.0\bin\..
+TID: [] [] [2023-01-11 11:47:31,663] []  INFO {org.wso2.carbon.core.internal.CarbonCoreActivator} - Java Temp Dir    : C:\Users\AABOUE~1.C\DOCUME~1\WSO2\WSO2IS~1.0\bin\..\tmp
+TID: [] [] [2023-01-11 11:47:31,663] []  INFO {org.wso2.carbon.core.internal.CarbonCoreActivator} - User             : aabouelenein.c, en-US, Asia/Riyadh
+TID: [] [] [2023-01-11 11:47:31,965] []  INFO {org.wso2.carbon.event.output.adapter.kafka.internal.ds.KafkaEventAdapterServiceDS} - Successfully deployed the Kafka output event adaptor service
+TID: [] [] [2023-01-11 11:47:32,389] []  INFO {org.wso2.carbon.identity.hash.provider.pbkdf2.internal.PBKDF2HashServiceComponent} - PBKDF2 bundle activated successfully.
+TID: [] [] [2023-01-11 11:47:32,436] []  INFO {org.wso2.carbon.identity.oauth.uma.grant.internal.UMA2GrantServiceComponent} - Policy evaluator registered successfully: DefaultPolicyEvaluator
+TID: [] [] [2023-01-11 11:47:32,436] []  INFO {org.wso2.carbon.identity.oauth.uma.grant.internal.UMA2GrantServiceComponent} - UMA Grant component activated successfully.
+TID: [] [] [2023-01-11 11:47:33,182] []  INFO {org.wso2.carbon.mex.internal.Office365SupportMexComponent} - Office365Support MexServiceComponent bundle activated successfully..
+TID: [] [] [2023-01-11 11:47:33,198] []  INFO {org.wso2.carbon.mex2.internal.DynamicCRMCustomMexComponent} - DynamicCRMSupport MexServiceComponent bundle activated successfully.
+TID: [] [] [2023-01-11 11:47:34,797] [] ERROR {org.wso2.carbon.user.core.common.DefaultRealm} - nullType class java.lang.reflect.InvocationTargetException org.wso2.carbon.user.core.UserStoreException: nullType class java.lang.reflect.InvocationTargetException
+	at org.wso2.carbon.user.core.common.DefaultRealm.createObjectWithOptions(DefaultRealm.java:402)
+	at org.wso2.carbon.user.core.common.DefaultRealm.initializeObjects(DefaultRealm.java:231)
+	at org.wso2.carbon.user.core.common.DefaultRealm.init(DefaultRealm.java:136)
+	at org.wso2.carbon.user.core.common.DefaultRealmService.initializeRealm(DefaultRealmService.java:276)
+	at org.wso2.carbon.user.core.common.DefaultRealmService.<init>(DefaultRealmService.java:102)
+	at org.wso2.carbon.user.core.common.DefaultRealmService.<init>(DefaultRealmService.java:115)
+	at org.wso2.carbon.user.core.internal.Activator.startDeploy(Activator.java:80)
+	at org.wso2.carbon.user.core.internal.BundleCheckActivator.start(BundleCheckActivator.java:61)
+	at org.eclipse.osgi.internal.framework.BundleContextImpl$3.run(BundleContextImpl.java:842)
+	at org.eclipse.osgi.internal.framework.BundleContextImpl$3.run(BundleContextImpl.java:1)
+	at java.base/java.security.AccessController.doPrivileged(Native Method)
+	at org.eclipse.osgi.internal.framework.BundleContextImpl.startActivator(BundleContextImpl.java:834)
+	at org.eclipse.osgi.internal.framework.BundleContextImpl.start(BundleContextImpl.java:791)
+	at org.eclipse.osgi.internal.framework.EquinoxBundle.startWorker0(EquinoxBundle.java:1013)
+	at org.eclipse.osgi.internal.framework.EquinoxBundle$EquinoxModule.startWorker(EquinoxBundle.java:365)
+	at org.eclipse.osgi.container.Module.doStart(Module.java:598)
+	at org.eclipse.osgi.container.Module.start(Module.java:462)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel$1.run(ModuleContainer.java:1820)
+	at org.eclipse.osgi.internal.framework.EquinoxContainerAdaptor$2$1.execute(EquinoxContainerAdaptor.java:150)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1813)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1770)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.doContainerStartLevel(ModuleContainer.java:1735)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1661)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1)
+	at org.eclipse.osgi.framework.eventmgr.EventManager.dispatchEvent(EventManager.java:234)
+	at org.eclipse.osgi.framework.eventmgr.EventManager$EventThread.run(EventManager.java:345)
+Caused by: java.lang.reflect.InvocationTargetException
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)
+	at org.wso2.carbon.user.core.common.DefaultRealm.createObjectWithOptions(DefaultRealm.java:356)
+	... 25 more
+Caused by: org.wso2.carbon.user.core.UserStoreException: DB error occurred while persisting domain : PRIMARY & tenant id : -1234
+	at org.wso2.carbon.user.core.util.UserCoreUtil.persistDomain(UserCoreUtil.java:933)
+	at org.wso2.carbon.user.core.common.AbstractUserStoreManager.persistDomain(AbstractUserStoreManager.java:9426)
+	at org.wso2.carbon.user.core.jdbc.JDBCUserStoreManager.<init>(JDBCUserStoreManager.java:333)
+	at org.wso2.carbon.user.core.jdbc.JDBCUserStoreManager.<init>(JDBCUserStoreManager.java:275)
+	at org.wso2.carbon.user.core.jdbc.UniqueIDJDBCUserStoreManager.<init>(UniqueIDJDBCUserStoreManager.java:131)
+	... 30 more
+Caused by: org.postgresql.util.PSQLException: Connection to localhost:5432 refused. Check that the hostname and port are correct and that the postmaster is accepting TCP/IP connections.
+	at org.postgresql.core.v3.ConnectionFactoryImpl.openConnectionImpl(ConnectionFactoryImpl.java:319)
+	at org.postgresql.core.ConnectionFactory.openConnection(ConnectionFactory.java:49)
+	at org.postgresql.jdbc.PgConnection.<init>(PgConnection.java:247)
+	at org.postgresql.Driver.makeConnection(Driver.java:434)
+	at org.postgresql.Driver.connect(Driver.java:291)
+	at org.apache.tomcat.jdbc.pool.PooledConnection.connectUsingDriver(PooledConnection.java:347)
+	at org.apache.tomcat.jdbc.pool.PooledConnection.connect(PooledConnection.java:228)
+	at org.apache.tomcat.jdbc.pool.ConnectionPool.createConnection(ConnectionPool.java:769)
+	at org.apache.tomcat.jdbc.pool.ConnectionPool.borrowConnection(ConnectionPool.java:697)
+	at org.apache.tomcat.jdbc.pool.ConnectionPool.getConnection(ConnectionPool.java:198)
+	at org.apache.tomcat.jdbc.pool.DataSourceProxy.getConnection(DataSourceProxy.java:134)
+	at org.wso2.carbon.user.core.util.DatabaseUtil.getDBConnection(DatabaseUtil.java:1067)
+	at org.wso2.carbon.user.core.util.UserCoreUtil.persistDomain(UserCoreUtil.java:913)
+	... 34 more
+Caused by: java.net.ConnectException: Connection refused: connect
+	at java.base/java.net.PlainSocketImpl.waitForConnect(Native Method)
+	at java.base/java.net.PlainSocketImpl.socketConnect(PlainSocketImpl.java:107)
+	at java.base/java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:412)
+	at java.base/java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:255)
+	at java.base/java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:237)
+	at java.base/java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+	at java.base/java.net.Socket.connect(Socket.java:609)
+	at org.postgresql.core.PGStream.createSocket(PGStream.java:241)
+	at org.postgresql.core.PGStream.<init>(PGStream.java:98)
+	at org.postgresql.core.v3.ConnectionFactoryImpl.tryConnect(ConnectionFactoryImpl.java:109)
+	at org.postgresql.core.v3.ConnectionFactoryImpl.openConnectionImpl(ConnectionFactoryImpl.java:235)
+	... 46 more
+
+TID: [] [] [2023-01-11 11:47:34,817] [] ERROR {org.wso2.carbon.user.core.internal.Activator} - Cannot start User Manager Core bundle org.wso2.carbon.user.core.UserStoreException: Cannot initialize the realm.
+	at org.wso2.carbon.user.core.common.DefaultRealmService.initializeRealm(DefaultRealmService.java:286)
+	at org.wso2.carbon.user.core.common.DefaultRealmService.<init>(DefaultRealmService.java:102)
+	at org.wso2.carbon.user.core.common.DefaultRealmService.<init>(DefaultRealmService.java:115)
+	at org.wso2.carbon.user.core.internal.Activator.startDeploy(Activator.java:80)
+	at org.wso2.carbon.user.core.internal.BundleCheckActivator.start(BundleCheckActivator.java:61)
+	at org.eclipse.osgi.internal.framework.BundleContextImpl$3.run(BundleContextImpl.java:842)
+	at org.eclipse.osgi.internal.framework.BundleContextImpl$3.run(BundleContextImpl.java:1)
+	at java.base/java.security.AccessController.doPrivileged(Native Method)
+	at org.eclipse.osgi.internal.framework.BundleContextImpl.startActivator(BundleContextImpl.java:834)
+	at org.eclipse.osgi.internal.framework.BundleContextImpl.start(BundleContextImpl.java:791)
+	at org.eclipse.osgi.internal.framework.EquinoxBundle.startWorker0(EquinoxBundle.java:1013)
+	at org.eclipse.osgi.internal.framework.EquinoxBundle$EquinoxModule.startWorker(EquinoxBundle.java:365)
+	at org.eclipse.osgi.container.Module.doStart(Module.java:598)
+	at org.eclipse.osgi.container.Module.start(Module.java:462)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel$1.run(ModuleContainer.java:1820)
+	at org.eclipse.osgi.internal.framework.EquinoxContainerAdaptor$2$1.execute(EquinoxContainerAdaptor.java:150)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1813)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1770)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.doContainerStartLevel(ModuleContainer.java:1735)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1661)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1)
+	at org.eclipse.osgi.framework.eventmgr.EventManager.dispatchEvent(EventManager.java:234)
+	at org.eclipse.osgi.framework.eventmgr.EventManager$EventThread.run(EventManager.java:345)
+Caused by: org.wso2.carbon.user.core.UserStoreException: nullType class java.lang.reflect.InvocationTargetException
+	at org.wso2.carbon.user.core.common.DefaultRealm.initializeObjects(DefaultRealm.java:323)
+	at org.wso2.carbon.user.core.common.DefaultRealm.init(DefaultRealm.java:136)
+	at org.wso2.carbon.user.core.common.DefaultRealmService.initializeRealm(DefaultRealmService.java:276)
+	... 22 more
+Caused by: org.wso2.carbon.user.core.UserStoreException: nullType class java.lang.reflect.InvocationTargetException
+	at org.wso2.carbon.user.core.common.DefaultRealm.createObjectWithOptions(DefaultRealm.java:402)
+	at org.wso2.carbon.user.core.common.DefaultRealm.initializeObjects(DefaultRealm.java:231)
+	... 24 more
+Caused by: java.lang.reflect.InvocationTargetException
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)
+	at org.wso2.carbon.user.core.common.DefaultRealm.createObjectWithOptions(DefaultRealm.java:356)
+	... 25 more
+Caused by: org.wso2.carbon.user.core.UserStoreException: DB error occurred while persisting domain : PRIMARY & tenant id : -1234
+	at org.wso2.carbon.user.core.util.UserCoreUtil.persistDomain(UserCoreUtil.java:933)
+	at org.wso2.carbon.user.core.common.AbstractUserStoreManager.persistDomain(AbstractUserStoreManager.java:9426)
+	at org.wso2.carbon.user.core.jdbc.JDBCUserStoreManager.<init>(JDBCUserStoreManager.java:333)
+	at org.wso2.carbon.user.core.jdbc.JDBCUserStoreManager.<init>(JDBCUserStoreManager.java:275)
+	at org.wso2.carbon.user.core.jdbc.UniqueIDJDBCUserStoreManager.<init>(UniqueIDJDBCUserStoreManager.java:131)
+	... 30 more
+Caused by: org.postgresql.util.PSQLException: Connection to localhost:5432 refused. Check that the hostname and port are correct and that the postmaster is accepting TCP/IP connections.
+	at org.postgresql.core.v3.ConnectionFactoryImpl.openConnectionImpl(ConnectionFactoryImpl.java:319)
+	at org.postgresql.core.ConnectionFactory.openConnection(ConnectionFactory.java:49)
+	at org.postgresql.jdbc.PgConnection.<init>(PgConnection.java:247)
+	at org.postgresql.Driver.makeConnection(Driver.java:434)
+	at org.postgresql.Driver.connect(Driver.java:291)
+	at org.apache.tomcat.jdbc.pool.PooledConnection.connectUsingDriver(PooledConnection.java:347)
+	at org.apache.tomcat.jdbc.pool.PooledConnection.connect(PooledConnection.java:228)
+	at org.apache.tomcat.jdbc.pool.ConnectionPool.createConnection(ConnectionPool.java:769)
+	at org.apache.tomcat.jdbc.pool.ConnectionPool.borrowConnection(ConnectionPool.java:697)
+	at org.apache.tomcat.jdbc.pool.ConnectionPool.getConnection(ConnectionPool.java:198)
+	at org.apache.tomcat.jdbc.pool.DataSourceProxy.getConnection(DataSourceProxy.java:134)
+	at org.wso2.carbon.user.core.util.DatabaseUtil.getDBConnection(DatabaseUtil.java:1067)
+	at org.wso2.carbon.user.core.util.UserCoreUtil.persistDomain(UserCoreUtil.java:913)
+	... 34 more
+Caused by: java.net.ConnectException: Connection refused: connect
+	at java.base/java.net.PlainSocketImpl.waitForConnect(Native Method)
+	at java.base/java.net.PlainSocketImpl.socketConnect(PlainSocketImpl.java:107)
+	at java.base/java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:412)
+	at java.base/java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:255)
+	at java.base/java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:237)
+	at java.base/java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+	at java.base/java.net.Socket.connect(Socket.java:609)
+	at org.postgresql.core.PGStream.createSocket(PGStream.java:241)
+	at org.postgresql.core.PGStream.<init>(PGStream.java:98)
+	at org.postgresql.core.v3.ConnectionFactoryImpl.tryConnect(ConnectionFactoryImpl.java:109)
+	at org.postgresql.core.v3.ConnectionFactoryImpl.openConnectionImpl(ConnectionFactoryImpl.java:235)
+	... 46 more
+
+TID: [] [] [2023-01-11 11:47:37,153] []  INFO {org.apache.jasper.servlet.TldScanner} - At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.

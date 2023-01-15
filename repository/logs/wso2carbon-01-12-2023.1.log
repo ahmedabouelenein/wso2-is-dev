@@ -1,0 +1,162 @@
+TID: [] [] [2023-01-12 09:36:05,898] []  INFO {org.ops4j.pax.logging.spi.support.EventAdminConfigurationNotifier} - Sending Event Admin notification (configuration successful) to org/ops4j/pax/logging/Configuration
+TID: [] [] [2023-01-12 09:36:06,177] []  INFO {org.wso2.carbon.core.internal.CarbonCoreActivator} - Starting WSO2 Carbon...
+TID: [] [] [2023-01-12 09:36:06,180] []  INFO {org.wso2.carbon.core.internal.CarbonCoreActivator} - Operating System : Windows 10 10.0, amd64
+TID: [] [] [2023-01-12 09:36:06,180] []  INFO {org.wso2.carbon.core.internal.CarbonCoreActivator} - Java Home        : C:\Program Files\OpenJDK\jdk-11.0.17.8-hotspot
+TID: [] [] [2023-01-12 09:36:06,181] []  INFO {org.wso2.carbon.core.internal.CarbonCoreActivator} - Java Version     : 11.0.17
+TID: [] [] [2023-01-12 09:36:06,181] []  INFO {org.wso2.carbon.core.internal.CarbonCoreActivator} - Java VM          : OpenJDK 64-Bit Server VM 11.0.17+8-adhoc..jdk11u,OpenLogic
+TID: [] [] [2023-01-12 09:36:06,181] []  INFO {org.wso2.carbon.core.internal.CarbonCoreActivator} - Carbon Home      : C:\Users\AABOUE~1.C\DOCUME~1\WSO2\WSO2IS~1.0\bin\..
+TID: [] [] [2023-01-12 09:36:06,182] []  INFO {org.wso2.carbon.core.internal.CarbonCoreActivator} - Java Temp Dir    : C:\Users\AABOUE~1.C\DOCUME~1\WSO2\WSO2IS~1.0\bin\..\tmp
+TID: [] [] [2023-01-12 09:36:06,182] []  INFO {org.wso2.carbon.core.internal.CarbonCoreActivator} - User             : aabouelenein.c, en-US, Asia/Riyadh
+TID: [] [] [2023-01-12 09:36:06,574] []  INFO {org.wso2.carbon.event.output.adapter.kafka.internal.ds.KafkaEventAdapterServiceDS} - Successfully deployed the Kafka output event adaptor service
+TID: [] [] [2023-01-12 09:36:07,064] []  INFO {org.wso2.carbon.identity.hash.provider.pbkdf2.internal.PBKDF2HashServiceComponent} - PBKDF2 bundle activated successfully.
+TID: [] [] [2023-01-12 09:36:07,137] []  INFO {org.wso2.carbon.identity.oauth.uma.grant.internal.UMA2GrantServiceComponent} - Policy evaluator registered successfully: DefaultPolicyEvaluator
+TID: [] [] [2023-01-12 09:36:07,141] []  INFO {org.wso2.carbon.identity.oauth.uma.grant.internal.UMA2GrantServiceComponent} - UMA Grant component activated successfully.
+TID: [] [] [2023-01-12 09:36:07,979] []  INFO {org.wso2.carbon.mex.internal.Office365SupportMexComponent} - Office365Support MexServiceComponent bundle activated successfully..
+TID: [] [] [2023-01-12 09:36:08,001] []  INFO {org.wso2.carbon.mex2.internal.DynamicCRMCustomMexComponent} - DynamicCRMSupport MexServiceComponent bundle activated successfully.
+TID: [] [] [2023-01-12 09:36:09,859] [] ERROR {org.wso2.carbon.user.core.common.DefaultRealm} - nullType class java.lang.reflect.InvocationTargetException org.wso2.carbon.user.core.UserStoreException: nullType class java.lang.reflect.InvocationTargetException
+	at org.wso2.carbon.user.core.common.DefaultRealm.createObjectWithOptions(DefaultRealm.java:402)
+	at org.wso2.carbon.user.core.common.DefaultRealm.initializeObjects(DefaultRealm.java:231)
+	at org.wso2.carbon.user.core.common.DefaultRealm.init(DefaultRealm.java:136)
+	at org.wso2.carbon.user.core.common.DefaultRealmService.initializeRealm(DefaultRealmService.java:276)
+	at org.wso2.carbon.user.core.common.DefaultRealmService.<init>(DefaultRealmService.java:102)
+	at org.wso2.carbon.user.core.common.DefaultRealmService.<init>(DefaultRealmService.java:115)
+	at org.wso2.carbon.user.core.internal.Activator.startDeploy(Activator.java:80)
+	at org.wso2.carbon.user.core.internal.BundleCheckActivator.start(BundleCheckActivator.java:61)
+	at org.eclipse.osgi.internal.framework.BundleContextImpl$3.run(BundleContextImpl.java:842)
+	at org.eclipse.osgi.internal.framework.BundleContextImpl$3.run(BundleContextImpl.java:1)
+	at java.base/java.security.AccessController.doPrivileged(Native Method)
+	at org.eclipse.osgi.internal.framework.BundleContextImpl.startActivator(BundleContextImpl.java:834)
+	at org.eclipse.osgi.internal.framework.BundleContextImpl.start(BundleContextImpl.java:791)
+	at org.eclipse.osgi.internal.framework.EquinoxBundle.startWorker0(EquinoxBundle.java:1013)
+	at org.eclipse.osgi.internal.framework.EquinoxBundle$EquinoxModule.startWorker(EquinoxBundle.java:365)
+	at org.eclipse.osgi.container.Module.doStart(Module.java:598)
+	at org.eclipse.osgi.container.Module.start(Module.java:462)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel$1.run(ModuleContainer.java:1820)
+	at org.eclipse.osgi.internal.framework.EquinoxContainerAdaptor$2$1.execute(EquinoxContainerAdaptor.java:150)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1813)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1770)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.doContainerStartLevel(ModuleContainer.java:1735)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1661)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1)
+	at org.eclipse.osgi.framework.eventmgr.EventManager.dispatchEvent(EventManager.java:234)
+	at org.eclipse.osgi.framework.eventmgr.EventManager$EventThread.run(EventManager.java:345)
+Caused by: java.lang.reflect.InvocationTargetException
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)
+	at org.wso2.carbon.user.core.common.DefaultRealm.createObjectWithOptions(DefaultRealm.java:356)
+	... 25 more
+Caused by: org.wso2.carbon.user.core.UserStoreException: DB error occurred while persisting domain : PRIMARY & tenant id : -1234
+	at org.wso2.carbon.user.core.util.UserCoreUtil.persistDomain(UserCoreUtil.java:933)
+	at org.wso2.carbon.user.core.common.AbstractUserStoreManager.persistDomain(AbstractUserStoreManager.java:9426)
+	at org.wso2.carbon.user.core.jdbc.JDBCUserStoreManager.<init>(JDBCUserStoreManager.java:333)
+	at org.wso2.carbon.user.core.jdbc.JDBCUserStoreManager.<init>(JDBCUserStoreManager.java:275)
+	at org.wso2.carbon.user.core.jdbc.UniqueIDJDBCUserStoreManager.<init>(UniqueIDJDBCUserStoreManager.java:131)
+	... 30 more
+Caused by: org.postgresql.util.PSQLException: Connection to localhost:5432 refused. Check that the hostname and port are correct and that the postmaster is accepting TCP/IP connections.
+	at org.postgresql.core.v3.ConnectionFactoryImpl.openConnectionImpl(ConnectionFactoryImpl.java:319)
+	at org.postgresql.core.ConnectionFactory.openConnection(ConnectionFactory.java:49)
+	at org.postgresql.jdbc.PgConnection.<init>(PgConnection.java:247)
+	at org.postgresql.Driver.makeConnection(Driver.java:434)
+	at org.postgresql.Driver.connect(Driver.java:291)
+	at org.apache.tomcat.jdbc.pool.PooledConnection.connectUsingDriver(PooledConnection.java:347)
+	at org.apache.tomcat.jdbc.pool.PooledConnection.connect(PooledConnection.java:228)
+	at org.apache.tomcat.jdbc.pool.ConnectionPool.createConnection(ConnectionPool.java:769)
+	at org.apache.tomcat.jdbc.pool.ConnectionPool.borrowConnection(ConnectionPool.java:697)
+	at org.apache.tomcat.jdbc.pool.ConnectionPool.getConnection(ConnectionPool.java:198)
+	at org.apache.tomcat.jdbc.pool.DataSourceProxy.getConnection(DataSourceProxy.java:134)
+	at org.wso2.carbon.user.core.util.DatabaseUtil.getDBConnection(DatabaseUtil.java:1067)
+	at org.wso2.carbon.user.core.util.UserCoreUtil.persistDomain(UserCoreUtil.java:913)
+	... 34 more
+Caused by: java.net.ConnectException: Connection refused: connect
+	at java.base/java.net.PlainSocketImpl.waitForConnect(Native Method)
+	at java.base/java.net.PlainSocketImpl.socketConnect(PlainSocketImpl.java:107)
+	at java.base/java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:412)
+	at java.base/java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:255)
+	at java.base/java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:237)
+	at java.base/java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+	at java.base/java.net.Socket.connect(Socket.java:609)
+	at org.postgresql.core.PGStream.createSocket(PGStream.java:241)
+	at org.postgresql.core.PGStream.<init>(PGStream.java:98)
+	at org.postgresql.core.v3.ConnectionFactoryImpl.tryConnect(ConnectionFactoryImpl.java:109)
+	at org.postgresql.core.v3.ConnectionFactoryImpl.openConnectionImpl(ConnectionFactoryImpl.java:235)
+	... 46 more
+
+TID: [] [] [2023-01-12 09:36:09,875] [] ERROR {org.wso2.carbon.user.core.internal.Activator} - Cannot start User Manager Core bundle org.wso2.carbon.user.core.UserStoreException: Cannot initialize the realm.
+	at org.wso2.carbon.user.core.common.DefaultRealmService.initializeRealm(DefaultRealmService.java:286)
+	at org.wso2.carbon.user.core.common.DefaultRealmService.<init>(DefaultRealmService.java:102)
+	at org.wso2.carbon.user.core.common.DefaultRealmService.<init>(DefaultRealmService.java:115)
+	at org.wso2.carbon.user.core.internal.Activator.startDeploy(Activator.java:80)
+	at org.wso2.carbon.user.core.internal.BundleCheckActivator.start(BundleCheckActivator.java:61)
+	at org.eclipse.osgi.internal.framework.BundleContextImpl$3.run(BundleContextImpl.java:842)
+	at org.eclipse.osgi.internal.framework.BundleContextImpl$3.run(BundleContextImpl.java:1)
+	at java.base/java.security.AccessController.doPrivileged(Native Method)
+	at org.eclipse.osgi.internal.framework.BundleContextImpl.startActivator(BundleContextImpl.java:834)
+	at org.eclipse.osgi.internal.framework.BundleContextImpl.start(BundleContextImpl.java:791)
+	at org.eclipse.osgi.internal.framework.EquinoxBundle.startWorker0(EquinoxBundle.java:1013)
+	at org.eclipse.osgi.internal.framework.EquinoxBundle$EquinoxModule.startWorker(EquinoxBundle.java:365)
+	at org.eclipse.osgi.container.Module.doStart(Module.java:598)
+	at org.eclipse.osgi.container.Module.start(Module.java:462)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel$1.run(ModuleContainer.java:1820)
+	at org.eclipse.osgi.internal.framework.EquinoxContainerAdaptor$2$1.execute(EquinoxContainerAdaptor.java:150)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1813)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1770)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.doContainerStartLevel(ModuleContainer.java:1735)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1661)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1)
+	at org.eclipse.osgi.framework.eventmgr.EventManager.dispatchEvent(EventManager.java:234)
+	at org.eclipse.osgi.framework.eventmgr.EventManager$EventThread.run(EventManager.java:345)
+Caused by: org.wso2.carbon.user.core.UserStoreException: nullType class java.lang.reflect.InvocationTargetException
+	at org.wso2.carbon.user.core.common.DefaultRealm.initializeObjects(DefaultRealm.java:323)
+	at org.wso2.carbon.user.core.common.DefaultRealm.init(DefaultRealm.java:136)
+	at org.wso2.carbon.user.core.common.DefaultRealmService.initializeRealm(DefaultRealmService.java:276)
+	... 22 more
+Caused by: org.wso2.carbon.user.core.UserStoreException: nullType class java.lang.reflect.InvocationTargetException
+	at org.wso2.carbon.user.core.common.DefaultRealm.createObjectWithOptions(DefaultRealm.java:402)
+	at org.wso2.carbon.user.core.common.DefaultRealm.initializeObjects(DefaultRealm.java:231)
+	... 24 more
+Caused by: java.lang.reflect.InvocationTargetException
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)
+	at org.wso2.carbon.user.core.common.DefaultRealm.createObjectWithOptions(DefaultRealm.java:356)
+	... 25 more
+Caused by: org.wso2.carbon.user.core.UserStoreException: DB error occurred while persisting domain : PRIMARY & tenant id : -1234
+	at org.wso2.carbon.user.core.util.UserCoreUtil.persistDomain(UserCoreUtil.java:933)
+	at org.wso2.carbon.user.core.common.AbstractUserStoreManager.persistDomain(AbstractUserStoreManager.java:9426)
+	at org.wso2.carbon.user.core.jdbc.JDBCUserStoreManager.<init>(JDBCUserStoreManager.java:333)
+	at org.wso2.carbon.user.core.jdbc.JDBCUserStoreManager.<init>(JDBCUserStoreManager.java:275)
+	at org.wso2.carbon.user.core.jdbc.UniqueIDJDBCUserStoreManager.<init>(UniqueIDJDBCUserStoreManager.java:131)
+	... 30 more
+Caused by: org.postgresql.util.PSQLException: Connection to localhost:5432 refused. Check that the hostname and port are correct and that the postmaster is accepting TCP/IP connections.
+	at org.postgresql.core.v3.ConnectionFactoryImpl.openConnectionImpl(ConnectionFactoryImpl.java:319)
+	at org.postgresql.core.ConnectionFactory.openConnection(ConnectionFactory.java:49)
+	at org.postgresql.jdbc.PgConnection.<init>(PgConnection.java:247)
+	at org.postgresql.Driver.makeConnection(Driver.java:434)
+	at org.postgresql.Driver.connect(Driver.java:291)
+	at org.apache.tomcat.jdbc.pool.PooledConnection.connectUsingDriver(PooledConnection.java:347)
+	at org.apache.tomcat.jdbc.pool.PooledConnection.connect(PooledConnection.java:228)
+	at org.apache.tomcat.jdbc.pool.ConnectionPool.createConnection(ConnectionPool.java:769)
+	at org.apache.tomcat.jdbc.pool.ConnectionPool.borrowConnection(ConnectionPool.java:697)
+	at org.apache.tomcat.jdbc.pool.ConnectionPool.getConnection(ConnectionPool.java:198)
+	at org.apache.tomcat.jdbc.pool.DataSourceProxy.getConnection(DataSourceProxy.java:134)
+	at org.wso2.carbon.user.core.util.DatabaseUtil.getDBConnection(DatabaseUtil.java:1067)
+	at org.wso2.carbon.user.core.util.UserCoreUtil.persistDomain(UserCoreUtil.java:913)
+	... 34 more
+Caused by: java.net.ConnectException: Connection refused: connect
+	at java.base/java.net.PlainSocketImpl.waitForConnect(Native Method)
+	at java.base/java.net.PlainSocketImpl.socketConnect(PlainSocketImpl.java:107)
+	at java.base/java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:412)
+	at java.base/java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:255)
+	at java.base/java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:237)
+	at java.base/java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+	at java.base/java.net.Socket.connect(Socket.java:609)
+	at org.postgresql.core.PGStream.createSocket(PGStream.java:241)
+	at org.postgresql.core.PGStream.<init>(PGStream.java:98)
+	at org.postgresql.core.v3.ConnectionFactoryImpl.tryConnect(ConnectionFactoryImpl.java:109)
+	at org.postgresql.core.v3.ConnectionFactoryImpl.openConnectionImpl(ConnectionFactoryImpl.java:235)
+	... 46 more
+
+TID: [] [] [2023-01-12 09:36:13,442] []  INFO {org.apache.jasper.servlet.TldScanner} - At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.

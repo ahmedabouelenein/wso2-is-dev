@@ -21,7 +21,7 @@
             <AdminRole>admin</AdminRole>
             <AdminUser>
                 <UserName>admin</UserName>
-                <Password>P@ssw0rd</Password>
+                <Password>admin</Password>
             </AdminUser>
             <EveryOneRoleName>everyone</EveryOneRoleName>
 
