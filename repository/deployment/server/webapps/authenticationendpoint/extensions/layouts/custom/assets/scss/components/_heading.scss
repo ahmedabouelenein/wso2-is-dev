@@ -1,0 +1,9 @@
+h3 {
+    &.ui {
+        &.header {
+            font-size: 24px;
+            font-weight: 500;
+            color: rgba(var(--stcbank-ligter-black), 1);
+        }
+    }
+}

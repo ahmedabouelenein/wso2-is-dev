@@ -22,7 +22,7 @@
 <!-- footer -->
 <footer class="footer" style="text-align: center">
     <div class="container-fluid">
-        <p><%=AuthenticationEndpointUtil.i18n(resourceBundle, "stc bank")%> &copy;
+        <p><%=AuthenticationEndpointUtil.i18n(resourceBundle, "STC Bank")%> &copy;
             <script>document.write(new Date().getFullYear());</script>
         </p>
     </div>

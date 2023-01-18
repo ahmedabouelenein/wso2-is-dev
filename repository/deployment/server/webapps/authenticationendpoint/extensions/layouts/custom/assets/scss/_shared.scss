@@ -1,0 +1,22 @@
+body {
+    font-family: var(--stcbank-font);
+}
+
+.login {
+    &-portal {
+        &.layout {
+            &:not(.cookie-policy-page-layout) {
+                background: linear-gradient(to top, var(--stcbank-white) 0%, var(--stcbank-white) 50%, rgba(var(--stcbank-purrple), 1) 50%, rgba(var(--stcbank-purrple), 1) 100%);
+            }
+        }
+    }
+}
+
+a {
+    color: rgba(var(--stcbank-purrple), 1);
+    transition: color 300ms;
+
+    &:hover {
+        color: rgba(var(--stcbank-purrple), 0.7);
+    }
+}

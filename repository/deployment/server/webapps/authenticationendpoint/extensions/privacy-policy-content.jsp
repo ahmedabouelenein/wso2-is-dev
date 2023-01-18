@@ -28,7 +28,7 @@
             <div>
                 <div>
                     <h1>
-                        <%=AuthenticationEndpointUtil.i18n(resourceBundle, "stc bank")%> - <%=AuthenticationEndpointUtil.i18n(resourceBundle, "privacy.policy.general")%>
+                        <%=AuthenticationEndpointUtil.i18n(resourceBundle, "STC Bank")%> - <%=AuthenticationEndpointUtil.i18n(resourceBundle, "privacy.policy.general")%>
                     </h1>
                 </div>
                 <div>

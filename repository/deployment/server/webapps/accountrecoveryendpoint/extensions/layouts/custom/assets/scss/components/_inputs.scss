@@ -1,0 +1,70 @@
+.ui {
+    &.form {
+        input {
+
+            &[type=date],
+            &[type=datetime-local],
+            &[type=email],
+            &[type=file],
+            &[type=number],
+            &[type=password],
+            &[type=search],
+            &[type=tel],
+            &[type=text],
+            &[type=time],
+            &[type=url] {
+                &:focus {
+                    border-color: rgb(var(--stcbank-purrple));
+                }
+            }
+        }
+    }
+
+    &.checkbox {
+        input {
+            &:checked {
+                &:focus {
+
+                    &~.box,
+                    &~label {
+                        &:before {
+                            border-color: rgb(var(--stcbank-purrple));
+                        }
+                    }
+                }
+            }
+
+            &:not([type=radio]) {
+                &:indeterminate {
+                    &:focus {
+
+                        &~.box,
+                        &~label {
+                            &:before {
+                                border-color: rgb(var(--stcbank-purrple));
+                            }
+                        }
+                    }
+                }
+            }
+
+            &:focus {
+
+                &~.box,
+                &~label {
+                    &:before {
+                        border-color: rgb(var(--stcbank-purrple));
+                    }
+                }
+            }
+        }
+    }
+
+    &.input {
+        &.addon-wrapper {
+            &:focus-within {
+                border-color: rgb(var(--stcbank-purrple));
+            }
+        }
+    }
+}

@@ -20,4 +20,4 @@
 <%@ page import="org.wso2.carbon.identity.application.authentication.endpoint.util.AuthenticationEndpointUtil" %>
 
 <!-- title -->
-<title><%=AuthenticationEndpointUtil.i18n(resourceBundle, "stc bank")%></title>
+<title><%=AuthenticationEndpointUtil.i18n(resourceBundle, "STC Bank")%></title>

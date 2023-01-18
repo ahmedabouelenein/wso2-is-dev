@@ -46,12 +46,12 @@
 
 <!-- Layout specific style sheet -->
 <%
-    String styleFilePath = "extensions/layouts/" + layout + "/styles.css";
+    String styleFilePath = "extensions/layouts/" + layout + "/dist/css/styles.css";
     if (config.getServletContext().getResource(styleFilePath) != null) {
 %>
     <link rel="stylesheet" href="<%= styleFilePath %>">
 <% } %>
 
-<title><%=AuthenticationEndpointUtil.i18n(resourceBundle, "stc bank")%></title>
+<title><%=AuthenticationEndpointUtil.i18n(resourceBundle, "STC Bank")%></title>
 
 <script src="libs/jquery_3.6.0/jquery-3.6.0.min.js"></script>

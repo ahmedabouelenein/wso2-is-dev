@@ -16,11 +16,18 @@
   ~ under the License.
 --%>
 
+<jsp:directive.include file="layout-resolver.jsp"/>
+
 <%@ include file="localize.jsp" %>
 <%@ page import="org.wso2.carbon.identity.application.authentication.endpoint.util.AuthenticationEndpointUtil" %>
+<%@ page import="java.io.File" %>
+
+<%
+    String imagesPath = "extensions/layouts/" + layout + "/assets/images";
+%>
 
 <div class="product-title" data-testid="product-title">
     <div class="theme-icon inline auto transparent product-logo portal-logo">
-        <img src="libs/themes/default/assets/images/branding/logo.svg" alt="stc bank" />
+        <img src="<%= imagesPath %>/branding/logo.svg" alt="STC Bank" />
     </div>
 </div>
