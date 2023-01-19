@@ -34,8 +34,8 @@
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"/>
         <meta name="referrer" content="no-referrer" />
 
-        <link href="/myaccount/libs/themes/default/theme.2857d6ef.min.css" rel="stylesheet" type="text/css"/>
-        <link rel="shortcut icon" href="/myaccount/libs/themes/default/assets/images/branding/favicon.ico" />
+        <link href="/myaccount/libs/themes/custom/wso2-default.min.css" rel="stylesheet" type="text/css"/>
+        <link rel="shortcut icon" href="/myaccount/libs/custom/default/assets/images/branding/favicon.ico" />
 
         <script>
             var contextPathGlobal = "/myaccount";

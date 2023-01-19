@@ -406,7 +406,7 @@
             }
         },
         "footer": {
-            "copyright": "stc bank © {{year}}"
+            "copyright": "STC Bank © {{year}}"
         },
         "header": {
             "appSwitch": {
@@ -1380,7 +1380,7 @@
         },
         "privacy": {
             "subTitle": "",
-            "title": "سياسية الخصوصية stc bank"
+            "title": "سياسية الخصوصية STC Bank"
         },
         "readOnlyProfileBanner": "Your profile cannot be modified from this portal. Please contact your administrator for more details.",
         "security": {
